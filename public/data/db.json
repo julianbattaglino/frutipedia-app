@@ -1,0 +1,486 @@
+{
+  "frutas": [
+    {
+      "id": "1",
+      "nombre": "Manzana",
+      "descripcion": "Una fruta dulce y crujiente, rica en fibra y vitaminas.",
+      "image": "/images/fruits/apple.webp",
+      "beneficios": [
+        "Mejora la digestión",
+        "Rica en antioxidantes",
+        "Ayuda a la pérdida de peso"
+      ],
+      "valores_nutricionales": {
+        "calorias": 52,
+        "carbohidratos": 14,
+        "fibra": 2.4,
+        "vitamina C": "14%"
+      },
+      "categoria": "fruta",
+      "estacion": "otoño",
+      "clasificacion": "Pomo",
+      "siembra": "marzo",
+      "seleccion_de_fruto": "Seleccionar firmes y sin manchas; deben estar de color rojo o verde brillante.",
+      "recetas": [
+        {
+          "nombre": "Tarta de Manzana",
+          "descripcion": "Una deliciosa tarta con manzanas frescas.",
+          "image": "/images/recetas/tarta-manzana.webp",
+          "ingredientes": [
+            "2 manzanas",
+            "1 taza de azúcar",
+            "1 taza de harina",
+            "2 huevos",
+            "1/2 taza de mantequilla"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 180°C.",
+            "Pela y corta las manzanas.",
+            "Mezcla los ingredientes secos.",
+            "Añade los huevos y la mantequilla.",
+            "Coloca las manzanas en la mezcla y hornea por 30 minutos."
+          ]
+        },
+        {
+          "nombre": "Ensalada de Manzana",
+          "descripcion": "Una ensalada fresca con trozos de manzana.",
+          "image": "/images/recetas/ensalada-manzana.jpg",
+          "ingredientes": [
+            "1 manzana",
+            "1 lechuga",
+            "1/2 taza de nueces",
+            "1/4 taza de pasas",
+            "2 cucharadas de vinagreta"
+          ],
+          "instrucciones": [
+            "Lava y corta la lechuga.",
+            "Corta la manzana en trozos.",
+            "Mezcla todos los ingredientes en un bol.",
+            "Añade la vinagreta y mezcla bien."
+          ]
+        }
+      ]
+    },
+    
+    {
+      "id": "2",
+      "nombre": "Banana",
+      "descripcion": "Una fruta dulce y cremosa, rica en potasio y vitaminas.",
+      "image": "/images/fruits/banana.jpeg",
+      "beneficios": [
+        "Proporciona energía rápida",
+        "Mejora la digestión",
+        "Ayuda a mantener la presión arterial"
+      ],
+      "valores_nutricionales": {
+        "calorias": 89,
+        "carbohidratos": 23,
+        "fibra": 2.6,
+        "potasio": "12%"
+      },
+      "categoria": "fruta",
+      "estacion": "todo el año",
+      "clasificacion": "Fruta tropical",
+      "siembra": "octubre",
+      "seleccion_de_fruto": "Seleccionar amarillos y sin manchas oscuras; en el árbol, deben estar en la fase de maduración."
+    },
+    {
+      "id": "3",
+      "nombre": "Naranja",
+      "descripcion": "Una fruta cítrica, jugosa y refrescante, rica en vitamina C.",
+      "image": "/images/fruits/naranja.jpg",
+      "beneficios": [
+        "Fortalece el sistema inmunológico",
+        "Mejora la salud de la piel",
+        "Ayuda a la salud cardiovascular"
+      ],
+      "valores_nutricionales": {
+        "calorias": 47,
+        "carbohidratos": 12,
+        "fibra": 2.4,
+        "vitamina C": "88%"
+      },
+      "categoria": "fruta",
+      "estacion": "invierno",
+      "clasificacion": "Fruta cítrica",
+      "siembra": "enero",
+      "seleccion_de_fruto": "Seleccionar naranjas y firmes; en el árbol, deben estar completamente coloreadas y maduras."
+    },
+    {
+      "id": "4",
+      "nombre": "Frutilla/Fresa",
+      "descripcion": "Una fruta pequeña y roja, con un sabor dulce y ácido, rica en antioxidantes.",
+      "image": "/images/fruits/frutilla.jpg",
+      "beneficios": [
+        "Mejora la salud cardiovascular",
+        "Ayuda a la salud ocular",
+        "Refuerza el sistema inmunológico"
+      ],
+      "valores_nutricionales": {
+        "calorias": 32,
+        "carbohidratos": 7.7,
+        "fibra": 2,
+        "vitamina C": "59%"
+      },
+      "categoria": "fruta",
+      "estacion": "primavera",
+      "clasificacion": "Baya",
+      "siembra": "septiembre",
+      "seleccion_de_fruto": "Seleccionar rojas y sin moho; deben ser firmes y con hojas verdes."
+    },
+    {
+      "id": "5",
+      "nombre": "Uva",
+      "descripcion": "Una fruta pequeña y jugosa, que se consume fresca o se usa para hacer vino.",
+      "image": "https://example.com/images/uva.jpg",
+      "beneficios": [
+        "Promueve la salud cardiovascular",
+        "Ayuda a la digestión",
+        "Rica en antioxidantes"
+      ],
+      "valores_nutricionales": {
+        "calorias": 69,
+        "carbohidratos": 18,
+        "fibra": 0.9,
+        "vitamina C": "4%"
+      },
+      "categoria": "fruta",
+      "estacion": "verano",
+      "clasificacion": "Baya",
+      "siembra": "febrero",
+      "seleccion_de_fruto": "Seleccionar firmes y sin arrugas; deben estar completamente coloreadas y maduras."
+    },
+    {
+      "id": "6",
+      "nombre": "Piña",
+      "descripcion": "Una fruta tropical con un sabor dulce y ácido, rica en vitamina C y manganeso.",
+      "image": "https://example.com/images/pina.jpg",
+      "beneficios": [
+        "Ayuda a la digestión",
+        "Fortalece el sistema inmunológico",
+        "Promueve la salud ocular"
+      ],
+      "valores_nutricionales": {
+        "calorias": 50,
+        "carbohidratos": 13,
+        "fibra": 1.4,
+        "vitamina C": "79%"
+      },
+      "categoria": "fruta",
+      "estacion": "verano",
+      "clasificacion": "Fruta tropical",
+      "siembra": "agosto",
+      "seleccion_de_fruto": "Seleccionar con un olor dulce y ligeramente suave al tacto; las hojas deben ser verdes y frescas."
+    },
+    {
+      "id": "7",
+      "nombre": "Sandía",
+      "descripcion": "Una fruta grande y jugosa, ideal para hidratarse en los días calurosos.",
+      "image": "https://example.com/images/sandia.jpg",
+      "beneficios": [
+        "Hidratación",
+        "Promueve la salud cardíaca",
+        "Ayuda a la salud de la piel"
+      ],
+      "valores_nutricionales": {
+        "calorias": 30,
+        "carbohidratos": 8,
+        "fibra": 0.4,
+        "vitamina C": "10%"
+      },
+      "categoria": "fruta",
+      "estacion": "verano",
+      "clasificacion": "Melón",
+      "siembra": "mayo",
+      "seleccion_de_fruto": "Seleccionar con un sonido hueco al golpear; debe tener una mancha amarilla en un lado."
+    },
+    {
+      "id": "8",
+      "nombre": "Mango",
+      "descripcion": "Una fruta tropical, dulce y jugosa, rica en vitamina A y C.",
+      "image": "https://example.com/images/mango.jpg",
+      "beneficios": [
+        "Promueve la salud ocular",
+        "Fortalece el sistema inmunológico",
+        "Mejora la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 60,
+        "carbohidratos": 15,
+        "fibra": 1.6,
+        "vitamina C": "67%"
+      },
+      "categoria": "fruta",
+      "estacion": "primavera",
+      "clasificacion": "Fruta tropical",
+      "siembra": "abril",
+      "seleccion_de_fruto": "Seleccionar ligeramente suave al tacto y con un olor dulce; deben estar completamente coloreados."
+    },
+    {
+      "id": "9",
+      "nombre": "Cereza",
+      "descripcion": "Una fruta pequeña, roja y jugosa, rica en antioxidantes.",
+      "image": "https://example.com/images/cereza.jpg",
+      "beneficios": [
+        "Reduce la inflamación",
+        "Mejora la calidad del sueño",
+        "Promueve la salud cardíaca"
+      ],
+      "valores_nutricionales": {
+        "calorias": 50,
+        "carbohidratos": 12,
+        "fibra": 1.6,
+        "vitamina C": "12%"
+      },
+      "categoria": "fruta",
+      "estacion": "verano",
+      "clasificacion": "Fruta de hueso",
+      "siembra": "mayo",
+      "seleccion_de_fruto": "Seleccionar firmes y brillantes; deben estar completamente rojas y sin manchas."
+    },
+    {
+      "id": "10",
+      "nombre": "Melón",
+      "descripcion": "Una fruta grande y dulce, rica en vitaminas y minerales.",
+      "image": "https://example.com/images/melon.jpg",
+      "beneficios": [
+        "Hidratación",
+        "Promueve la salud ocular",
+        "Ayuda a la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 34,
+        "carbohidratos": 8.2,
+        "fibra": 0.9,
+        "vitamina C": "36%"
+      },
+      "categoria": "fruta",
+      "estacion": "verano",
+      "clasificacion": "Melón",
+      "siembra": "mayo",
+      "seleccion_de_fruto": "Seleccionar con un olor dulce y ligeramente suave al tacto; deben estar completamente maduros."
+    }
+  ],
+  "verduras": [
+    {
+      "id": "11",
+      "nombre": "Zanahoria",
+      "descripcion": "Una verdura crujiente y dulce, rica en vitamina A y antioxidantes.",
+      "image": "/images/vegetables/carrots.jpg",
+      "beneficios": [
+        "Mejora la salud ocular",
+        "Promueve la salud de la piel",
+        "Ayuda a la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 41,
+        "carbohidratos": 10,
+        "fibra": 2.8,
+        "vitamina A": "334%"
+      },
+      "categoria": "verdura",
+      "estacion": "invierno",
+      "clasificacion": "Raíz",
+      "siembra": "octubre",
+      "seleccion_de_fruto": "Seleccionar firmes y de color naranja brillante; deben estar sin grietas y con hojas verdes frescas."
+    },
+    {
+      "id": "12",
+      "nombre": "Brócoli",
+      "descripcion": "Una verdura verde y crucífera, rica en vitaminas C y K.",
+      "image": "/images/vegetables/broccoli.jpg",
+      "beneficios": [
+        "Promueve la salud del corazón",
+        "Fortalece el sistema inmunológico",
+        "Ayuda a la salud ósea"
+      ],
+      "valores_nutricionales": {
+        "calorias": 34,
+        "carbohidratos": 7,
+        "fibra": 2.6,
+        "vitamina C": "89%"
+      },
+      "categoria": "verdura",
+      "estacion": "primavera",
+      "clasificacion": "Crucífera",
+      "siembra": "febrero",
+      "seleccion_de_fruto": "Seleccionar verdes y firmes; los floretes deben estar cerrados y de color verde oscuro."
+    },
+    {
+      "id": "13",
+      "nombre": "Espinaca",
+      "descripcion": "Una verdura de hojas verdes, rica en hierro y vitaminas.",
+      "image": "/images/vegetables/spinach.jpg",
+      "beneficios": [
+        "Promueve la salud ocular",
+        "Fortalece los huesos",
+        "Ayuda a la salud cardiovascular"
+      ],
+      "valores_nutricionales": {
+        "calorias": 23,
+        "carbohidratos": 3.6,
+        "fibra": 2.2,
+        "vitamina A": "188%"
+      },
+      "categoria": "verdura",
+      "estacion": "invierno",
+      "clasificacion": "Hoja",
+      "siembra": "noviembre",
+      "seleccion_de_fruto": "Seleccionar hojas verdes y frescas; deben estar sin manchas amarillas ni marchitas."
+    },
+    {
+      "id": "14",
+      "nombre": "Tomate",
+      "descripcion": "Una fruta roja y jugosa, utilizada comúnmente como verdura, rica en licopeno.",
+      "image": "/images/vegetables/tomato.jpg",
+      "beneficios": [
+        "Promueve la salud de la piel",
+        "Ayuda a la salud cardiovascular",
+        "Rico en antioxidantes"
+      ],
+      "valores_nutricionales": {
+        "calorias": 18,
+        "carbohidratos": 3.9,
+        "fibra": 1.2,
+        "vitamina C": "21%"
+      },
+      "categoria": "verdura",
+      "estacion": "verano",
+      "clasificacion": "Fruta",
+      "siembra": "marzo",
+      "seleccion_de_fruto": "Seleccionar rojos y firmes; deben estar sin manchas oscuras ni áreas blandas."
+    },
+    {
+      "id": "15",
+      "nombre": "Pimiento",
+      "descripcion": "Una verdura crujiente y colorida, rica en vitamina C y antioxidantes.",
+      "image": "/images/vegetables/pepper.jpg",
+      "beneficios": [
+        "Fortalece el sistema inmunológico",
+        "Promueve la salud ocular",
+        "Ayuda a la salud cardiovascular"
+      ],
+      "valores_nutricionales": {
+        "calorias": 31,
+        "carbohidratos": 6,
+        "fibra": 2.1,
+        "vitamina C": "213%"
+      },
+      "categoria": "verdura",
+      "estacion": "verano",
+      "clasificacion": "Fruta",
+      "siembra": "abril",
+      "seleccion_de_fruto": "Seleccionar firmes y de colores brillantes; deben estar sin arrugas ni manchas."
+    },
+    {
+      "id": "16",
+      "nombre": "Calabacín",
+      "descripcion": "Una verdura verde y tierna, rica en vitamina C y antioxidantes.",
+      "image": "/images/vegetables/zucchini.jpg",
+      "beneficios": [
+        "Promueve la salud digestiva",
+        "Ayuda a la salud ocular",
+        "Rico en antioxidantes"
+      ],
+      "valores_nutricionales": {
+        "calorias": 17,
+        "carbohidratos": 3.1,
+        "fibra": 1,
+        "vitamina C": "29%"
+      },
+      "categoria": "verdura",
+      "estacion": "verano",
+      "clasificacion": "Calabaza",
+      "siembra": "mayo",
+      "seleccion_de_fruto": "Seleccionar firmes y de color verde brillante; deben estar sin manchas ni áreas blandas."
+    },
+    {
+      "id": "17",
+      "nombre": "Lechuga",
+      "descripcion": "Una verdura de hojas verdes, utilizada comúnmente en ensaladas, rica en vitaminas y minerales.",
+      "image": "/images/vegetables/lettuce.jpg",
+      "beneficios": [
+        "Promueve la salud digestiva",
+        "Ayuda a la hidratación",
+        "Rica en antioxidantes"
+      ],
+      "valores_nutricionales": {
+        "calorias": 15,
+        "carbohidratos": 2.9,
+        "fibra": 1.3,
+        "vitamina A": "148%"
+      },
+      "categoria": "verdura",
+      "estacion": "primavera",
+      "clasificacion": "Hoja",
+      "siembra": "enero",
+      "seleccion_de_fruto": "Seleccionar hojas verdes y frescas; deben estar sin manchas ni áreas marchitas."
+    },
+    {
+      "id": "18",
+      "nombre": "Cebolla",
+      "descripcion": "Una verdura bulbo, utilizada comúnmente en la cocina por su sabor y aroma.",
+      "image": "/images/vegetables/onion.jpg",
+      "beneficios": [
+        "Promueve la salud del corazón",
+        "Ayuda a la digestión",
+        "Rica en antioxidantes"
+      ],
+      "valores_nutricionales": {
+        "calorias": 40,
+        "carbohidratos": 9.3,
+        "fibra": 1.7,
+        "vitamina C": "12%"
+      },
+      "categoria": "verdura",
+      "estacion": "otoño",
+      "clasificacion": "Bulbo",
+      "siembra": "agosto",
+      "seleccion_de_fruto": "Seleccionar firmes y sin brotes; deben estar sin manchas oscuras ni áreas blandas."
+    },
+    {
+      "id": "19",
+      "nombre": "Pepino",
+      "descripcion": "Una verdura verde y crujiente, rica en agua y vitaminas.",
+      "image": "/images/vegetables/cucumber.jpg",
+      "beneficios": [
+        "Promueve la hidratación",
+        "Ayuda a la digestión",
+        "Rica en antioxidantes"
+      ],
+      "valores_nutricionales": {
+        "calorias": 16,
+        "carbohidratos": 3.6,
+        "fibra": 0.5,
+        "vitamina C": "4%"
+      },
+      "categoria": "verdura",
+      "estacion": "verano",
+      "clasificacion": "Fruta",
+      "siembra": "junio",
+      "seleccion_de_fruto": "Seleccionar verdes y firmes; deben estar sin manchas ni arrugas."
+    },
+    {
+      "id": "20",
+      "nombre": "Coliflor",
+      "descripcion": "Una verdura blanca y crucífera, rica en fibra y vitaminas.",
+      "image": "/images/vegetables/cauliflower.jpg",
+      "beneficios": [
+        "Promueve la salud digestiva",
+        "Fortalece el sistema inmunológico",
+        "Rica en antioxidantes"
+      ],
+      "valores_nutricionales": {
+        "calorias": 25,
+        "carbohidratos": 5,
+        "fibra": 2,
+        "vitamina C": "77%"
+      },
+      "categoria": "verdura",
+      "estacion": "invierno",
+      "clasificacion": "Crucífera",
+      "siembra": "septiembre",
+      "seleccion_de_fruto": "Seleccionar firmes y de color blanco; deben estar sin manchas ni áreas blandas."
+    }
+  ]
+}

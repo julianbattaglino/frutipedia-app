@@ -1,0 +1,125 @@
+import { useRouter } from 'next/router';
+import Head from 'next/head';
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
+
+const FrutaDetail = () => {
+  const router = useRouter();
+  const { id } = router.query;
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    if (id) {
+      fetch('/data/db.json')
+        .then((res) => res.json())
+        .then((data) => {
+          const fruta = data.frutas.find((item) => item.id === id);
+          setData(fruta);
+        })
+        .catch((error) => {
+          console.error('Error fetching data:', error);
+        });
+    }
+  }, [id]);
+
+  if (!data) return <p>Loading...</p>;
+
+  return (
+    <>
+      <Head>
+        <title>Fruta: {data.nombre}</title>
+        <meta name="description" content={data.descripcion} />
+      </Head>
+
+      {/* Breadcrumbs */}
+      <nav className="bg-gray-100 py-3 px-4 rounded-md mb-8 shadow-md">
+        <ol className="list-reset flex text-gray-700">
+          <li>
+            <Link href="/" className="text-blue-600 hover:text-blue-800">
+              Inicio
+            </Link>
+            <span className="mx-2">/</span>
+          </li>
+          <li className="text-gray-500 capitalize">
+            {data.categoria}
+            <span className="mx-2">/</span>
+          </li>
+          <li className="text-gray-500">{data.nombre}</li>
+        </ol>
+      </nav>
+
+      <div className="p-4 md:p-8 lg:p-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="lg:col-span-1">
+            <img src={data.image} alt={data.nombre} className="w-full rounded-lg shadow-md" />
+          </div>
+          <div className="lg:col-span-1">
+            <h1 className="text-3xl font-bold mb-4">{data.nombre}</h1>
+            <p className="text-lg mb-4">{data.descripcion}</p>
+            <h2 className="text-xl font-semibold mb-2">Beneficios</h2>
+            <ul className="list-disc ml-5 mb-4">
+              {data.beneficios.map((benefit, index) => (
+                <li key={index}>{benefit}</li>
+              ))}
+            </ul>
+            <h2 className="text-xl font-semibold mb-2">Valores Nutricionales</h2>
+            <ul className="list-disc ml-5">
+              {Object.entries(data.valores_nutricionales).map(([key, value]) => (
+                <li key={key}>{key}: {value}</li>
+              ))}
+            </ul>
+            <h2 className="text-xl font-semibold mt-2 mb-2">Selección:</h2>
+            <ul className="ml-5">
+              <li>{data.seleccion_de_fruto}</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Recetas */}
+        <div className="mt-12">
+          <h2 className="text-2xl font-bold mb-6">Recetas</h2>
+          {data.recetas && data.recetas.length > 0 ? (
+            data.recetas.map((receta, index) => (
+              <div key={index} className="mb-4 border rounded-lg overflow-hidden shadow-md">
+                <input type="checkbox" className="peer hidden" id={`collapsible-${index}`} />
+                <label htmlFor={`collapsible-${index}`} className="flex justify-between items-center p-4 cursor-pointer bg-gray-100 peer-checked:bg-gray-200">
+                  <h3 className="text-lg font-semibold">{receta.nombre}</h3>
+                  <svg className="w-6 h-6 text-gray-600 peer-checked:rotate-180 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </label>
+                <div className="bg-white max-h-0 peer-checked:max-h-screen transition-all duration-500 ease-in-out opacity-0 peer-checked:opacity-100">
+                  {/* Recetas Body Container */}
+                  <div className="p-4">
+                    <img src={receta.image} alt={receta.nombre} className="w-full h-52 object-cover rounded-md mb-4" />
+                    <p className="text-gray-700 mb-2">{receta.descripcion}</p>
+                    <h4 className="text-md font-semibold mb-1">Ingredientes:</h4>
+                    <ul className="list-disc ml-5 mb-2">
+                      {receta.ingredientes.map((ingrediente, i) => (
+                        <li key={i}>{ingrediente}</li>
+                      ))}
+                    </ul>
+                    <h4 className="text-md font-semibold mb-1">Instrucciones:</h4>
+                    <ol className="list-decimal ml-5">
+                      {receta.instrucciones.map((instruccion, i) => (
+                        <li key={i}>{instruccion}</li>
+                      ))}
+                    </ol>
+                  </div>
+
+                </div>
+              </div>
+            ))
+          ) : (
+            <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4" role="alert">
+              <p className="font-bold">Sin recetas disponibles</p>
+              <p>Actualmente no hay recetas disponibles para este ítem.</p>
+            </div>
+          )}
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default FrutaDetail;

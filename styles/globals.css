@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  max-width: 1400px !important;
+  margin: auto;
+  padding: 75px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid-imgs {
+  width: 100%;
+  height: 200px !important;
+  object-fit: cover;
+}
+
+@media (max-width: 991.98px){
+  main {
+    padding: 25px;
+  }
+  
+}
+
