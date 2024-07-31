@@ -64,7 +64,7 @@ const FruitData = () => {
             <span className="label-text">Seleccionar por tipo</span>
             <span className="label-text-alt">Ej: Fruta</span>
           </div>
-          <select className="select select-success w-full max-w-xs select-xs rounded"
+          <select className="select select-success w-full max-w-xs select-sm rounded"
             id="type"
             onChange={(e) => setType(e.target.value)}
             value={type}>
@@ -80,7 +80,7 @@ const FruitData = () => {
             <span className="label-text">Seleccionar por Estación de consumo</span>
             <span className="label-text-alt">Ej: Otoño</span>
           </div>
-          <select className="select select-success w-full max-w-xs select-xs rounded"
+          <select className="select select-success w-full max-w-xs select-sm rounded"
             id="season"
             onChange={(e) => setSeason(e.target.value)}
             value={season}
@@ -96,10 +96,10 @@ const FruitData = () => {
         {/*  Month Filters */}
         <label className="form-control w-full max-w-xs">
           <div className="label">
-            <span className="label-text">cosecha</span>
+            <span className="label-text">Cosecha</span>
             <span className="label-text-alt">Ej: Enero</span>
           </div>
-          <select className="select select-success w-full max-w-xs select-xs rounded"
+          <select className="select select-success w-full max-w-xs select-sm rounded"
             id="month"
             onChange={(e) => setMonth(e.target.value)}
             value={month}
@@ -126,7 +126,7 @@ const FruitData = () => {
             <span className="label-text">Clasificaciòn</span>
             <span className="label-text-alt">Ej: Citrico</span>
           </div>
-          <select className="select select-success w-full max-w-xs select-xs rounded"
+          <select className="select select-success w-full max-w-xs select-sm rounded"
             id="classification"
             onChange={(e) => setClassification(e.target.value)}
             value={classification}
