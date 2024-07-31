@@ -77,7 +77,7 @@ const FruitData = () => {
         {/*  Season Filters */}
         <label className="form-control w-full max-w-xs">
           <div className="label">
-            <span className="label-text">Seleccionar por Estación de consumo</span>
+            <span className="label-text">Estación de consumo</span>
             <span className="label-text-alt">Ej: Otoño</span>
           </div>
           <select className="select select-success w-full max-w-xs select-sm rounded"
