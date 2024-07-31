@@ -149,12 +149,12 @@ const FruitData = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pt-10">
         {filteredData.map((item) => (
           <Link key={item.id} href={`/${item.categoria}/${item.id}`}>
-            <div className="max-w-sm rounded overflow-hidden shadow-lg">
+            <div className="hover:scale-[1.01] ease-out duration-300 max-w-sm rounded overflow-hidden shadow-lg">
               <img className="grid-imgs" src={item.image} alt={item.nombre} />
               <div className="px-6 py-4">
                 <div className="mb-3 mt-3 badge badge-accent capitalize">{item.categoria}</div>
                 <div className="font-bold text-xl mb-2">{item.nombre}</div>
-                <button className="btn btn-xs text-blue-500 hover:underline">
+                <button className="btn btn-xs">
                   Ver detalles
                 </button>
               </div>
