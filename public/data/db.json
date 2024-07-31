@@ -68,7 +68,6 @@
         }
       ]
     },
-    
     {
       "id": "2",
       "nombre": "Banana",
@@ -89,7 +88,14 @@
       "estacion": "todo el año",
       "clasificacion": "Fruta tropical",
       "cosecha": "octubre",
-      "seleccion_de_fruto": "Seleccionar amarillos y sin manchas oscuras; en el árbol, deben estar en la fase de maduración."
+      "seleccion_de_fruto": "Seleccionar amarillos y sin manchas oscuras; en el árbol, deben estar en la fase de maduración.",
+      "como_germinar_y_su_importancia": "Las bananas no se cultivan a partir de semillas, sino de rizomas o brotes. La plantación en suelos bien drenados y ricos en nutrientes asegura una cosecha abundante.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechada, la banana puede ser consumida cruda, en batidos, o utilizada en postres y repostería.",
+      "valores_diarios_recomendados": {
+        "fibra": "10%",
+        "vitamina_b6": "20%",
+        "potasio": "12%"
+      }
     },
     {
       "id": "3",
@@ -111,7 +117,14 @@
       "estacion": "invierno",
       "clasificacion": "Fruta cítrica",
       "cosecha": "enero",
-      "seleccion_de_fruto": "Seleccionar naranjas y firmes; en el árbol, deben estar completamente coloreadas y maduras."
+      "seleccion_de_fruto": "Seleccionar naranjas y firmes; en el árbol, deben estar completamente coloreadas y maduras.",
+      "como_germinar_y_su_importancia": "Las naranjas se cultivan a partir de esquejes o injertos en lugar de semillas. La plantación en suelos bien drenados y soleados asegura una buena producción de frutas.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechada, la naranja puede ser consumida cruda, en jugos, ensaladas o como parte de postres.",
+      "valores_diarios_recomendados": {
+        "fibra": "10%",
+        "vitamina_c": "88%",
+        "potasio": "7%"
+      }
     },
     {
       "id": "4",
@@ -133,7 +146,14 @@
       "estacion": "primavera",
       "clasificacion": "Baya",
       "cosecha": "septiembre",
-      "seleccion_de_fruto": "Seleccionar rojas y sin moho; deben ser firmes y con hojas verdes."
+      "seleccion_de_fruto": "Seleccionar rojas y sin moho; deben ser firmes y con hojas verdes.",
+      "como_germinar_y_su_importancia": "Para germinar fresas, planta los stolones en un suelo bien drenado. Las fresas propagadas de esta manera permitirán una producción continua de frutas.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechada, la fresa puede ser consumida cruda, en batidos, postres, o como parte de ensaladas.",
+      "valores_diarios_recomendados": {
+        "fibra": "10%",
+        "vitamina_c": "59%",
+        "potasio": "5%"
+      }
     },
     {
       "id": "5",
@@ -155,129 +175,26 @@
       "estacion": "verano",
       "clasificacion": "Baya",
       "cosecha": "febrero",
-      "seleccion_de_fruto": "Seleccionar firmes y sin arrugas; deben estar completamente coloreadas y maduras."
-    },
-    {
-      "id": "6",
-      "nombre": "Piña",
-      "descripcion": "Una fruta tropical con un sabor dulce y ácido, rica en vitamina C y manganeso.",
-      "image": "https://example.com/images/pina.jpg",
-      "beneficios": [
-        "Ayuda a la digestión",
-        "Fortalece el sistema inmunológico",
-        "Promueve la salud ocular"
-      ],
-      "valores_nutricionales": {
-        "calorias": 50,
-        "carbohidratos": 13,
-        "fibra": 1.4,
-        "vitamina C": "79%"
-      },
-      "categoria": "fruta",
-      "estacion": "verano",
-      "clasificacion": "Fruta tropical",
-      "cosecha": "agosto",
-      "seleccion_de_fruto": "Seleccionar con un olor dulce y ligeramente suave al tacto; las hojas deben ser verdes y frescas."
-    },
-    {
-      "id": "7",
-      "nombre": "Sandía",
-      "descripcion": "Una fruta grande y jugosa, ideal para hidratarse en los días calurosos.",
-      "image": "https://example.com/images/sandia.jpg",
-      "beneficios": [
-        "Hidratación",
-        "Promueve la salud cardíaca",
-        "Ayuda a la salud de la piel"
-      ],
-      "valores_nutricionales": {
-        "calorias": 30,
-        "carbohidratos": 8,
-        "fibra": 0.4,
-        "vitamina C": "10%"
-      },
-      "categoria": "fruta",
-      "estacion": "verano",
-      "clasificacion": "Melón",
-      "cosecha": "mayo",
-      "seleccion_de_fruto": "Seleccionar con un sonido hueco al golpear; debe tener una mancha amarilla en un lado."
-    },
-    {
-      "id": "8",
-      "nombre": "Mango",
-      "descripcion": "Una fruta tropical, dulce y jugosa, rica en vitamina A y C.",
-      "image": "https://example.com/images/mango.jpg",
-      "beneficios": [
-        "Promueve la salud ocular",
-        "Fortalece el sistema inmunológico",
-        "Mejora la digestión"
-      ],
-      "valores_nutricionales": {
-        "calorias": 60,
-        "carbohidratos": 15,
-        "fibra": 1.6,
-        "vitamina C": "67%"
-      },
-      "categoria": "fruta",
-      "estacion": "primavera",
-      "clasificacion": "Fruta tropical",
-      "cosecha": "abril",
-      "seleccion_de_fruto": "Seleccionar ligeramente suave al tacto y con un olor dulce; deben estar completamente coloreados."
-    },
-    {
-      "id": "9",
-      "nombre": "Cereza",
-      "descripcion": "Una fruta pequeña, roja y jugosa, rica en antioxidantes.",
-      "image": "https://example.com/images/cereza.jpg",
-      "beneficios": [
-        "Reduce la inflamación",
-        "Mejora la calidad del sueño",
-        "Promueve la salud cardíaca"
-      ],
-      "valores_nutricionales": {
-        "calorias": 50,
-        "carbohidratos": 12,
-        "fibra": 1.6,
-        "vitamina C": "12%"
-      },
-      "categoria": "fruta",
-      "estacion": "verano",
-      "clasificacion": "Fruta de hueso",
-      "cosecha": "mayo",
-      "seleccion_de_fruto": "Seleccionar firmes y brillantes; deben estar completamente rojas y sin manchas."
-    },
-    {
-      "id": "10",
-      "nombre": "Melón",
-      "descripcion": "Una fruta grande y dulce, rica en vitaminas y minerales.",
-      "image": "https://example.com/images/melon.jpg",
-      "beneficios": [
-        "Hidratación",
-        "Promueve la salud ocular",
-        "Ayuda a la digestión"
-      ],
-      "valores_nutricionales": {
-        "calorias": 34,
-        "carbohidratos": 8.2,
-        "fibra": 0.9,
-        "vitamina C": "36%"
-      },
-      "categoria": "fruta",
-      "estacion": "verano",
-      "clasificacion": "Melón",
-      "cosecha": "mayo",
-      "seleccion_de_fruto": "Seleccionar con un olor dulce y ligeramente suave al tacto; deben estar completamente maduros."
+      "seleccion_de_fruto": "Seleccionar firmes y sin arrugas; deben estar completamente coloreadas y maduras.",
+      "como_germinar_y_su_importancia": "Las uvas se cultivan a partir de esquejes o semillas en climas cálidos. La germinación adecuada asegura una buena producción de racimos.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechada, la uva puede ser consumida cruda, en jugos, o utilizada en la elaboración de vino.",
+      "valores_diarios_recomendados": {
+        "fibra": "4%",
+        "vitamina_c": "4%",
+        "potasio": "6%"
+      }
     }
   ],
   "verduras": [
     {
       "id": "11",
       "nombre": "Zanahoria",
-      "descripcion": "Una verdura crujiente y dulce, rica en vitamina A y antioxidantes.",
-      "image": "/images/vegetables/carrots.jpg",
+      "descripcion": "Una raíz crujiente y dulce, rica en vitamina A y betacarotenos.",
+      "image": "/images/vegetables/carrot.jpg",
       "beneficios": [
-        "Mejora la salud ocular",
+        "Mejora la visión",
         "Promueve la salud de la piel",
-        "Ayuda a la digestión"
+        "Rica en antioxidantes"
       ],
       "valores_nutricionales": {
         "calorias": 41,
@@ -286,208 +203,134 @@
         "vitamina A": "334%"
       },
       "categoria": "verdura",
-      "estacion": "invierno",
+      "estacion": "otoño",
       "clasificacion": "Raíz",
-      "cosecha": "octubre",
-      "seleccion_de_fruto": "Seleccionar firmes y de color naranja brillante; deben estar sin grietas y con hojas verdes frescas."
+      "cosecha": "abril",
+      "seleccion_de_fruto": "Seleccionar firmes y sin manchas; deben ser de color naranja brillante.",
+      "como_germinar_y_su_importancia": "Para germinar zanahorias, planta las semillas en un suelo bien drenado. La germinación asegura una cosecha de raíces nutritivas y de buen tamaño.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechada, la zanahoria puede ser consumida cruda, en ensaladas, o cocida en sopas y guisos.",
+      "valores_diarios_recomendados": {
+        "fibra": "11%",
+        "vitamina_a": "334%",
+        "potasio": "7%"
+      }
     },
     {
       "id": "12",
-      "nombre": "Brócoli",
-      "descripcion": "Una verdura verde y crucífera, rica en vitaminas C y K.",
-      "image": "/images/vegetables/broccoli.jpg",
-      "beneficios": [
-        "Promueve la salud del corazón",
-        "Fortalece el sistema inmunológico",
-        "Ayuda a la salud ósea"
-      ],
-      "valores_nutricionales": {
-        "calorias": 34,
-        "carbohidratos": 7,
-        "fibra": 2.6,
-        "vitamina C": "89%"
-      },
-      "categoria": "verdura",
-      "estacion": "primavera",
-      "clasificacion": "Crucífera",
-      "cosecha": "febrero",
-      "seleccion_de_fruto": "Seleccionar verdes y firmes; los floretes deben estar cerrados y de color verde oscuro."
-    },
-    {
-      "id": "13",
       "nombre": "Espinaca",
-      "descripcion": "Una verdura de hojas verdes, rica en hierro y vitaminas.",
+      "descripcion": "Una hoja verde y nutritiva, rica en hierro y vitaminas.",
       "image": "/images/vegetables/spinach.jpg",
       "beneficios": [
-        "Promueve la salud ocular",
         "Fortalece los huesos",
-        "Ayuda a la salud cardiovascular"
+        "Ayuda a la salud ocular",
+        "Rica en antioxidantes"
       ],
       "valores_nutricionales": {
         "calorias": 23,
         "carbohidratos": 3.6,
         "fibra": 2.2,
-        "vitamina A": "188%"
+        "vitamina K": "460%"
       },
       "categoria": "verdura",
-      "estacion": "invierno",
+      "estacion": "primavera",
       "clasificacion": "Hoja",
-      "cosecha": "noviembre",
-      "seleccion_de_fruto": "Seleccionar hojas verdes y frescas; deben estar sin manchas amarillas ni marchitas."
+      "cosecha": "junio",
+      "seleccion_de_fruto": "Seleccionar hojas verdes y frescas; deben estar libres de manchas y plagas.",
+      "como_germinar_y_su_importancia": "Para germinar espinacas, planta las semillas en suelo húmedo y rico en nutrientes. Germinar espinacas asegura un suministro constante de hojas nutritivas.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechada, la espinaca puede ser consumida cruda en ensaladas, o cocida en guisos y sopas.",
+      "valores_diarios_recomendados": {
+        "fibra": "8%",
+        "vitamina_k": "460%",
+        "potasio": "11%"
+      }
     },
     {
-      "id": "14",
+      "id": "13",
       "nombre": "Tomate",
-      "descripcion": "Una fruta roja y jugosa, utilizada comúnmente como verdura, rica en licopeno.",
+      "descripcion": "Una fruta que se usa comúnmente como verdura, rica en licopeno y vitaminas.",
       "image": "/images/vegetables/tomato.jpg",
       "beneficios": [
-        "Promueve la salud de la piel",
-        "Ayuda a la salud cardiovascular",
+        "Mejora la salud del corazón",
+        "Ayuda a la salud de la piel",
         "Rico en antioxidantes"
       ],
       "valores_nutricionales": {
         "calorias": 18,
         "carbohidratos": 3.9,
         "fibra": 1.2,
-        "vitamina C": "21%"
+        "vitamina C": "22%"
       },
       "categoria": "verdura",
       "estacion": "verano",
-      "clasificacion": "Fruta",
-      "cosecha": "marzo",
-      "seleccion_de_fruto": "Seleccionar rojos y firmes; deben estar sin manchas oscuras ni áreas blandas."
+      "clasificacion": "Fruto",
+      "cosecha": "julio",
+      "seleccion_de_fruto": "Seleccionar rojos y firmes; deben estar completamente maduros y sin manchas.",
+      "como_germinar_y_su_importancia": "Para germinar tomates, planta las semillas en un suelo cálido y bien drenado. Germinar tomates asegura una cosecha abundante y saludable.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechado, el tomate puede ser consumido crudo en ensaladas, en salsas, o cocido en diversos platillos.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "vitamina_c": "22%",
+        "potasio": "5%"
+      }
     },
     {
-      "id": "15",
+      "id": "14",
       "nombre": "Pimiento",
-      "descripcion": "Una verdura crujiente y colorida, rica en vitamina C y antioxidantes.",
+      "descripcion": "Un vegetal colorido, rico en vitaminas A y C, y antioxidantes.",
       "image": "/images/vegetables/pepper.jpg",
       "beneficios": [
         "Fortalece el sistema inmunológico",
-        "Promueve la salud ocular",
-        "Ayuda a la salud cardiovascular"
+        "Ayuda a la salud ocular",
+        "Rico en antioxidantes"
       ],
       "valores_nutricionales": {
-        "calorias": 31,
-        "carbohidratos": 6,
-        "fibra": 2.1,
-        "vitamina C": "213%"
+        "calorias": 20,
+        "carbohidratos": 4.7,
+        "fibra": 1.7,
+        "vitamina C": "120%"
       },
       "categoria": "verdura",
       "estacion": "verano",
-      "clasificacion": "Fruta",
-      "cosecha": "abril",
-      "seleccion_de_fruto": "Seleccionar firmes y de colores brillantes; deben estar sin arrugas ni manchas."
+      "clasificacion": "Fruto",
+      "cosecha": "junio",
+      "seleccion_de_fruto": "Seleccionar coloridos y firmes; deben estar completamente maduros y sin manchas.",
+      "como_germinar_y_su_importancia": "Para germinar pimientos, planta las semillas en un suelo cálido y húmedo. Germinar pimientos asegura una producción continua de frutos nutritivos.",
+      "como_consumir_una_vez_cosechado": "Una vez cosechado, el pimiento puede ser consumido crudo en ensaladas, o cocido en guisos y salsas.",
+      "valores_diarios_recomendados": {
+        "fibra": "8%",
+        "vitamina_c": "120%",
+        "potasio": "4%"
+      }
     },
     {
-      "id": "16",
+      "id": "15",
       "nombre": "Calabacín",
-      "descripcion": "Una verdura verde y tierna, rica en vitamina C y antioxidantes.",
+      "descripcion": "Una verdura versátil y suave, rica en vitaminas y minerales.",
       "image": "/images/vegetables/zucchini.jpg",
       "beneficios": [
-        "Promueve la salud digestiva",
-        "Ayuda a la salud ocular",
+        "Mejora la digestión",
+        "Ayuda a la salud del corazón",
         "Rico en antioxidantes"
       ],
       "valores_nutricionales": {
         "calorias": 17,
         "carbohidratos": 3.1,
-        "fibra": 1,
-        "vitamina C": "29%"
+        "fibra": 1.1,
+        "vitamina C": "17%"
       },
       "categoria": "verdura",
       "estacion": "verano",
-      "clasificacion": "Calabaza",
-      "cosecha": "mayo",
-      "seleccion_de_fruto": "Seleccionar firmes y de color verde brillante; deben estar sin manchas ni áreas blandas."
-    },
-    {
-      "id": "17",
-      "nombre": "Lechuga",
-      "descripcion": "Una verdura de hojas verdes, utilizada comúnmente en ensaladas, rica en vitaminas y minerales.",
-      "image": "/images/vegetables/lettuce.jpg",
-      "beneficios": [
-        "Promueve la salud digestiva",
-        "Ayuda a la hidratación",
-        "Rica en antioxidantes"
-      ],
-      "valores_nutricionales": {
-        "calorias": 15,
-        "carbohidratos": 2.9,
-        "fibra": 1.3,
-        "vitamina A": "148%"
-      },
-      "categoria": "verdura",
-      "estacion": "primavera",
-      "clasificacion": "Hoja",
-      "cosecha": "enero",
-      "seleccion_de_fruto": "Seleccionar hojas verdes y frescas; deben estar sin manchas ni áreas marchitas."
-    },
-    {
-      "id": "18",
-      "nombre": "Cebolla",
-      "descripcion": "Una verdura bulbo, utilizada comúnmente en la cocina por su sabor y aroma.",
-      "image": "/images/vegetables/onion.jpg",
-      "beneficios": [
-        "Promueve la salud del corazón",
-        "Ayuda a la digestión",
-        "Rica en antioxidantes"
-      ],
-      "valores_nutricionales": {
-        "calorias": 40,
-        "carbohidratos": 9.3,
-        "fibra": 1.7,
-        "vitamina C": "12%"
-      },
-      "categoria": "verdura",
-      "estacion": "otoño",
-      "clasificacion": "Bulbo",
-      "cosecha": "agosto",
-      "seleccion_de_fruto": "Seleccionar firmes y sin brotes; deben estar sin manchas oscuras ni áreas blandas."
-    },
-    {
-      "id": "19",
-      "nombre": "Pepino",
-      "descripcion": "Una verdura verde y crujiente, rica en agua y vitaminas.",
-      "image": "/images/vegetables/cucumber.jpg",
-      "beneficios": [
-        "Promueve la hidratación",
-        "Ayuda a la digestión",
-        "Rica en antioxidantes"
-      ],
-      "valores_nutricionales": {
-        "calorias": 16,
-        "carbohidratos": 3.6,
-        "fibra": 0.5,
-        "vitamina C": "4%"
-      },
-      "categoria": "verdura",
-      "estacion": "verano",
-      "clasificacion": "Fruta",
+      "clasificacion": "Fruto",
       "cosecha": "junio",
-      "seleccion_de_fruto": "Seleccionar verdes y firmes; deben estar sin manchas ni arrugas."
-    },
-    {
-      "id": "20",
-      "nombre": "Coliflor",
-      "descripcion": "Una verdura blanca y crucífera, rica en fibra y vitaminas.",
-      "image": "/images/vegetables/cauliflower.jpg",
-      "beneficios": [
-        "Promueve la salud digestiva",
-        "Fortalece el sistema inmunológico",
-        "Rica en antioxidantes"
-      ],
-      "valores_nutricionales": {
-        "calorias": 25,
-        "carbohidratos": 5,
-        "fibra": 2,
-        "vitamina C": "77%"
-      },
-      "categoria": "verdura",
-      "estacion": "invierno",
-      "clasificacion": "Crucífera",
-      "cosecha": "septiembre",
-      "seleccion_de_fruto": "Seleccionar firmes y de color blanco; deben estar sin manchas ni áreas blandas."
+      "seleccion_de_fruto": "Seleccionar firmes y pequeños; deben estar de un color verde brillante y sin manchas.",
+      "como_germinar_y_su_importancia": "Para germinar calabacín, planta las semillas en un suelo cálido y húmedo. Germinar calabacín asegura una buena cosecha y producción continua.",
+      "como_consumir_una_vez_cosechado": "Una vez cosechado, el calabacín puede ser consumido crudo en ensaladas, o cocido en guisos, sopas y salteados.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "vitamina_c": "17%",
+        "potasio": "5%"
+      }
     }
   ]
 }
+
