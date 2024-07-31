@@ -41,7 +41,7 @@ const FruitData = () => {
     }
 
     if (month !== 'all') {
-      allItems = allItems.filter(item => item.siembra === month);
+      allItems = allItems.filter(item => item.cosecha === month);
     }
 
     if (classification !== 'all') {
@@ -56,28 +56,34 @@ const FruitData = () => {
 
   return (
     <div>
-      <div className="filters flex flex-wrap gap-4 p-4 bg-gray-100 rounded-lg shadow-md">
-        <div className="filter-item">
-          <label htmlFor="type" className="block mb-1 text-gray-700">Categoría:</label>
-          <select
+      <div className="filters flex flex-wrap gap-4 p-4 bg-stone-50 rounded-lg shadow-md">
+
+        {/*  Type Filters */}
+        <label className="form-control w-full max-w-xs">
+          <div className="label">
+            <span className="label-text">Seleccionar por tipo</span>
+            <span className="label-text-alt">Ej: Fruta</span>
+          </div>
+          <select className="select select-success w-full max-w-xs select-xs rounded"
             id="type"
             onChange={(e) => setType(e.target.value)}
-            value={type}
-            className="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-indigo-200"
-          >
-            <option value="all">Todos</option>
+            value={type}>
+            <option selected value="all">Todos</option>
             <option value="fruta">Frutas</option>
             <option value="verdura">Verduras</option>
           </select>
-        </div>
+        </label>
 
-        <div className="filter-item">
-          <label htmlFor="season" className="block mb-1 text-gray-700">Estación:</label>
-          <select
+        {/*  Season Filters */}
+        <label className="form-control w-full max-w-xs">
+          <div className="label">
+            <span className="label-text">Seleccionar por Estaciòn</span>
+            <span className="label-text-alt">Ej: Otoño</span>
+          </div>
+          <select className="select select-success w-full max-w-xs select-xs rounded"
             id="season"
             onChange={(e) => setSeason(e.target.value)}
             value={season}
-            className="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-indigo-200"
           >
             <option value="all">Todas las estaciones</option>
             <option value="primavera">Primavera</option>
@@ -85,17 +91,20 @@ const FruitData = () => {
             <option value="otoño">Otoño</option>
             <option value="invierno">Invierno</option>
           </select>
-        </div>
+        </label>
 
-        <div className="filter-item">
-          <label htmlFor="month" className="block mb-1 text-gray-700">Mes de Siembra:</label>
-          <select
+        {/*  Month Filters */}
+        <label className="form-control w-full max-w-xs">
+          <div className="label">
+            <span className="label-text">cosecha</span>
+            <span className="label-text-alt">Ej: Enero</span>
+          </div>
+          <select className="select select-success w-full max-w-xs select-xs rounded"
             id="month"
             onChange={(e) => setMonth(e.target.value)}
             value={month}
-            className="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-indigo-200"
           >
-            <option value="all">Todos los meses</option>
+            <option selected value="all">Todos los meses</option>
             <option value="enero">Enero</option>
             <option value="febrero">Febrero</option>
             <option value="marzo">Marzo</option>
@@ -109,17 +118,20 @@ const FruitData = () => {
             <option value="noviembre">Noviembre</option>
             <option value="diciembre">Diciembre</option>
           </select>
-        </div>
+        </label>
 
-        <div className="filter-item">
-          <label htmlFor="classification" className="block mb-1 text-gray-700">Clasificación:</label>
-          <select
+        {/*  Clasification Filters */}
+        <label className="form-control w-full max-w-xs">
+          <div className="label">
+            <span className="label-text">Clasificaciòn</span>
+            <span className="label-text-alt">Ej: Citrico</span>
+          </div>
+          <select className="select select-success w-full max-w-xs select-xs rounded"
             id="classification"
             onChange={(e) => setClassification(e.target.value)}
             value={classification}
-            className="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-indigo-200"
           >
-            <option value="all">Todas las clasificaciones</option>
+            <option selected value="all">Todas las clasificaciones</option>
             <option value="Fruta de hueso">Fruta de hueso</option>
             <option value="Fruta de grano">Fruta de grano</option>
             <option value="Cítrico">Cítrico</option>
@@ -130,21 +142,25 @@ const FruitData = () => {
             <option value="Fruto">Fruto</option>
             <option value="Crucífera">Crucífera</option>
           </select>
-        </div>
+        </label>
+
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pt-10">
         {filteredData.map((item) => (
-          <div key={item.id} className="max-w-sm rounded overflow-hidden shadow-lg">
-            <img className="grid-imgs" src={item.image} alt={item.nombre} />
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">{item.nombre}</div>
-               {/*  <p className="text-gray-700 text-base">{item.descripcion}</p> */}
-              <Link className="text-blue-500 hover:underline" href={`/${item.categoria}/${item.id}`}>
-                Ver detalles
-              </Link>
+          <Link className="" href={`/${item.categoria}/${item.id}`}>
+            <div key={item.id} className="max-w-sm rounded overflow-hidden shadow-lg">
+              <img className="grid-imgs" src={item.image} alt={item.nombre} />
+              <div className="px-6 py-4">
+                <div className="mb-3 mt-3 badge badge-accent capitalize">{item.categoria}</div>
+                <div className="font-bold text-xl mb-2">{item.nombre}</div>
+
+                <Link className="text-blue-500 hover:underline" href={`/${item.categoria}/${item.id}`}>
+                  <button className="btn btn-xs">Ver detalles</button>
+                </Link>
+              </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

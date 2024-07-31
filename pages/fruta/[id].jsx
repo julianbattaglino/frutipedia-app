@@ -48,30 +48,83 @@ const FrutaDetail = () => {
         </ol>
       </nav>
 
-      <div className="p-4 md:p-8 lg:p-12">
+      <div className="md:p-8 lg:p-12">
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="lg:col-span-1">
             <img src={data.image} alt={data.nombre} className="w-full rounded-lg shadow-md" />
           </div>
           <div className="lg:col-span-1">
-            <h1 className="text-3xl font-bold mb-4">{data.nombre}</h1>
-            <p className="text-lg mb-4">{data.descripcion}</p>
-            <h2 className="text-xl font-semibold mb-2">Beneficios</h2>
-            <ul className="list-disc ml-5 mb-4">
-              {data.beneficios.map((benefit, index) => (
-                <li key={index}>{benefit}</li>
-              ))}
-            </ul>
-            <h2 className="text-xl font-semibold mb-2">Valores Nutricionales</h2>
-            <ul className="list-disc ml-5">
-              {Object.entries(data.valores_nutricionales).map(([key, value]) => (
-                <li key={key}>{key}: {value}</li>
-              ))}
-            </ul>
-            <h2 className="text-xl font-semibold mt-2 mb-2">Selección:</h2>
-            <ul className="ml-5">
-              <li>{data.seleccion_de_fruto}</li>
-            </ul>
+
+
+            {/* Tabs */}
+            <div role="tablist" className="tabs tabs-lifted">
+
+              {/* Tab 1 Bio */}
+              <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Bio" defaultChecked />
+              <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
+
+                <div className="mb-3 mt-3 badge badge-accent capitalize">{data.categoria}</div>
+                <h1 className="text-3xl font-bold mb-4">{data.nombre}</h1>
+                <p className="mb-4">{data.descripcion}</p>
+
+                <h4 className="mt-2 mb-2"><span className="font-semibold">Estacion para consumo:</span></h4>
+                <p className="text-sm">{data.estacion}</p>
+                <h4 className="mt-2 mb-2"><span className="font-semibold">Clasificación:</span></h4>
+                <p className="text-sm">{data.clasificacion}</p>
+                <h4 className="mt-2 mb-2"><span className="font-semibold">Cuando cosechar?</span></h4>
+                <p className="text-sm">{data.cosecha}</p>
+                <h4 className="mt-2 mb-2"><span className="font-semibold">Como germinar?</span></h4>
+                <p className="text-sm">{data.como_germinar_y_su_importancia}</p>
+
+
+                <div className="divider"></div>
+
+                <h2 className="font-semibold mt-2 mb-2">Selección:</h2>
+                <p className="text-sm">{data.seleccion_de_fruto}</p>
+
+              </div>
+
+              {/* Tab 2 Beneficios */}
+              <input
+                type="radio"
+                name="my_tabs_2"
+                role="tab"
+                className="tab"
+                aria-label="Beneficiós"
+              />
+              <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
+
+              <h2 className="text-xl font-semibold mb-2">Beneficios</h2>
+                <ul className="list-disc ml-5 mb-4">
+                  {data.beneficios.map((benefit, index) => (
+                    <li key={index}>{benefit}</li>
+                  ))}
+                </ul>
+
+                <div className="divider"></div>
+
+                <h2 className="text-xl font-semibold mb-2">Valores Nutricionales</h2>
+                <ul className="list-disc ml-5">
+                  {Object.entries(data.valores_nutricionales).map(([key, value]) => (
+                    <li key={key}>{key}: {value}</li>
+                  ))}
+                </ul>
+
+                <div className="divider"></div>
+
+                <h2 className="font-semibold mt-2 mb-2">Valores diarios recomendados:</h2>
+                <ul className="list-disc ml-5">
+                  {Object.entries(data.valores_diarios_recomendados).map(([key, value]) => (
+                    <li key={key}>{key}: {value}</li>
+                  ))}
+                </ul>
+
+
+              </div>
+
+            </div>
+
           </div>
         </div>
 

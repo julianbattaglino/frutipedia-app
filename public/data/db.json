@@ -18,9 +18,16 @@
       },
       "categoria": "fruta",
       "estacion": "otoño",
-      "clasificacion": "Pomo",
-      "siembra": "marzo",
+      "clasificacion": "pomo",
+      "cosecha": "febrero",
       "seleccion_de_fruto": "Seleccionar firmes y sin manchas; deben estar de color rojo o verde brillante.",
+      "como_germinar_y_su_importancia": "Para germinar una manzana, planta las semillas en una maceta con tierra fértil y mantén la humedad. Germinar manzanas ayuda a propagar árboles frutales y es una forma sostenible de cultivar alimentos.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechada, la manzana puede ser consumida cruda, en jugos, ensaladas o cocida en postres como tartas y compotas.",
+      "valores_diarios_recomendados": {
+        "fibra": "10%",
+        "vitamina_c": "14%",
+        "potasio": "6%"
+      },
       "recetas": [
         {
           "nombre": "Tarta de Manzana",
@@ -81,7 +88,7 @@
       "categoria": "fruta",
       "estacion": "todo el año",
       "clasificacion": "Fruta tropical",
-      "siembra": "octubre",
+      "cosecha": "octubre",
       "seleccion_de_fruto": "Seleccionar amarillos y sin manchas oscuras; en el árbol, deben estar en la fase de maduración."
     },
     {
@@ -103,7 +110,7 @@
       "categoria": "fruta",
       "estacion": "invierno",
       "clasificacion": "Fruta cítrica",
-      "siembra": "enero",
+      "cosecha": "enero",
       "seleccion_de_fruto": "Seleccionar naranjas y firmes; en el árbol, deben estar completamente coloreadas y maduras."
     },
     {
@@ -125,7 +132,7 @@
       "categoria": "fruta",
       "estacion": "primavera",
       "clasificacion": "Baya",
-      "siembra": "septiembre",
+      "cosecha": "septiembre",
       "seleccion_de_fruto": "Seleccionar rojas y sin moho; deben ser firmes y con hojas verdes."
     },
     {
@@ -147,7 +154,7 @@
       "categoria": "fruta",
       "estacion": "verano",
       "clasificacion": "Baya",
-      "siembra": "febrero",
+      "cosecha": "febrero",
       "seleccion_de_fruto": "Seleccionar firmes y sin arrugas; deben estar completamente coloreadas y maduras."
     },
     {
@@ -169,7 +176,7 @@
       "categoria": "fruta",
       "estacion": "verano",
       "clasificacion": "Fruta tropical",
-      "siembra": "agosto",
+      "cosecha": "agosto",
       "seleccion_de_fruto": "Seleccionar con un olor dulce y ligeramente suave al tacto; las hojas deben ser verdes y frescas."
     },
     {
@@ -191,7 +198,7 @@
       "categoria": "fruta",
       "estacion": "verano",
       "clasificacion": "Melón",
-      "siembra": "mayo",
+      "cosecha": "mayo",
       "seleccion_de_fruto": "Seleccionar con un sonido hueco al golpear; debe tener una mancha amarilla en un lado."
     },
     {
@@ -213,7 +220,7 @@
       "categoria": "fruta",
       "estacion": "primavera",
       "clasificacion": "Fruta tropical",
-      "siembra": "abril",
+      "cosecha": "abril",
       "seleccion_de_fruto": "Seleccionar ligeramente suave al tacto y con un olor dulce; deben estar completamente coloreados."
     },
     {
@@ -235,7 +242,7 @@
       "categoria": "fruta",
       "estacion": "verano",
       "clasificacion": "Fruta de hueso",
-      "siembra": "mayo",
+      "cosecha": "mayo",
       "seleccion_de_fruto": "Seleccionar firmes y brillantes; deben estar completamente rojas y sin manchas."
     },
     {
@@ -257,7 +264,7 @@
       "categoria": "fruta",
       "estacion": "verano",
       "clasificacion": "Melón",
-      "siembra": "mayo",
+      "cosecha": "mayo",
       "seleccion_de_fruto": "Seleccionar con un olor dulce y ligeramente suave al tacto; deben estar completamente maduros."
     }
   ],
@@ -281,7 +288,7 @@
       "categoria": "verdura",
       "estacion": "invierno",
       "clasificacion": "Raíz",
-      "siembra": "octubre",
+      "cosecha": "octubre",
       "seleccion_de_fruto": "Seleccionar firmes y de color naranja brillante; deben estar sin grietas y con hojas verdes frescas."
     },
     {
@@ -303,7 +310,7 @@
       "categoria": "verdura",
       "estacion": "primavera",
       "clasificacion": "Crucífera",
-      "siembra": "febrero",
+      "cosecha": "febrero",
       "seleccion_de_fruto": "Seleccionar verdes y firmes; los floretes deben estar cerrados y de color verde oscuro."
     },
     {
@@ -325,7 +332,7 @@
       "categoria": "verdura",
       "estacion": "invierno",
       "clasificacion": "Hoja",
-      "siembra": "noviembre",
+      "cosecha": "noviembre",
       "seleccion_de_fruto": "Seleccionar hojas verdes y frescas; deben estar sin manchas amarillas ni marchitas."
     },
     {
@@ -347,7 +354,7 @@
       "categoria": "verdura",
       "estacion": "verano",
       "clasificacion": "Fruta",
-      "siembra": "marzo",
+      "cosecha": "marzo",
       "seleccion_de_fruto": "Seleccionar rojos y firmes; deben estar sin manchas oscuras ni áreas blandas."
     },
     {
@@ -369,7 +376,7 @@
       "categoria": "verdura",
       "estacion": "verano",
       "clasificacion": "Fruta",
-      "siembra": "abril",
+      "cosecha": "abril",
       "seleccion_de_fruto": "Seleccionar firmes y de colores brillantes; deben estar sin arrugas ni manchas."
     },
     {
@@ -391,7 +398,7 @@
       "categoria": "verdura",
       "estacion": "verano",
       "clasificacion": "Calabaza",
-      "siembra": "mayo",
+      "cosecha": "mayo",
       "seleccion_de_fruto": "Seleccionar firmes y de color verde brillante; deben estar sin manchas ni áreas blandas."
     },
     {
@@ -413,7 +420,7 @@
       "categoria": "verdura",
       "estacion": "primavera",
       "clasificacion": "Hoja",
-      "siembra": "enero",
+      "cosecha": "enero",
       "seleccion_de_fruto": "Seleccionar hojas verdes y frescas; deben estar sin manchas ni áreas marchitas."
     },
     {
@@ -435,7 +442,7 @@
       "categoria": "verdura",
       "estacion": "otoño",
       "clasificacion": "Bulbo",
-      "siembra": "agosto",
+      "cosecha": "agosto",
       "seleccion_de_fruto": "Seleccionar firmes y sin brotes; deben estar sin manchas oscuras ni áreas blandas."
     },
     {
@@ -457,7 +464,7 @@
       "categoria": "verdura",
       "estacion": "verano",
       "clasificacion": "Fruta",
-      "siembra": "junio",
+      "cosecha": "junio",
       "seleccion_de_fruto": "Seleccionar verdes y firmes; deben estar sin manchas ni arrugas."
     },
     {
@@ -479,7 +486,7 @@
       "categoria": "verdura",
       "estacion": "invierno",
       "clasificacion": "Crucífera",
-      "siembra": "septiembre",
+      "cosecha": "septiembre",
       "seleccion_de_fruto": "Seleccionar firmes y de color blanco; deben estar sin manchas ni áreas blandas."
     }
   ]
