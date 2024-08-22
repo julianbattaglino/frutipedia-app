@@ -32,19 +32,19 @@ const FrutaDetail = () => {
       </Head>
 
       {/* Breadcrumbs */}
-      <nav className="bg-gray-100 py-3 px-4 rounded-md mb-8 shadow-md">
+      <nav className="bg-green py-3 px-4 rounded-md mb-8 shadow-md">
         <ol className="list-reset flex text-gray-700">
           <li>
-            <Link href="/" className="text-blue-600 hover:text-blue-800">
+            <Link href="/" className="cream-10">
               Inicio
             </Link>
-            <span className="mx-2">/</span>
+            <span className="cream-06 mx-2">/</span>
           </li>
-          <li className="text-gray-500 capitalize">
+          <li className="cream-06 capitalize">
             {data.categoria}
-            <span className="mx-2">/</span>
+            <span className="cream-06 mx-2">/</span>
           </li>
-          <li className="text-gray-500">{data.nombre}</li>
+          <li className="cream-06">{data.nombre}</li>
         </ol>
       </nav>
 
@@ -135,8 +135,8 @@ const FrutaDetail = () => {
             data.recetas.map((receta, index) => (
               <div key={index} className="mb-4 border rounded-lg overflow-hidden shadow-md">
                 <input type="checkbox" className="peer hidden" id={`collapsible-${index}`} />
-                <label htmlFor={`collapsible-${index}`} className="flex justify-between items-center p-4 cursor-pointer bg-gray-100 peer-checked:bg-gray-200">
-                  <h3 className="text-lg font-semibold">{receta.nombre}</h3>
+                <label htmlFor={`collapsible-${index}`} className="flex justify-between items-center p-4 cursor-pointer bg-green">
+                  <h3 className="cream-10 text-lg font-semibold">{receta.nombre}</h3>
                   <svg className="w-6 h-6 text-gray-600 peer-checked:rotate-180 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                   </svg>

@@ -2,39 +2,55 @@
   "frutas": [
     {
       "id": "1",
-      "nombre": "Manzana",
-      "descripcion": "Una fruta dulce y crujiente, rica en fibra y vitaminas.",
-      "image": "/images/fruits/apple.webp",
+      "nombre": "Arándano",
+      "descripcion": "Pequeña fruta de color azul, rica en antioxidantes y vitaminas.",
+      "image": "/images/fruits/arandano.webp",
       "beneficios": [
-        "Mejora la digestión",
-        "Rica en antioxidantes",
-        "Ayuda a la pérdida de peso"
+        "Mejora la memoria",
+        "Reduce el riesgo de enfermedades cardíacas",
+        "Rico en antioxidantes"
       ],
       "valores_nutricionales": {
-        "calorias": 52,
-        "carbohidratos": 14,
+        "calorias": 57,
+        "carbohidratos": 14.5,
         "fibra": 2.4,
-        "vitamina C": "14%"
+        "vitamina C": "16%"
       },
-      "categoria": "fruta",
-      "estacion": "otoño",
-      "clasificacion": "pomo",
-      "cosecha": "febrero",
-      "seleccion_de_fruto": "Seleccionar firmes y sin manchas; deben estar de color rojo o verde brillante.",
-      "como_germinar_y_su_importancia": "Para germinar una manzana, planta las semillas en una maceta con tierra fértil y mantén la humedad. Germinar manzanas ayuda a propagar árboles frutales y es una forma sostenible de cultivar alimentos.",
-      "como_consumir_una_vez_cosechada": "Una vez cosechada, la manzana puede ser consumida cruda, en jugos, ensaladas o cocida en postres como tartas y compotas.",
+      "categoria": "Fruta",
+      "estacion": "Verano",
+      "clasificacion": "Baya",
+      "cosecha": "Julio-agosto",
+      "seleccion_de_fruto": "Seleccionar arándanos que estén firmes y de color azul oscuro sin manchas.",
+      "como_germinar_y_su_importancia": "Germinar arándanos requiere un proceso de estratificación. Es crucial para preservar variedades nativas y mejorar la resistencia a enfermedades.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidos frescos, en batidos, yogur, o como parte de postres.",
       "valores_diarios_recomendados": {
-        "fibra": "10%",
-        "vitamina_c": "14%",
-        "potasio": "6%"
+        "fibra": "9%",
+        "vitamina_c": "16%",
+        "potasio": "2%"
       },
       "recetas": [
         {
-          "nombre": "Tarta de Manzana",
-          "descripcion": "Una deliciosa tarta con manzanas frescas.",
-          "image": "/images/recetas/tarta-manzana.webp",
+          "nombre": "Batido de Arándano",
+          "descripcion": "Un batido refrescante y antioxidante.",
+          "image": "/images/recetas/batido-arandano.webp",
           "ingredientes": [
-            "2 manzanas",
+            "1 taza de arándanos",
+            "1 plátano",
+            "1/2 taza de yogur",
+            "1/4 taza de jugo de naranja"
+          ],
+          "instrucciones": [
+            "Mezcla todos los ingredientes en una licuadora.",
+            "Licúa hasta que quede suave.",
+            "Sirve frío y disfruta."
+          ]
+        },
+        {
+          "nombre": "Tarta de Arándanos",
+          "descripcion": "Una deliciosa tarta con relleno de arándanos frescos.",
+          "image": "/images/recetas/tarta-arandanos.webp",
+          "ingredientes": [
+            "2 tazas de arándanos",
             "1 taza de azúcar",
             "1 taza de harina",
             "2 huevos",
@@ -42,295 +58,1662 @@
           ],
           "instrucciones": [
             "Precalienta el horno a 180°C.",
-            "Pela y corta las manzanas.",
-            "Mezcla los ingredientes secos.",
-            "Añade los huevos y la mantequilla.",
-            "Coloca las manzanas en la mezcla y hornea por 30 minutos."
-          ]
-        },
-        {
-          "nombre": "Ensalada de Manzana",
-          "descripcion": "Una ensalada fresca con trozos de manzana.",
-          "image": "/images/recetas/ensalada-manzana.jpg",
-          "ingredientes": [
-            "1 manzana",
-            "1 lechuga",
-            "1/2 taza de nueces",
-            "1/4 taza de pasas",
-            "2 cucharadas de vinagreta"
-          ],
-          "instrucciones": [
-            "Lava y corta la lechuga.",
-            "Corta la manzana en trozos.",
-            "Mezcla todos los ingredientes en un bol.",
-            "Añade la vinagreta y mezcla bien."
+            "Mezcla los arándanos con azúcar.",
+            "Prepara la masa con harina, huevos y mantequilla.",
+            "Coloca los arándanos en la masa y hornea por 30 minutos."
           ]
         }
       ]
     },
     {
       "id": "2",
-      "nombre": "Banana",
-      "descripcion": "Una fruta dulce y cremosa, rica en potasio y vitaminas.",
-      "image": "/images/fruits/banana.jpeg",
+      "nombre": "Frambuesa",
+      "descripcion": "Fruta roja, dulce y ligeramente ácida, rica en fibra y antioxidantes.",
+      "image": "/images/fruits/frambuesa.png",
       "beneficios": [
-        "Proporciona energía rápida",
+        "Ayuda a la pérdida de peso",
         "Mejora la digestión",
-        "Ayuda a mantener la presión arterial"
+        "Rica en antioxidantes"
       ],
       "valores_nutricionales": {
-        "calorias": 89,
-        "carbohidratos": 23,
-        "fibra": 2.6,
-        "potasio": "12%"
+        "calorias": 52,
+        "carbohidratos": 12,
+        "fibra": 6.5,
+        "vitamina C": "26%"
       },
-      "categoria": "fruta",
-      "estacion": "todo el año",
-      "clasificacion": "Fruta tropical",
-      "cosecha": "octubre",
-      "seleccion_de_fruto": "Seleccionar amarillos y sin manchas oscuras; en el árbol, deben estar en la fase de maduración.",
-      "como_germinar_y_su_importancia": "Las bananas no se cultivan a partir de semillas, sino de rizomas o brotes. La plantación en suelos bien drenados y ricos en nutrientes asegura una cosecha abundante.",
-      "como_consumir_una_vez_cosechada": "Una vez cosechada, la banana puede ser consumida cruda, en batidos, o utilizada en postres y repostería.",
+      "categoria": "Fruta",
+      "estacion": "Verano",
+      "clasificacion": "Baya",
+      "cosecha": "Junio-julio",
+      "seleccion_de_fruto": "Seleccionar frambuesas que estén firmes y de color rojo intenso sin signos de humedad.",
+      "como_germinar_y_su_importancia": "Para germinar frambuesas, las semillas deben pasar por un proceso de estratificación en frío. Esto ayuda a mantener la diversidad genética y mejora la resistencia a plagas.",
+      "como_consumir_una_vez_cosechada": "Las frambuesas pueden ser consumidas frescas, en mermeladas, postres o ensaladas.",
       "valores_diarios_recomendados": {
-        "fibra": "10%",
-        "vitamina_b6": "20%",
-        "potasio": "12%"
-      }
+        "fibra": "26%",
+        "vitamina_c": "26%",
+        "potasio": "3%"
+      },
+      "recetas": [
+        {
+          "nombre": "Mermelada de Frambuesa",
+          "descripcion": "Una deliciosa mermelada casera de frambuesas.",
+          "image": "/images/recetas/mermelada-frambuesa.webp",
+          "ingredientes": [
+            "500 g de frambuesas",
+            "250 g de azúcar",
+            "1 limón (jugo)"
+          ],
+          "instrucciones": [
+            "Mezcla las frambuesas con el azúcar y el jugo de limón.",
+            "Cocina a fuego lento hasta que espese.",
+            "Vierte la mermelada en frascos esterilizados y deja enfriar."
+          ]
+        },
+        {
+          "nombre": "Tarta de Frambuesa",
+          "descripcion": "Una tarta dulce y ácida con frambuesas frescas.",
+          "image": "/images/recetas/tarta-frambuesa.webp",
+          "ingredientes": [
+            "2 tazas de frambuesas",
+            "1 taza de azúcar",
+            "1 taza de harina",
+            "2 huevos",
+            "1/2 taza de mantequilla"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 180°C.",
+            "Mezcla las frambuesas con azúcar.",
+            "Prepara la masa con harina, huevos y mantequilla.",
+            "Coloca las frambuesas en la masa y hornea por 30 minutos."
+          ]
+        }
+      ]
     },
     {
       "id": "3",
-      "nombre": "Naranja",
-      "descripcion": "Una fruta cítrica, jugosa y refrescante, rica en vitamina C.",
-      "image": "/images/fruits/naranja.jpg",
-      "beneficios": [
-        "Fortalece el sistema inmunológico",
-        "Mejora la salud de la piel",
-        "Ayuda a la salud cardiovascular"
-      ],
-      "valores_nutricionales": {
-        "calorias": 47,
-        "carbohidratos": 12,
-        "fibra": 2.4,
-        "vitamina C": "88%"
-      },
-      "categoria": "fruta",
-      "estacion": "invierno",
-      "clasificacion": "Fruta cítrica",
-      "cosecha": "enero",
-      "seleccion_de_fruto": "Seleccionar naranjas y firmes; en el árbol, deben estar completamente coloreadas y maduras.",
-      "como_germinar_y_su_importancia": "Las naranjas se cultivan a partir de esquejes o injertos en lugar de semillas. La plantación en suelos bien drenados y soleados asegura una buena producción de frutas.",
-      "como_consumir_una_vez_cosechada": "Una vez cosechada, la naranja puede ser consumida cruda, en jugos, ensaladas o como parte de postres.",
-      "valores_diarios_recomendados": {
-        "fibra": "10%",
-        "vitamina_c": "88%",
-        "potasio": "7%"
-      }
-    },
-    {
-      "id": "4",
-      "nombre": "Frutilla/Fresa",
-      "descripcion": "Una fruta pequeña y roja, con un sabor dulce y ácido, rica en antioxidantes.",
+      "nombre": "Fresa",
+      "descripcion": "Fruta roja y jugosa, rica en vitamina C y antioxidantes.",
       "image": "/images/fruits/frutilla.jpg",
       "beneficios": [
-        "Mejora la salud cardiovascular",
-        "Ayuda a la salud ocular",
-        "Refuerza el sistema inmunológico"
+        "Mejora la salud de la piel",
+        "Ayuda a la digestión",
+        "Rica en antioxidantes"
       ],
       "valores_nutricionales": {
         "calorias": 32,
         "carbohidratos": 7.7,
         "fibra": 2,
-        "vitamina C": "59%"
+        "vitamina C": "97%"
       },
-      "categoria": "fruta",
-      "estacion": "primavera",
+      "categoria": "Fruta",
+      "estacion": "Primavera",
       "clasificacion": "Baya",
-      "cosecha": "septiembre",
-      "seleccion_de_fruto": "Seleccionar rojas y sin moho; deben ser firmes y con hojas verdes.",
-      "como_germinar_y_su_importancia": "Para germinar fresas, planta los stolones en un suelo bien drenado. Las fresas propagadas de esta manera permitirán una producción continua de frutas.",
-      "como_consumir_una_vez_cosechada": "Una vez cosechada, la fresa puede ser consumida cruda, en batidos, postres, o como parte de ensaladas.",
+      "cosecha": "Abril-junio",
+      "seleccion_de_fruto": "Seleccionar fresas que estén firmes y de color rojo brillante, con las hojas verdes intactas.",
+      "como_germinar_y_su_importancia": "Las fresas se pueden germinar a partir de semillas o esquejes. Mantener la biodiversidad en fresas es crucial para resistir enfermedades.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidas frescas, en batidos, ensaladas, postres o mermeladas.",
       "valores_diarios_recomendados": {
-        "fibra": "10%",
-        "vitamina_c": "59%",
-        "potasio": "5%"
-      }
+        "fibra": "8%",
+        "vitamina_c": "97%",
+        "potasio": "2%"
+      },
+      "recetas": [
+        {
+          "nombre": "Batido de Fresa",
+          "descripcion": "Un batido refrescante con fresas frescas.",
+          "image": "/images/recetas/batido-fresa.webp",
+          "ingredientes": [
+            "1 taza de fresas",
+            "1 plátano",
+            "1/2 taza de yogur",
+            "1/4 taza de leche"
+          ],
+          "instrucciones": [
+            "Mezcla todos los ingredientes en una licuadora.",
+            "Licúa hasta que quede suave.",
+            "Sirve frío y disfruta."
+          ]
+        },
+        {
+          "nombre": "Tarta de Fresa",
+          "descripcion": "Una tarta dulce con fresas frescas.",
+          "image": "/images/recetas/tarta-fresa.webp",
+          "ingredientes": [
+            "2 tazas de fresas",
+            "1 taza de azúcar",
+            "1 taza de harina",
+            "2 huevos",
+            "1/2 taza de mantequilla"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 180°C.",
+            "Mezcla las fresas con azúcar.",
+            "Prepara la masa con harina, huevos y mantequilla.",
+            "Coloca las fresas en la masa y hornea por 30 minutos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nombre": "Grosella Espinosa",
+      "descripcion": "Fruta verde o rojiza, de sabor ácido y rica en vitamina C.",
+      "image": "/images/fruits/grosella-espinosa.jpg",
+      "beneficios": [
+        "Mejora la visión",
+        "Fortalece el sistema inmunológico",
+        "Ayuda en la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 44,
+        "carbohidratos": 10,
+        "fibra": 4.3,
+        "vitamina C": "33%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Verano",
+      "clasificacion": "Baya",
+      "cosecha": "Junio-julio",
+      "seleccion_de_fruto": "Seleccionar grosellas que estén firmes y de color uniforme, sin manchas.",
+      "como_germinar_y_su_importancia": "Las grosellas espinosas se pueden germinar a partir de semillas o esquejes. Es vital para la diversidad genética y resistencia a plagas.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidas frescas, en mermeladas, salsas o postres.",
+      "valores_diarios_recomendados": {
+        "fibra": "17%",
+        "vitamina_c": "33%",
+        "potasio": "3%"
+      },
+      "recetas": [
+        {
+          "nombre": "Mermelada de Grosella",
+          "descripcion": "Una mermelada ácida y dulce.",
+          "image": "/images/recetas/mermelada-grosella.webp",
+          "ingredientes": [
+            "500 g de grosellas",
+            "250 g de azúcar",
+            "1 limón (jugo)"
+          ],
+          "instrucciones": [
+            "Mezcla las grosellas con el azúcar y el jugo de limón.",
+            "Cocina a fuego lento hasta que espese.",
+            "Vierte la mermelada en frascos esterilizados y deja enfriar."
+          ]
+        },
+        {
+          "nombre": "Tarta de Grosella",
+          "descripcion": "Una tarta ácida y refrescante con grosellas.",
+          "image": "/images/recetas/tarta-grosella.webp",
+          "ingredientes": [
+            "2 tazas de grosellas",
+            "1 taza de azúcar",
+            "1 taza de harina",
+            "2 huevos",
+            "1/2 taza de mantequilla"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 180°C.",
+            "Mezcla las grosellas con azúcar.",
+            "Prepara la masa con harina, huevos y mantequilla.",
+            "Coloca las grosellas en la masa y hornea por 30 minutos."
+          ]
+        }
+      ]
     },
     {
       "id": "5",
-      "nombre": "Uva",
-      "descripcion": "Una fruta pequeña y jugosa, que se consume fresca o se usa para hacer vino.",
-      "image": "https://example.com/images/uva.jpg",
+      "nombre": "Grosella Negra",
+      "descripcion": "Fruta pequeña y oscura, rica en vitamina C y antioxidantes.",
+      "image": "/images/fruits/grosella-negra.jpg",
       "beneficios": [
-        "Promueve la salud cardiovascular",
-        "Ayuda a la digestión",
+        "Fortalece el sistema inmunológico",
+        "Mejora la salud de la piel",
         "Rica en antioxidantes"
       ],
       "valores_nutricionales": {
-        "calorias": 69,
-        "carbohidratos": 18,
-        "fibra": 0.9,
-        "vitamina C": "4%"
+        "calorias": 63,
+        "carbohidratos": 15,
+        "fibra": 6.8,
+        "vitamina C": "181%"
       },
-      "categoria": "fruta",
-      "estacion": "verano",
+      "categoria": "Fruta",
+      "estacion": "Verano",
       "clasificacion": "Baya",
-      "cosecha": "febrero",
-      "seleccion_de_fruto": "Seleccionar firmes y sin arrugas; deben estar completamente coloreadas y maduras.",
-      "como_germinar_y_su_importancia": "Las uvas se cultivan a partir de esquejes o semillas en climas cálidos. La germinación adecuada asegura una buena producción de racimos.",
-      "como_consumir_una_vez_cosechada": "Una vez cosechada, la uva puede ser consumida cruda, en jugos, o utilizada en la elaboración de vino.",
+      "cosecha": "Julio-agosto",
+      "seleccion_de_fruto": "Seleccionar grosellas negras que estén firmes y de color negro uniforme, sin manchas.",
+      "como_germinar_y_su_importancia": "Las grosellas negras se pueden germinar a partir de semillas o esquejes. Son importantes para la conservación de variedades resistentes.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidas frescas, en jugos, mermeladas, salsas o postres.",
       "valores_diarios_recomendados": {
-        "fibra": "4%",
-        "vitamina_c": "4%",
-        "potasio": "6%"
-      }
-    }
-  ],
-  "verduras": [
+        "fibra": "27%",
+        "vitamina_c": "181%",
+        "potasio": "7%"
+      },
+      "recetas": [
+        {
+          "nombre": "Mermelada de Grosella Negra",
+          "descripcion": "Una mermelada intensa y rica en sabor.",
+          "image": "/images/recetas/mermelada-grosella-negra.webp",
+          "ingredientes": [
+            "500 g de grosellas negras",
+            "250 g de azúcar",
+            "1 limón (jugo)"
+          ],
+          "instrucciones": [
+            "Mezcla las grosellas negras con el azúcar y el jugo de limón.",
+            "Cocina a fuego lento hasta que espese.",
+            "Vierte la mermelada en frascos esterilizados y deja enfriar."
+          ]
+        },
+        {
+          "nombre": "Tarta de Grosella Negra",
+          "descripcion": "Una tarta oscura y deliciosa con grosellas negras.",
+          "image": "/images/recetas/tarta-grosella-negra.webp",
+          "ingredientes": [
+            "2 tazas de grosellas negras",
+            "1 taza de azúcar",
+            "1 taza de harina",
+            "2 huevos",
+            "1/2 taza de mantequilla"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 180°C.",
+            "Mezcla las grosellas negras con azúcar.",
+            "Prepara la masa con harina, huevos y mantequilla.",
+            "Coloca las grosellas negras en la masa y hornea por 30 minutos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "nombre": "Grosella Roja",
+      "descripcion": "Una pequeña fruta roja y ácida, rica en vitamina C y antioxidantes.",
+      "image": "/images/fruits/grosella-roja.jpg",
+      "beneficios": [
+        "Fortalece el sistema inmunológico",
+        "Mejora la salud de la piel",
+        "Reduce la inflamación"
+      ],
+      "valores_nutricionales": {
+        "calorias": 56,
+        "carbohidratos": 14,
+        "fibra": 4.3,
+        "vitamina C": "70%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Verano",
+      "clasificacion": "Baya",
+      "cosecha": "Julio",
+      "seleccion_de_fruto": "Escoger frutos firmes y brillantes, de color rojo intenso.",
+      "como_germinar_y_su_importancia": "Plantar las semillas en suelo bien drenado y mantener húmedo. Germinar grosellas ayuda a expandir la biodiversidad de frutas en los huertos.",
+      "como_consumir_una_vez_cosechada": "Consumir cruda, en mermeladas, o como ingrediente en postres.",
+      "valores_diarios_recomendados": {
+        "fibra": "18%",
+        "vitamina C": "70%",
+        "potasio": "5%"
+      },
+      "recetas": [
+        {
+          "nombre": "Mermelada de Grosella Roja",
+          "descripcion": "Una dulce y ácida mermelada casera.",
+          "image": "https://example.com/images/recetas/mermelada-grosella-roja.webp",
+          "ingredientes": [
+            "500g de grosellas rojas",
+            "300g de azúcar",
+            "1 limón"
+          ],
+          "instrucciones": [
+            "Lavar las grosellas y mezclarlas con azúcar.",
+            "Añadir jugo de limón y cocinar a fuego lento.",
+            "Envasar en frascos esterilizados."
+          ]
+        },
+        {
+          "nombre": "Tarta de Grosella Roja",
+          "descripcion": "Una tarta ácida y deliciosa con grosellas frescas.",
+          "image": "https://example.com/images/recetas/tarta-grosella-roja.webp",
+          "ingredientes": [
+            "200g de grosellas rojas",
+            "1 masa de tarta",
+            "100g de azúcar",
+            "2 huevos",
+            "100g de almendras"
+          ],
+          "instrucciones": [
+            "Precalentar el horno a 180°C.",
+            "Mezclar grosellas con azúcar y huevos.",
+            "Colocar sobre la masa y hornear por 25 minutos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "nombre": "Zarzamora",
+      "descripcion": "Una baya negra, jugosa y dulce, rica en antioxidantes y vitaminas.",
+      "image": "/images/fruits/zarzamora.webp",
+      "beneficios": [
+        "Mejora la salud del corazón",
+        "Apoya la salud cerebral",
+        "Fortalece el sistema inmunológico"
+      ],
+      "valores_nutricionales": {
+        "calorias": 43,
+        "carbohidratos": 10,
+        "fibra": 5.3,
+        "vitamina C": "35%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Verano",
+      "clasificacion": "Baya",
+      "cosecha": "agosto",
+      "seleccion_de_fruto": "Seleccionar frutos firmes, oscuros y sin manchas.",
+      "como_germinar_y_su_importancia": "Plantar en suelo bien drenado y mantener húmedo. Germinar zarzamoras contribuye a la producción sostenible de frutas.",
+      "como_consumir_una_vez_cosechada": "Consumir cruda, en jugos, mermeladas o postres.",
+      "valores_diarios_recomendados": {
+        "fibra": "21%",
+        "vitamina C": "35%",
+        "manganeso": "30%"
+      },
+      "recetas": [
+        {
+          "nombre": "Mermelada de Zarzamora",
+          "descripcion": "Una mermelada rica y oscura, perfecta para tostadas.",
+          "image": "https://example.com/images/recetas/mermelada-zarzamora.webp",
+          "ingredientes": [
+            "500g de zarzamoras",
+            "300g de azúcar",
+            "1 limón"
+          ],
+          "instrucciones": [
+            "Lavar las zarzamoras y mezclarlas con azúcar.",
+            "Añadir jugo de limón y cocinar a fuego lento.",
+            "Envasar en frascos esterilizados."
+          ]
+        },
+        {
+          "nombre": "Pastel de Zarzamora",
+          "descripcion": "Un pastel suave y esponjoso con zarzamoras frescas.",
+          "image": "https://example.com/images/recetas/pastel-zarzamora.webp",
+          "ingredientes": [
+            "200g de zarzamoras",
+            "1 taza de azúcar",
+            "2 huevos",
+            "1 taza de harina",
+            "1/2 taza de mantequilla"
+          ],
+          "instrucciones": [
+            "Precalentar el horno a 180°C.",
+            "Mezclar ingredientes secos.",
+            "Añadir huevos y mantequilla, mezclar bien.",
+            "Añadir zarzamoras y hornear por 30 minutos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "nombre": "Mora",
+      "descripcion": "Una pequeña fruta morada, dulce y ácida, conocida por su alto contenido en antioxidantes.",
+      "image": "/images/fruits/mora.webp",
+      "beneficios": [
+        "Mejora la salud de la piel",
+        "Apoya la salud cardiovascular",
+        "Refuerza el sistema inmunológico"
+      ],
+      "valores_nutricionales": {
+        "calorias": 43,
+        "carbohidratos": 9.6,
+        "fibra": 5.3,
+        "vitamina C": "35%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Verano",
+      "clasificacion": "Baya",
+      "cosecha": "Julio",
+      "seleccion_de_fruto": "Seleccionar frutos oscuros, firmes y sin manchas.",
+      "como_germinar_y_su_importancia": "Germinar en suelo bien drenado y mantener humedad constante. Germinar moras es importante para mantener la diversidad en los cultivos de frutas.",
+      "como_consumir_una_vez_cosechada": "Consumir fresca, en postres, mermeladas o jugos.",
+      "valores_diarios_recomendados": {
+        "fibra": "21%",
+        "vitamina C": "35%",
+        "manganeso": "30%"
+      },
+      "recetas": [
+        {
+          "nombre": "Mermelada de Mora",
+          "descripcion": "Una mermelada rica y espesa, perfecta para el desayuno.",
+          "image": "https://example.com/images/recetas/mermelada-mora.webp",
+          "ingredientes": [
+            "500g de moras",
+            "300g de azúcar",
+            "1 limón"
+          ],
+          "instrucciones": [
+            "Lavar las moras y mezclarlas con azúcar.",
+            "Añadir jugo de limón y cocinar a fuego lento.",
+            "Envasar en frascos esterilizados."
+          ]
+        },
+        {
+          "nombre": "Tarta de Mora",
+          "descripcion": "Una tarta deliciosa y ácida con moras frescas.",
+          "image": "https://example.com/images/recetas/tarta-mora.webp",
+          "ingredientes": [
+            "200g de moras",
+            "1 masa de tarta",
+            "100g de azúcar",
+            "2 huevos",
+            "100g de almendras"
+          ],
+          "instrucciones": [
+            "Precalentar el horno a 180°C.",
+            "Mezclar moras con azúcar y huevos.",
+            "Colocar sobre la masa y hornear por 25 minutos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "nombre": "Guinda",
+      "descripcion": "Fruto pequeño y redondo de color rojo oscuro, conocido por su sabor agrio.",
+      "image": "/images/fruits/guinda.png",
+      "beneficios": [
+        "Rica en antioxidantes",
+        "Propiedades antiinflamatorias",
+        "Mejora la calidad del sueño"
+      ],
+      "valores_nutricionales": {
+        "calorias": 50,
+        "carbohidratos": 12.2,
+        "fibra": 1.6,
+        "vitamina C": "10%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Verano",
+      "clasificacion": "Baya",
+      "cosecha": "Diciembre - Enero",
+      "seleccion_de_fruto": "Seleccionar guindas que estén firmes y de color rojo intenso.",
+      "como_germinar_y_su_importancia": "Germinar guindas requiere un proceso de estratificación en frío. Es importante para preservar la variedad y garantizar una producción sostenible.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidas frescas, en mermeladas, postres o como aderezo en platos salados.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "vitamina_c": "10%",
+        "potasio": "3%"
+      },
+      "recetas": [
+        {
+          "nombre": "Tarta de Guindas",
+          "descripcion": "Tarta tradicional con guindas frescas y masa crujiente.",
+          "image": "/images/recetas/tarta-guindas.webp",
+          "ingredientes": [
+            "2 tazas de guindas",
+            "1 taza de azúcar",
+            "1 taza de harina",
+            "2 huevos",
+            "1/2 taza de mantequilla"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 180°C.",
+            "Mezcla las guindas con azúcar.",
+            "Prepara la masa con harina, huevos y mantequilla.",
+            "Coloca las guindas en la masa y hornea por 30 minutos."
+          ]
+        },
+        {
+          "nombre": "Compota de Guindas",
+          "descripcion": "Compota dulce y ligeramente ácida, perfecta como acompañamiento.",
+          "image": "/images/recetas/compota-guindas.webp",
+          "ingredientes": [
+            "3 tazas de guindas",
+            "1 taza de agua",
+            "1/2 taza de azúcar",
+            "1 rama de canela"
+          ],
+          "instrucciones": [
+            "Coloca las guindas, agua, azúcar y canela en una olla.",
+            "Cocina a fuego lento hasta que las guindas estén tiernas.",
+            "Deja enfriar antes de servir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "nombre": "Cereza",
+      "descripcion": "Fruta pequeña y redonda de color rojo brillante, con un sabor dulce y jugoso.",
+      "image": "/images/fruits/cherry.jpg",
+      "beneficios": [
+        "Rica en antioxidantes",
+        "Mejora la calidad del sueño",
+        "Propiedades antiinflamatorias"
+      ],
+      "valores_nutricionales": {
+        "calorias": 63,
+        "carbohidratos": 16,
+        "fibra": 2.1,
+        "vitamina C": "15%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Verano",
+      "clasificacion": "Baya",
+      "cosecha": "Diciembre - Enero",
+      "seleccion_de_fruto": "Seleccionar cerezas que estén firmes y de color rojo brillante, evitando las que tengan manchas.",
+      "como_germinar_y_su_importancia": "Germinar cerezas requiere un proceso de estratificación en frío. Es esencial para mantener la calidad del fruto y asegurar su producción.",
+      "como_consumir_una_vez_cosechada": "Se pueden consumir frescas, en postres, jugos o como complemento en ensaladas.",
+      "valores_diarios_recomendados": {
+        "fibra": "8%",
+        "vitamina_c": "15%",
+        "potasio": "4%"
+      },
+      "recetas": [
+        {
+          "nombre": "Cerezas al licor",
+          "descripcion": "Cerezas maceradas en licor, ideales como postre o acompañamiento.",
+          "image": "/images/recetas/cerezas-licor.webp",
+          "ingredientes": [
+            "2 tazas de cerezas",
+            "1 taza de licor (brandy o ron)",
+            "1/2 taza de azúcar",
+            "1 rama de canela"
+          ],
+          "instrucciones": [
+            "Lava y deshuesa las cerezas.",
+            "Mezcla las cerezas con el licor, azúcar y canela.",
+            "Deja macerar en un frasco hermético durante al menos una semana."
+          ]
+        },
+        {
+          "nombre": "Pastel de cereza",
+          "descripcion": "Pastel esponjoso con cerezas frescas y un toque de vainilla.",
+          "image": "/images/recetas/pastel-cereza.webp",
+          "ingredientes": [
+            "1 taza de cerezas",
+            "2 tazas de harina",
+            "1 taza de azúcar",
+            "3 huevos",
+            "1/2 taza de leche",
+            "1/4 taza de mantequilla"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 180°C.",
+            "Mezcla los ingredientes secos en un bol.",
+            "Añade los huevos, leche y mantequilla derretida.",
+            "Incorpora las cerezas y hornea por 35-40 minutos."
+          ]
+        }
+      ]
+    },
     {
       "id": "11",
-      "nombre": "Zanahoria",
-      "descripcion": "Una raíz crujiente y dulce, rica en vitamina A y betacarotenos.",
-      "image": "/images/vegetables/carrot.jpg",
+      "nombre": "Limón",
+      "descripcion": "Fruta amarilla y ácida, utilizada para dar sabor y en la preparación de bebidas.",
+      "image": "/images/fruits/limon.webp",
       "beneficios": [
-        "Mejora la visión",
-        "Promueve la salud de la piel",
-        "Rica en antioxidantes"
+        "Rico en vitamina C",
+        "Mejora la digestión",
+        "Desintoxica el cuerpo"
       ],
       "valores_nutricionales": {
-        "calorias": 41,
-        "carbohidratos": 10,
+        "calorias": 29,
+        "carbohidratos": 9.3,
         "fibra": 2.8,
-        "vitamina A": "334%"
+        "vitamina C": "64%"
       },
-      "categoria": "verdura",
-      "estacion": "otoño",
-      "clasificacion": "Raíz",
-      "cosecha": "abril",
-      "seleccion_de_fruto": "Seleccionar firmes y sin manchas; deben ser de color naranja brillante.",
-      "como_germinar_y_su_importancia": "Para germinar zanahorias, planta las semillas en un suelo bien drenado. La germinación asegura una cosecha de raíces nutritivas y de buen tamaño.",
-      "como_consumir_una_vez_cosechada": "Una vez cosechada, la zanahoria puede ser consumida cruda, en ensaladas, o cocida en sopas y guisos.",
+      "categoria": "Fruta",
+      "estacion": "Todo el año",
+      "clasificacion": "Cítrico",
+      "cosecha": "Todo el año",
+      "seleccion_de_fruto": "Elegir limones que estén firmes y de color amarillo brillante.",
+      "como_germinar_y_su_importancia": "Germinar limones requiere un ambiente cálido y húmedo. Son importantes para la cocina y la medicina natural.",
+      "como_consumir_una_vez_cosechada": "Pueden ser usados en jugos, aderezos, y como saborizante en diversos platos.",
       "valores_diarios_recomendados": {
         "fibra": "11%",
-        "vitamina_a": "334%",
-        "potasio": "7%"
-      }
+        "vitamina_c": "64%",
+        "potasio": "2%"
+      },
+      "recetas": [
+        {
+          "nombre": "Limonada",
+          "descripcion": "Bebida refrescante y revitalizante.",
+          "image": "/images/recetas/lemonada.webp",
+          "ingredientes": [
+            "1 taza de jugo de limón",
+            "4 tazas de agua",
+            "1 taza de azúcar",
+            "Hielo al gusto"
+          ],
+          "instrucciones": [
+            "Mezcla el jugo de limón, el agua y el azúcar en una jarra.",
+            "Revuelve bien hasta disolver el azúcar.",
+            "Sirve con hielo."
+          ]
+        },
+        {
+          "nombre": "Tarta de Limón",
+          "descripcion": "Tarta dulce y ácida, con una base crujiente.",
+          "image": "/images/recetas/tarta-limon.webp",
+          "ingredientes": [
+            "1 taza de azúcar",
+            "1/2 taza de mantequilla",
+            "1 taza de harina",
+            "1/4 taza de jugo de limón",
+            "3 huevos"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 180°C.",
+            "Mezcla la harina y el azúcar con la mantequilla.",
+            "Presiona la mezcla en el fondo de un molde para tarta.",
+            "Mezcla el jugo de limón con los huevos y vierte sobre la base.",
+            "Hornea durante 30 minutos."
+          ]
+        }
+      ]
     },
     {
       "id": "12",
-      "nombre": "Espinaca",
-      "descripcion": "Una hoja verde y nutritiva, rica en hierro y vitaminas.",
-      "image": "/images/vegetables/spinach.jpg",
+      "nombre": "Mandarina",
+      "descripcion": "Fruta pequeña, dulce y fácil de pelar, con un sabor refrescante.",
+      "image": "/images/fruits/mandarina.webp",
       "beneficios": [
-        "Fortalece los huesos",
-        "Ayuda a la salud ocular",
-        "Rica en antioxidantes"
+        "Rica en vitamina C",
+        "Buena para la piel",
+        "Favorece la digestión"
       ],
       "valores_nutricionales": {
-        "calorias": 23,
-        "carbohidratos": 3.6,
-        "fibra": 2.2,
-        "vitamina K": "460%"
+        "calorias": 53,
+        "carbohidratos": 13.3,
+        "fibra": 1.8,
+        "vitamina C": "48%"
       },
-      "categoria": "verdura",
-      "estacion": "primavera",
-      "clasificacion": "Hoja",
-      "cosecha": "junio",
-      "seleccion_de_fruto": "Seleccionar hojas verdes y frescas; deben estar libres de manchas y plagas.",
-      "como_germinar_y_su_importancia": "Para germinar espinacas, planta las semillas en suelo húmedo y rico en nutrientes. Germinar espinacas asegura un suministro constante de hojas nutritivas.",
-      "como_consumir_una_vez_cosechada": "Una vez cosechada, la espinaca puede ser consumida cruda en ensaladas, o cocida en guisos y sopas.",
+      "categoria": "Fruta",
+      "estacion": "Invierno",
+      "clasificacion": "Cítrico",
+      "cosecha": "Junio - Agosto",
+      "seleccion_de_fruto": "Elegir mandarinas que estén firmes y tengan una piel brillante.",
+      "como_germinar_y_su_importancia": "Germinar mandarinas es sencillo en clima cálido. Son importantes para una dieta equilibrada y aportan vitamina C.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidas frescas, en ensaladas o como jugo.",
       "valores_diarios_recomendados": {
-        "fibra": "8%",
-        "vitamina_k": "460%",
-        "potasio": "11%"
-      }
+        "fibra": "7%",
+        "vitamina_c": "48%",
+        "potasio": "3%"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Mandarina",
+          "descripcion": "Ensalada fresca con un toque cítrico.",
+          "image": "/images/recetas/ensalada-mandarina.webp",
+          "ingredientes": [
+            "1 taza de mandarinas peladas",
+            "2 tazas de lechuga",
+            "1/4 taza de nueces",
+            "1/4 taza de queso feta",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Mezcla las mandarinas, lechuga y nueces en un bol.",
+            "Agrega el queso feta desmenuzado.",
+            "Vierte el aderezo y mezcla bien."
+          ]
+        },
+        {
+          "nombre": "Mermelada de Mandarina",
+          "descripcion": "Mermelada casera con un sabor dulce y cítrico.",
+          "image": "/images/recetas/mermelada-mandarina.webp",
+          "ingredientes": [
+            "4 tazas de mandarinas peladas",
+            "2 tazas de azúcar",
+            "Jugo de 1 limón"
+          ],
+          "instrucciones": [
+            "Cocina las mandarinas y el azúcar a fuego medio.",
+            "Revuelve hasta que la mezcla espese.",
+            "Enfría y guarda en frascos esterilizados."
+          ]
+        }
+      ]
     },
     {
       "id": "13",
-      "nombre": "Tomate",
-      "descripcion": "Una fruta que se usa comúnmente como verdura, rica en licopeno y vitaminas.",
-      "image": "/images/vegetables/tomato.jpg",
+      "nombre": "Naranja",
+      "descripcion": "Fruta jugosa y dulce, conocida por su alto contenido en vitamina C.",
+      "image": "/images/fruits/naranja.jpg",
       "beneficios": [
-        "Mejora la salud del corazón",
-        "Ayuda a la salud de la piel",
-        "Rico en antioxidantes"
+        "Excelente fuente de vitamina C",
+        "Apoya el sistema inmunológico",
+        "Mejora la salud de la piel"
       ],
       "valores_nutricionales": {
-        "calorias": 18,
-        "carbohidratos": 3.9,
-        "fibra": 1.2,
-        "vitamina C": "22%"
+        "calorias": 47,
+        "carbohidratos": 11.8,
+        "fibra": 2.4,
+        "vitamina C": "89%"
       },
-      "categoria": "verdura",
-      "estacion": "verano",
-      "clasificacion": "Fruto",
-      "cosecha": "julio",
-      "seleccion_de_fruto": "Seleccionar rojos y firmes; deben estar completamente maduros y sin manchas.",
-      "como_germinar_y_su_importancia": "Para germinar tomates, planta las semillas en un suelo cálido y bien drenado. Germinar tomates asegura una cosecha abundante y saludable.",
-      "como_consumir_una_vez_cosechada": "Una vez cosechado, el tomate puede ser consumido crudo en ensaladas, en salsas, o cocido en diversos platillos.",
+      "categoria": "Fruta",
+      "estacion": "Invierno",
+      "clasificacion": "Cítrico",
+      "cosecha": "Junio - Agosto",
+      "seleccion_de_fruto": "Elegir naranjas que estén firmes y tengan una piel vibrante.",
+      "como_germinar_y_su_importancia": "Germinar naranjas requiere calor y humedad. Son cruciales para una dieta rica en vitamina C.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidas frescas, en jugos, o como parte de ensaladas y postres.",
       "valores_diarios_recomendados": {
-        "fibra": "6%",
-        "vitamina_c": "22%",
+        "fibra": "10%",
+        "vitamina_c": "89%",
         "potasio": "5%"
-      }
+      },
+      "recetas": [
+        {
+          "nombre": "Jugo de Naranja",
+          "descripcion": "Jugo fresco y revitalizante.",
+          "image": "/images/recetas/jugo-naranja.webp",
+          "ingredientes": [
+            "4 naranjas",
+            "Azúcar al gusto"
+          ],
+          "instrucciones": [
+            "Exprimir las naranjas para obtener el jugo.",
+            "Agregar azúcar al gusto.",
+            "Servir frío."
+          ]
+        },
+        {
+          "nombre": "Bizcocho de Naranja",
+          "descripcion": "Bizcocho suave con un toque cítrico.",
+          "image": "/images/recetas/bizcocho-naranja.webp",
+          "ingredientes": [
+            "1 taza de harina",
+            "1 taza de azúcar",
+            "1/2 taza de jugo de naranja",
+            "3 huevos",
+            "1/2 taza de mantequilla"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 180°C.",
+            "Mezcla todos los ingredientes hasta obtener una masa homogénea.",
+            "Vierte en un molde y hornea por 30 minutos."
+          ]
+        }
+      ]
     },
     {
       "id": "14",
-      "nombre": "Pimiento",
-      "descripcion": "Un vegetal colorido, rico en vitaminas A y C, y antioxidantes.",
-      "image": "/images/vegetables/pepper.jpg",
+      "nombre": "Pomelo",
+      "descripcion": "Fruta grande y ácido-dulce, conocida por sus propiedades digestivas.",
+      "image": "/images/fruits/pomelo.webp",
       "beneficios": [
-        "Fortalece el sistema inmunológico",
-        "Ayuda a la salud ocular",
-        "Rico en antioxidantes"
+        "Ayuda a la digestión",
+        "Rico en vitamina C",
+        "Puede ayudar en la pérdida de peso"
       ],
       "valores_nutricionales": {
-        "calorias": 20,
-        "carbohidratos": 4.7,
-        "fibra": 1.7,
-        "vitamina C": "120%"
+        "calorias": 42,
+        "carbohidratos": 10.7,
+        "fibra": 1.4,
+        "vitamina C": "31%"
       },
-      "categoria": "verdura",
-      "estacion": "verano",
-      "clasificacion": "Fruto",
-      "cosecha": "junio",
-      "seleccion_de_fruto": "Seleccionar coloridos y firmes; deben estar completamente maduros y sin manchas.",
-      "como_germinar_y_su_importancia": "Para germinar pimientos, planta las semillas en un suelo cálido y húmedo. Germinar pimientos asegura una producción continua de frutos nutritivos.",
-      "como_consumir_una_vez_cosechado": "Una vez cosechado, el pimiento puede ser consumido crudo en ensaladas, o cocido en guisos y salsas.",
+      "categoria": "Fruta",
+      "estacion": "Invierno",
+      "clasificacion": "Cítrico",
+      "cosecha": "Junio - Agosto",
+      "seleccion_de_fruto": "Elegir pomelos que estén firmes y pesados para su tamaño.",
+      "como_germinar_y_su_importancia": "Germinar pomelos es sencillo en climas cálidos. Son valiosos para una dieta saludable y balanceada.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidos frescos, en jugos, o como parte de ensaladas.",
       "valores_diarios_recomendados": {
-        "fibra": "8%",
-        "vitamina_c": "120%",
+        "fibra": "6%",
+        "vitamina_c": "31%",
         "potasio": "4%"
-      }
+      },
+      "recetas": [
+        {
+          "nombre": "Jugo de Pomelo",
+          "descripcion": "Jugo ácido y refrescante.",
+          "image": "/images/recetas/jugo-pomelo.webp",
+          "ingredientes": [
+            "2 pomelos",
+            "1 cucharada de miel"
+          ],
+          "instrucciones": [
+            "Exprimir los pomelos para obtener el jugo.",
+            "Mezclar con miel.",
+            "Servir frío."
+          ]
+        },
+        {
+          "nombre": "Ensalada de Pomelo",
+          "descripcion": "Ensalada refrescante con trozos de pomelo.",
+          "image": "/images/recetas/ensalada-pomelo.webp",
+          "ingredientes": [
+            "1 pomelo",
+            "1 taza de espinacas",
+            "1/4 taza de nueces",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Pelar el pomelo y cortar en gajos.",
+            "Mezclar con espinacas y nueces.",
+            "Añadir aderezo y mezclar bien."
+          ]
+        }
+      ]
     },
     {
       "id": "15",
-      "nombre": "Calabacín",
-      "descripcion": "Una verdura versátil y suave, rica en vitaminas y minerales.",
-      "image": "/images/vegetables/zucchini.jpg",
+      "nombre": "Lima",
+      "descripcion": "Fruta pequeña y ácida, utilizada en diversas recetas y bebidas.",
+      "image": "/images/fruits/lima-arbol.webp",
       "beneficios": [
-        "Mejora la digestión",
-        "Ayuda a la salud del corazón",
-        "Rico en antioxidantes"
+        "Rica en vitamina C",
+        "Desintoxica el cuerpo",
+        "Mejora la absorción de hierro"
       ],
       "valores_nutricionales": {
-        "calorias": 17,
-        "carbohidratos": 3.1,
-        "fibra": 1.1,
+        "calorias": 30,
+        "carbohidratos": 10.5,
+        "fibra": 2.8,
+        "vitamina C": "48%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Todo el año",
+      "clasificacion": "Cítrico",
+      "cosecha": "Todo el año",
+      "seleccion_de_fruto": "Elegir limas que estén firmes y tengan una piel verde brillante.",
+      "como_germinar_y_su_importancia": "Germinar limas requiere calor y humedad. Son importantes en la cocina y para la salud digestiva.",
+      "como_consumir_una_vez_cosechada": "Pueden ser usadas en jugos, aderezos, y como saborizante en platos.",
+      "valores_diarios_recomendados": {
+        "fibra": "9%",
+        "vitamina_c": "48%",
+        "potasio": "2%"
+      },
+      "recetas": [
+        {
+          "nombre": "Margarita",
+          "descripcion": "Cóctel clásico con un toque de lima.",
+          "image": "/images/recetas/margarita.webp",
+          "ingredientes": [
+            "2 oz de tequila",
+            "1 oz de licor de naranja",
+            "1 oz de jugo de lima",
+            "Sal para el borde del vaso"
+          ],
+          "instrucciones": [
+            "Mezcla el tequila, licor de naranja y jugo de lima.",
+            "Agita bien y cuela en un vaso con el borde salado.",
+            "Servir frío."
+          ]
+        },
+        {
+          "nombre": "Guacamole",
+          "descripcion": "Dip cremoso con un toque de lima.",
+          "image": "/images/recetas/guacamole.webp",
+          "ingredientes": [
+            "2 aguacates",
+            "1/2 cebolla",
+            "1 tomate",
+            "1 lima",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Aplastar los aguacates y mezclar con cebolla y tomate picados.",
+            "Añadir jugo de lima y sal al gusto.",
+            "Mezclar bien y servir con chips de tortilla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "nombre": "Yuzu",
+      "descripcion": "Fruta cítrica japonesa con un sabor único entre limón y mandarina.",
+      "image": "/images/fruits/yuzu.webp",
+      "beneficios": [
+        "Rico en vitamina C",
+        "Antioxidante",
+        "Apoya la salud digestiva"
+      ],
+      "valores_nutricionales": {
+        "calorias": 36,
+        "carbohidratos": 9.5,
+        "fibra": 2.0,
+        "vitamina C": "60%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Invierno",
+      "clasificacion": "Cítrico",
+      "cosecha": "Noviembre - Enero",
+      "seleccion_de_fruto": "Elegir yuzu que tenga una piel firme y un aroma fuerte.",
+      "como_germinar_y_su_importancia": "Germinar yuzu requiere un ambiente cálido. Es importante en la cocina asiática y en la medicina tradicional.",
+      "como_consumir_una_vez_cosechada": "Pueden ser usados en salsas, aderezos, y postres.",
+      "valores_diarios_recomendados": {
+        "fibra": "8%",
+        "vitamina_c": "60%",
+        "potasio": "3%"
+      },
+      "recetas": [
+        {
+          "nombre": "Aderezo de Yuzu",
+          "descripcion": "Aderezo cítrico para ensaladas.",
+          "image": "/images/recetas/aderezo-yuzu.webp",
+          "ingredientes": [
+            "1/4 taza de jugo de yuzu",
+            "1/4 taza de aceite de sésamo",
+            "1 cucharada de miel",
+            "Sal y pimienta al gusto"
+          ],
+          "instrucciones": [
+            "Mezclar todos los ingredientes en un frasco.",
+            "Agitar bien antes de usar.",
+            "Servir sobre ensaladas."
+          ]
+        },
+        {
+          "nombre": "Postre de Yuzu",
+          "descripcion": "Postre ligero y refrescante con sabor a yuzu.",
+          "image": "/images/recetas/postre-yuzu.webp",
+          "ingredientes": [
+            "1 taza de crema para batir",
+            "1/4 taza de azúcar",
+            "1/2 taza de jugo de yuzu",
+            "1 cucharadita de gelatina"
+          ],
+          "instrucciones": [
+            "Disolver la gelatina en agua caliente.",
+            "Batir la crema con el azúcar.",
+            "Incorporar el jugo de yuzu y la gelatina disuelta.",
+            "Refrigerar hasta que cuaje."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "nombre": "Aguacate",
+      "descripcion": "Fruta cremosa y rica en grasas saludables, ideal para ensaladas y guacamole.",
+      "image": "/images/fruits/avocado.webp",
+      "beneficios": [
+        "Rico en grasas saludables",
+        "Apoya la salud del corazón",
+        "Buena fuente de fibra"
+      ],
+      "valores_nutricionales": {
+        "calorias": 160,
+        "carbohidratos": 8.5,
+        "fibra": 6.7,
         "vitamina C": "17%"
       },
-      "categoria": "verdura",
-      "estacion": "verano",
-      "clasificacion": "Fruto",
-      "cosecha": "junio",
-      "seleccion_de_fruto": "Seleccionar firmes y pequeños; deben estar de un color verde brillante y sin manchas.",
-      "como_germinar_y_su_importancia": "Para germinar calabacín, planta las semillas en un suelo cálido y húmedo. Germinar calabacín asegura una buena cosecha y producción continua.",
-      "como_consumir_una_vez_cosechado": "Una vez cosechado, el calabacín puede ser consumido crudo en ensaladas, o cocido en guisos, sopas y salteados.",
+      "categoria": "Fruta",
+      "estacion": "Todo el año",
+      "clasificacion": "Exótica",
+      "cosecha": "Todo el año",
+      "seleccion_de_fruto": "Elegir aguacates que estén firmes pero ceden ligeramente a la presión.",
+      "como_germinar_y_su_importancia": "Germinar aguacates requiere calor y humedad. Son esenciales en una dieta equilibrada por sus grasas saludables.",
+      "como_consumir_una_vez_cosechada": "Pueden ser usados en ensaladas, guacamole, y batidos.",
+      "valores_diarios_recomendados": {
+        "fibra": "27%",
+        "vitamina_c": "17%",
+        "potasio": "14%"
+      },
+      "recetas": [
+        {
+          "nombre": "Guacamole",
+          "descripcion": "Dip tradicional mexicano a base de aguacate.",
+          "image": "/images/recetas/guacamole.webp",
+          "ingredientes": [
+            "2 aguacates",
+            "1/2 cebolla",
+            "1 tomate",
+            "1 limón",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Aplastar los aguacates y mezclar con cebolla y tomate picados.",
+            "Añadir jugo de limón y sal al gusto.",
+            "Mezclar bien y servir con chips de tortilla."
+          ]
+        },
+        {
+          "nombre": "Batido de Aguacate",
+          "descripcion": "Batido cremoso y nutritivo.",
+          "image": "/images/recetas/batido-avocado.webp",
+          "ingredientes": [
+            "1 aguacate",
+            "1 taza de leche",
+            "1 plátano",
+            "1 cucharada de miel"
+          ],
+          "instrucciones": [
+            "Mezclar todos los ingredientes en una licuadora.",
+            "Licuar hasta obtener una textura suave.",
+            "Servir frío."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "nombre": "Carambola",
+      "descripcion": "Fruta con forma de estrella y sabor dulce y ácido, conocida por su atractivo visual.",
+      "image": "/images/fruits/starfruit.webp",
+      "beneficios": [
+        "Rica en vitamina C",
+        "Buena fuente de antioxidantes",
+        "Apoya la salud digestiva"
+      ],
+      "valores_nutricionales": {
+        "calorias": 31,
+        "carbohidratos": 7.9,
+        "fibra": 2.8,
+        "vitamina C": "34%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Todo el año",
+      "clasificacion": "Exótica",
+      "cosecha": "Todo el año",
+      "seleccion_de_fruto": "Elegir carambolas que tengan un color amarillo brillante y una piel firme.",
+      "como_germinar_y_su_importancia": "Germinar carambolas es sencillo en climas cálidos. Son importantes para una dieta rica en vitamina C y antioxidantes.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidas frescas, en ensaladas, o como decoración en platos.",
+      "valores_diarios_recomendados": {
+        "fibra": "11%",
+        "vitamina_c": "34%",
+        "potasio": "2%"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Carambola",
+          "descripcion": "Ensalada refrescante con un toque exótico.",
+          "image": "/images/recetas/ensalada-carambola.webp",
+          "ingredientes": [
+            "2 carambolas",
+            "1 taza de lechuga",
+            "1/4 taza de nueces",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Cortar las carambolas en rodajas.",
+            "Mezclar con lechuga y nueces.",
+            "Añadir aderezo y mezclar bien."
+          ]
+        },
+        {
+          "nombre": "Jugo de Carambola",
+          "descripcion": "Jugo refrescante con un sabor único.",
+          "image": "/images/recetas/jugo-carambola.webp",
+          "ingredientes": [
+            "3 carambolas",
+            "1 taza de agua",
+            "Azúcar al gusto"
+          ],
+          "instrucciones": [
+            "Exprimir las carambolas para obtener el jugo.",
+            "Mezclar con agua y azúcar al gusto.",
+            "Servir frío."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "nombre": "Chirimoya",
+      "descripcion": "Fruta dulce y cremosa, con una textura similar a la del helado.",
+      "image": "/images/fruits/chirimoya.webp",
+      "beneficios": [
+        "Rica en vitamina C",
+        "Buena fuente de fibra",
+        "Apoya la salud digestiva"
+      ],
+      "valores_nutricionales": {
+        "calorias": 75,
+        "carbohidratos": 17.7,
+        "fibra": 3.0,
+        "vitamina C": "20%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Primavera - Verano",
+      "clasificacion": "Exótica",
+      "cosecha": "Septiembre - Noviembre",
+      "seleccion_de_fruto": "Elegir chirimoyas que estén firmes pero ligeramente ceden a la presión.",
+      "como_germinar_y_su_importancia": "Germinar chirimoyas requiere calor y un ambiente húmedo. Son importantes por su sabor dulce y contenido de nutrientes.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidas frescas, en batidos, o como postres.",
+      "valores_diarios_recomendados": {
+        "fibra": "12%",
+        "vitamina_c": "20%",
+        "potasio": "5%"
+      },
+      "recetas": [
+        {
+          "nombre": "Smoothie de Chirimoya",
+          "descripcion": "Batido cremoso con sabor tropical.",
+          "image": "/images/recetas/smoothie-chirimoya.webp",
+          "ingredientes": [
+            "1 chirimoya",
+            "1 taza de leche",
+            "1 cucharada de miel"
+          ],
+          "instrucciones": [
+            "Pelar y deshuesar la chirimoya.",
+            "Mezclar con leche y miel.",
+            "Licuar hasta obtener una mezcla suave.",
+            "Servir frío."
+          ]
+        },
+        {
+          "nombre": "Postre de Chirimoya",
+          "descripcion": "Postre dulce y refrescante.",
+          "image": "/images/recetas/postre-chirimoya.webp",
+          "ingredientes": [
+            "1 chirimoya",
+            "1 taza de crema para batir",
+            "1/2 taza de azúcar"
+          ],
+          "instrucciones": [
+            "Pelar y deshuesar la chirimoya.",
+            "Batir la crema con el azúcar.",
+            "Incorporar la chirimoya triturada.",
+            "Refrigerar hasta que cuaje."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "nombre": "Coco",
+      "descripcion": "Fruta tropical con una cáscara dura y una pulpa comestible, además de agua refrescante.",
+      "image": "/images/fruits/coconut.webp",
+      "beneficios": [
+        "Rico en grasas saludables",
+        "Buena fuente de fibra",
+        "Proporciona electrolitos"
+      ],
+      "valores_nutricionales": {
+        "calorias": 354,
+        "carbohidratos": 15.2,
+        "fibra": 9.0,
+        "vitamina C": "5%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Todo el año",
+      "clasificacion": "Exótica",
+      "cosecha": "Todo el año",
+      "seleccion_de_fruto": "Elegir cocos que tengan una cáscara firme y pesada.",
+      "como_germinar_y_su_importancia": "Germinar cocos requiere calor y un ambiente húmedo. Son esenciales por su agua y pulpa nutritiva.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidos frescos, en batidos, o el agua puede ser bebida directamente.",
+      "valores_diarios_recomendados": {
+        "fibra": "36%",
+        "vitamina_c": "5%",
+        "potasio": "14%"
+      },
+      "recetas": [
+        {
+          "nombre": "Agua de Coco",
+          "descripcion": "Bebida refrescante y natural.",
+          "image": "/images/recetas/agua-coco.webp",
+          "ingredientes": [
+            "1 coco",
+            "Hielo (opcional)"
+          ],
+          "instrucciones": [
+            "Abrir el coco y verter el agua en un vaso.",
+            "Agregar hielo si se desea.",
+            "Servir frío."
+          ]
+        },
+        {
+          "nombre": "Curry de Coco",
+          "descripcion": "Plato exótico y cremoso con un toque de coco.",
+          "image": "/images/recetas/curry-coco.webp",
+          "ingredientes": [
+            "1 taza de leche de coco",
+            "500 g de pollo",
+            "1 cebolla",
+            "2 dientes de ajo",
+            "Especias al gusto"
+          ],
+          "instrucciones": [
+            "Sofreír la cebolla y el ajo en una sartén.",
+            "Añadir el pollo y cocinar hasta dorar.",
+            "Incorporar la leche de coco y especias.",
+            "Cocinar a fuego lento hasta que el pollo esté bien cocido."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "nombre": "Dátil",
+      "descripcion": "Fruta dulce y energética, ideal para snacks y postres.",
+      "image": "/images/fruits/date.webp",
+      "beneficios": [
+        "Rico en fibra",
+        "Buena fuente de energía",
+        "Ayuda a la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 277,
+        "carbohidratos": 75.0,
+        "fibra": 6.7,
+        "vitamina C": "0%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Todo el año",
+      "clasificacion": "Exótica",
+      "cosecha": "Todo el año",
+      "seleccion_de_fruto": "Elegir dátiles que estén firmes y sin manchas.",
+      "como_germinar_y_su_importancia": "Germinar dátiles requiere calor y un ambiente seco. Son valiosos por su alto contenido de fibra y energía.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidos como snack, en postres, o en mezclas de frutos secos.",
+      "valores_diarios_recomendados": {
+        "fibra": "27%",
+        "vitamina_c": "0%",
+        "potasio": "20%"
+      },
+      "recetas": [
+        {
+          "nombre": "Bocaditos de Dátiles",
+          "descripcion": "Snacks saludables y energéticos.",
+          "image": "/images/recetas/bocaditos-datiles.webp",
+          "ingredientes": [
+            "10 dátiles",
+            "1/4 taza de nueces",
+            "1 cucharada de cacao en polvo"
+          ],
+          "instrucciones": [
+            "Deshuesar los dátiles y mezclarlos con las nueces.",
+            "Formar bolitas y espolvorear con cacao.",
+            "Servir como snack."
+          ]
+        },
+        {
+          "nombre": "Tarta de Dátiles",
+          "descripcion": "Tarta dulce con una base de dátiles.",
+          "image": "/images/recetas/tarta-datiles.webp",
+          "ingredientes": [
+            "1 taza de dátiles",
+            "1 taza de nueces",
+            "1/2 taza de cacao en polvo",
+            "1/4 taza de miel"
+          ],
+          "instrucciones": [
+            "Triturar los dátiles y nueces hasta formar una masa.",
+            "Presionar la masa en un molde para tarta.",
+            "Refrigerar por 2 horas antes de servir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "nombre": "Fruta de la Pasión",
+      "descripcion": "Fruta exótica con un sabor intenso y aroma floral, ideal para jugos y postres.",
+      "image": "/images/fruits/passionfruit.webp",
+      "beneficios": [
+        "Rica en antioxidantes",
+        "Buena fuente de fibra",
+        "Ayuda a la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 97,
+        "carbohidratos": 23.4,
+        "fibra": 10.4,
+        "vitamina C": "30%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Primavera - Verano",
+      "clasificacion": "Exótica",
+      "cosecha": "Noviembre - Marzo",
+      "seleccion_de_fruto": "Elegir frutas que estén firmes y tengan una piel arrugada.",
+      "como_germinar_y_su_importancia": "Germinar fruta de la pasión requiere calor. Es importante por su alto contenido de antioxidantes y fibra.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidas frescas, en jugos, o como ingrediente en postres.",
+      "valores_diarios_recomendados": {
+        "fibra": "41%",
+        "vitamina_c": "30%",
+        "potasio": "4%"
+      },
+      "recetas": [
+        {
+          "nombre": "Jugo de Fruta de la Pasión",
+          "descripcion": "Jugo fresco y aromático.",
+          "image": "/images/recetas/jugo-fruta-pasion.webp",
+          "ingredientes": [
+            "4 frutas de la pasión",
+            "1 taza de agua",
+            "Azúcar al gusto"
+          ],
+          "instrucciones": [
+            "Exprimir las frutas para obtener el jugo.",
+            "Mezclar con agua y azúcar al gusto.",
+            "Servir frío."
+          ]
+        },
+        {
+          "nombre": "Postre de Fruta de la Pasión",
+          "descripcion": "Postre ligero con sabor tropical.",
+          "image": "/images/recetas/postre-fruta-pasion.webp",
+          "ingredientes": [
+            "1 taza de pulpa de fruta de la pasión",
+            "1 taza de crema para batir",
+            "1/2 taza de azúcar"
+          ],
+          "instrucciones": [
+            "Batir la crema con el azúcar.",
+            "Incorporar la pulpa de fruta de la pasión.",
+            "Refrigerar hasta que cuaje."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "nombre": "Kiwi",
+      "descripcion": "Fruta pequeña y verde, conocida por su sabor ácido y dulce, rica en vitamina C.",
+      "image": "/images/fruits/kiwi.webp",
+      "beneficios": [
+        "Rico en vitamina C",
+        "Buena fuente de fibra",
+        "Apoya la salud digestiva"
+      ],
+      "valores_nutricionales": {
+        "calorias": 61,
+        "carbohidratos": 14.7,
+        "fibra": 3.0,
+        "vitamina C": "154%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Invierno - Primavera",
+      "clasificacion": "Exótica",
+      "cosecha": "Mayo - Octubre",
+      "seleccion_de_fruto": "Elegir kiwis que estén firmes pero ceden ligeramente a la presión.",
+      "como_germinar_y_su_importancia": "Germinar kiwis requiere un clima templado. Son importantes por su alto contenido de vitamina C y fibra.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidos frescos, en ensaladas, o en batidos.",
+      "valores_diarios_recomendados": {
+        "fibra": "12%",
+        "vitamina_c": "154%",
+        "potasio": "6%"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Kiwi",
+          "descripcion": "Ensalada fresca con trozos de kiwi.",
+          "image": "/images/recetas/ensalada-kiwi.webp",
+          "ingredientes": [
+            "3 kiwis",
+            "1 taza de espinacas",
+            "1/4 taza de nueces",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Pelar y cortar los kiwis en rodajas.",
+            "Mezclar con espinacas y nueces.",
+            "Añadir aderezo y mezclar bien."
+          ]
+        },
+        {
+          "nombre": "Smoothie de Kiwi",
+          "descripcion": "Batido refrescante con sabor a kiwi.",
+          "image": "/images/recetas/smoothie-kiwi.webp",
+          "ingredientes": [
+            "2 kiwis",
+            "1 taza de leche",
+            "1 plátano",
+            "1 cucharada de miel"
+          ],
+          "instrucciones": [
+            "Pelar y cortar los kiwis.",
+            "Mezclar con leche, plátano y miel.",
+            "Licuar hasta obtener una mezcla suave.",
+            "Servir frío."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "nombre": "Litchi",
+      "descripcion": "Fruta tropical pequeña con una cáscara rugosa y pulpa jugosa y dulce.",
+      "image": "/images/fruits/lychee.webp",
+      "beneficios": [
+        "Rico en vitamina C",
+        "Buena fuente de antioxidantes",
+        "Ayuda a la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 66,
+        "carbohidratos": 16.5,
+        "fibra": 1.3,
+        "vitamina C": "71%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Primavera - Verano",
+      "clasificacion": "Exótica",
+      "cosecha": "Mayo - Agosto",
+      "seleccion_de_fruto": "Elegir lichis con una cáscara de color rojo brillante y una pulpa jugosa.",
+      "como_germinar_y_su_importancia": "Germinar lichis requiere calor y humedad. Son importantes por su contenido de vitamina C y antioxidantes.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidos frescos, en ensaladas, o como postres.",
+      "valores_diarios_recomendados": {
+        "fibra": "5%",
+        "vitamina_c": "71%",
+        "potasio": "6%"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Litchi",
+          "descripcion": "Ensalada fresca con lichis.",
+          "image": "/images/recetas/ensalada-lychee.webp",
+          "ingredientes": [
+            "10 lichis",
+            "1 taza de lechuga",
+            "1/4 taza de nueces",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Pelar y deshuesar los lichis.",
+            "Mezclar con lechuga y nueces.",
+            "Añadir aderezo y mezclar bien."
+          ]
+        },
+        {
+          "nombre": "Jugo de Litchi",
+          "descripcion": "Jugo dulce y refrescante.",
+          "image": "/images/recetas/jugo-lychee.webp",
+          "ingredientes": [
+            "15 lichis",
+            "1 taza de agua",
+            "Azúcar al gusto"
+          ],
+          "instrucciones": [
+            "Exprimir los lichis para obtener el jugo.",
+            "Mezclar con agua y azúcar al gusto.",
+            "Servir frío."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "nombre": "Mango",
+      "descripcion": "Fruta tropical dulce y jugosa, conocida por su sabor tropical y alto contenido de vitamina C.",
+      "image": "/images/fruits/mango.webp",
+      "beneficios": [
+        "Rico en vitamina C",
+        "Buena fuente de fibra",
+        "Apoya la salud ocular"
+      ],
+      "valores_nutricionales": {
+        "calorias": 60,
+        "carbohidratos": 14.9,
+        "fibra": 1.6,
+        "vitamina C": "67%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Primavera - Verano",
+      "clasificacion": "Exótica",
+      "cosecha": "Mayo - Septiembre",
+      "seleccion_de_fruto": "Elegir mangos que estén firmes pero ceden ligeramente a la presión.",
+      "como_germinar_y_su_importancia": "Germinar mangos requiere calor y humedad. Son importantes por su sabor dulce y contenido de vitamina C.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidos frescos, en batidos, o en postres.",
       "valores_diarios_recomendados": {
         "fibra": "6%",
-        "vitamina_c": "17%",
-        "potasio": "5%"
-      }
+        "vitamina_c": "67%",
+        "potasio": "7%"
+      },
+      "recetas": [
+        {
+          "nombre": "Smoothie de Mango",
+          "descripcion": "Batido tropical y cremoso.",
+          "image": "/images/recetas/smoothie-mango.webp",
+          "ingredientes": [
+            "1 mango",
+            "1 taza de leche",
+            "1 plátano",
+            "1 cucharada de miel"
+          ],
+          "instrucciones": [
+            "Pelar y cortar el mango.",
+            "Mezclar con leche, plátano y miel.",
+            "Licuar hasta obtener una mezcla suave.",
+            "Servir frío."
+          ]
+        },
+        {
+          "nombre": "Ensalada de Mango",
+          "descripcion": "Ensalada fresca con mango y otros ingredientes tropicales.",
+          "image": "/images/recetas/ensalada-mango.webp",
+          "ingredientes": [
+            "1 mango",
+            "1 taza de espinacas",
+            "1/4 taza de nueces",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Pelar y cortar el mango en cubos.",
+            "Mezclar con espinacas y nueces.",
+            "Añadir aderezo y mezclar bien."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "nombre": "Papaya",
+      "descripcion": "Fruta tropical dulce y suave, conocida por sus propiedades digestivas y su alto contenido de vitamina C.",
+      "image": "/images/fruits/papaya.webp",
+      "beneficios": [
+        "Rica en vitamina C",
+        "Contiene enzimas digestivas",
+        "Buena fuente de fibra"
+      ],
+      "valores_nutricionales": {
+        "calorias": 43,
+        "carbohidratos": 10.8,
+        "fibra": 1.7,
+        "vitamina C": "75%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Todo el año",
+      "clasificacion": "Exótica",
+      "cosecha": "Todo el año",
+      "seleccion_de_fruto": "Elegir papayas que estén maduras y tengan una piel amarilla.",
+      "como_germinar_y_su_importancia": "Germinar papayas requiere calor. Son importantes por su sabor dulce y propiedades digestivas.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidas frescas, en batidos, o en ensaladas.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "vitamina_c": "75%",
+        "potasio": "9%"
+      },
+      "recetas": [
+        {
+          "nombre": "Smoothie de Papaya",
+          "descripcion": "Batido refrescante y nutritivo.",
+          "image": "/images/recetas/smoothie-papaya.webp",
+          "ingredientes": [
+            "1 taza de papaya",
+            "1 taza de leche",
+            "1 cucharada de miel"
+          ],
+          "instrucciones": [
+            "Pelar y cortar la papaya.",
+            "Mezclar con leche y miel.",
+            "Licuar hasta obtener una mezcla suave.",
+            "Servir frío."
+          ]
+        },
+        {
+          "nombre": "Ensalada de Papaya",
+          "descripcion": "Ensalada fresca con papaya y otros ingredientes tropicales.",
+          "image": "/images/recetas/ensalada-papaya.webp",
+          "ingredientes": [
+            "1 taza de papaya",
+            "1 taza de lechuga",
+            "1/4 taza de nueces",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Pelar y cortar la papaya en cubos.",
+            "Mezclar con lechuga y nueces.",
+            "Añadir aderezo y mezclar bien."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "nombre": "Piña",
+      "descripcion": "Fruta tropical dulce y jugosa, conocida por su sabor refrescante y propiedades digestivas.",
+      "image": "/images/fruits/pineapple.webp",
+      "beneficios": [
+        "Rica en vitamina C",
+        "Contiene bromelina",
+        "Buena fuente de fibra"
+      ],
+      "valores_nutricionales": {
+        "calorias": 50,
+        "carbohidratos": 13.1,
+        "fibra": 1.4,
+        "vitamina C": "79%"
+      },
+      "categoria": "Fruta",
+      "estacion": "Todo el año",
+      "clasificacion": "Exótica",
+      "cosecha": "Todo el año",
+      "seleccion_de_fruto": "Elegir piñas que tengan una piel dorada y una corona de hojas verdes.",
+      "como_germinar_y_su_importancia": "Germinar piñas requiere calor y luz. Son importantes por su sabor y beneficios digestivos.",
+      "como_consumir_una_vez_cosechada": "Pueden ser consumidas frescas, en jugos, o en postres.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "vitamina_c": "79%",
+        "potasio": "6%"
+      },
+      "recetas": [
+        {
+          "nombre": "Jugo de Piña",
+          "descripcion": "Jugo fresco y dulce.",
+          "image": "/images/recetas/jugo-pina.webp",
+          "ingredientes": [
+            "1 piña",
+            "1 taza de agua",
+            "Azúcar al gusto"
+          ],
+          "instrucciones": [
+            "Pelar y cortar la piña.",
+            "Mezclar con agua y azúcar al gusto.",
+            "Licuar hasta obtener una mezcla suave.",
+            "Servir frío."
+          ]
+        },
+        {
+          "nombre": "Ensalada de Piña",
+          "descripcion": "Ensalada fresca con piña y otros ingredientes tropicales.",
+          "image": "/images/recetas/ensalada-pina.webp",
+          "ingredientes": [
+            "1 taza de piña",
+            "1 taza de espinacas",
+            "1/4 taza de nueces",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Pelar y cortar la piña en cubos.",
+            "Mezclar con espinacas y nueces.",
+            "Añadir aderezo y mezclar bien."
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "verduras": []
 }
-

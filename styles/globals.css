@@ -2,8 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  margin: 0;
+  display: block;
+  background-image: url(/images/bkg.jpg);
+  background-attachment: scroll;
+  background-position: center center;
+  opacity: 0.1;
+}
+
+.cream-06 {
+  color: rgba(253, 251, 241, 0.6);
+}
+.cream-10 {
+  color: rgba(253, 251, 241, 1);
+}
+
+.bg-green {
+  background-color: #30423C;
+}
+.bg-green-10 {
+  background-color: rgba(48, 66, 60, 0.1);
+}
+
 main {
-  max-width: 1400px !important;
   margin: auto;
   padding: 75px;
 }
@@ -21,7 +50,7 @@ main {
 
 @media (max-width: 991.98px){
   main {
-    padding: 25px;
+    padding: 15px;
   }
   
 }

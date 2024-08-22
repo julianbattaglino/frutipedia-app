@@ -1,0 +1,336 @@
+{
+  "frutas": [
+    {
+      "id": "1",
+      "nombre": "Manzana",
+      "descripcion": "Una fruta dulce y crujiente, rica en fibra y vitaminas.",
+      "image": "/images/fruits/apple.webp",
+      "beneficios": [
+        "Mejora la digestión",
+        "Rica en antioxidantes",
+        "Ayuda a la pérdida de peso"
+      ],
+      "valores_nutricionales": {
+        "calorias": 52,
+        "carbohidratos": 14,
+        "fibra": 2.4,
+        "vitamina C": "14%"
+      },
+      "categoria": "fruta",
+      "estacion": "otoño",
+      "clasificacion": "pomo",
+      "cosecha": "febrero",
+      "seleccion_de_fruto": "Seleccionar firmes y sin manchas; deben estar de color rojo o verde brillante.",
+      "como_germinar_y_su_importancia": "Para germinar una manzana, planta las semillas en una maceta con tierra fértil y mantén la humedad. Germinar manzanas ayuda a propagar árboles frutales y es una forma sostenible de cultivar alimentos.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechada, la manzana puede ser consumida cruda, en jugos, ensaladas o cocida en postres como tartas y compotas.",
+      "valores_diarios_recomendados": {
+        "fibra": "10%",
+        "vitamina_c": "14%",
+        "potasio": "6%"
+      },
+      "recetas": [
+        {
+          "nombre": "Tarta de Manzana",
+          "descripcion": "Una deliciosa tarta con manzanas frescas.",
+          "image": "/images/recetas/tarta-manzana.webp",
+          "ingredientes": [
+            "2 manzanas",
+            "1 taza de azúcar",
+            "1 taza de harina",
+            "2 huevos",
+            "1/2 taza de mantequilla"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 180°C.",
+            "Pela y corta las manzanas.",
+            "Mezcla los ingredientes secos.",
+            "Añade los huevos y la mantequilla.",
+            "Coloca las manzanas en la mezcla y hornea por 30 minutos."
+          ]
+        },
+        {
+          "nombre": "Ensalada de Manzana",
+          "descripcion": "Una ensalada fresca con trozos de manzana.",
+          "image": "/images/recetas/ensalada-manzana.jpg",
+          "ingredientes": [
+            "1 manzana",
+            "1 lechuga",
+            "1/2 taza de nueces",
+            "1/4 taza de pasas",
+            "2 cucharadas de vinagreta"
+          ],
+          "instrucciones": [
+            "Lava y corta la lechuga.",
+            "Corta la manzana en trozos.",
+            "Mezcla todos los ingredientes en un bol.",
+            "Añade la vinagreta y mezcla bien."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Banana",
+      "descripcion": "Una fruta dulce y cremosa, rica en potasio y vitaminas.",
+      "image": "/images/fruits/banana.jpeg",
+      "beneficios": [
+        "Proporciona energía rápida",
+        "Mejora la digestión",
+        "Ayuda a mantener la presión arterial"
+      ],
+      "valores_nutricionales": {
+        "calorias": 89,
+        "carbohidratos": 23,
+        "fibra": 2.6,
+        "potasio": "12%"
+      },
+      "categoria": "fruta",
+      "estacion": "todo el año",
+      "clasificacion": "Fruta tropical",
+      "cosecha": "octubre",
+      "seleccion_de_fruto": "Seleccionar amarillos y sin manchas oscuras; en el árbol, deben estar en la fase de maduración.",
+      "como_germinar_y_su_importancia": "Las bananas no se cultivan a partir de semillas, sino de rizomas o brotes. La plantación en suelos bien drenados y ricos en nutrientes asegura una cosecha abundante.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechada, la banana puede ser consumida cruda, en batidos, o utilizada en postres y repostería.",
+      "valores_diarios_recomendados": {
+        "fibra": "10%",
+        "vitamina_b6": "20%",
+        "potasio": "12%"
+      }
+    },
+    {
+      "id": "3",
+      "nombre": "Naranja",
+      "descripcion": "Una fruta cítrica, jugosa y refrescante, rica en vitamina C.",
+      "image": "/images/fruits/naranja.jpg",
+      "beneficios": [
+        "Fortalece el sistema inmunológico",
+        "Mejora la salud de la piel",
+        "Ayuda a la salud cardiovascular"
+      ],
+      "valores_nutricionales": {
+        "calorias": 47,
+        "carbohidratos": 12,
+        "fibra": 2.4,
+        "vitamina C": "88%"
+      },
+      "categoria": "fruta",
+      "estacion": "invierno",
+      "clasificacion": "Fruta cítrica",
+      "cosecha": "enero",
+      "seleccion_de_fruto": "Seleccionar naranjas y firmes; en el árbol, deben estar completamente coloreadas y maduras.",
+      "como_germinar_y_su_importancia": "Las naranjas se cultivan a partir de esquejes o injertos en lugar de semillas. La plantación en suelos bien drenados y soleados asegura una buena producción de frutas.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechada, la naranja puede ser consumida cruda, en jugos, ensaladas o como parte de postres.",
+      "valores_diarios_recomendados": {
+        "fibra": "10%",
+        "vitamina_c": "88%",
+        "potasio": "7%"
+      }
+    },
+    {
+      "id": "4",
+      "nombre": "Frutilla/Fresa",
+      "descripcion": "Una fruta pequeña y roja, con un sabor dulce y ácido, rica en antioxidantes.",
+      "image": "/images/fruits/frutilla.jpg",
+      "beneficios": [
+        "Mejora la salud cardiovascular",
+        "Ayuda a la salud ocular",
+        "Refuerza el sistema inmunológico"
+      ],
+      "valores_nutricionales": {
+        "calorias": 32,
+        "carbohidratos": 7.7,
+        "fibra": 2,
+        "vitamina C": "59%"
+      },
+      "categoria": "fruta",
+      "estacion": "primavera",
+      "clasificacion": "Baya",
+      "cosecha": "septiembre",
+      "seleccion_de_fruto": "Seleccionar rojas y sin moho; deben ser firmes y con hojas verdes.",
+      "como_germinar_y_su_importancia": "Para germinar fresas, planta los stolones en un suelo bien drenado. Las fresas propagadas de esta manera permitirán una producción continua de frutas.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechada, la fresa puede ser consumida cruda, en batidos, postres, o como parte de ensaladas.",
+      "valores_diarios_recomendados": {
+        "fibra": "10%",
+        "vitamina_c": "59%",
+        "potasio": "5%"
+      }
+    },
+    {
+      "id": "5",
+      "nombre": "Uva",
+      "descripcion": "Una fruta pequeña y jugosa, que se consume fresca o se usa para hacer vino.",
+      "image": "https://example.com/images/uva.jpg",
+      "beneficios": [
+        "Promueve la salud cardiovascular",
+        "Ayuda a la digestión",
+        "Rica en antioxidantes"
+      ],
+      "valores_nutricionales": {
+        "calorias": 69,
+        "carbohidratos": 18,
+        "fibra": 0.9,
+        "vitamina C": "4%"
+      },
+      "categoria": "fruta",
+      "estacion": "verano",
+      "clasificacion": "Baya",
+      "cosecha": "febrero",
+      "seleccion_de_fruto": "Seleccionar firmes y sin arrugas; deben estar completamente coloreadas y maduras.",
+      "como_germinar_y_su_importancia": "Las uvas se cultivan a partir de esquejes o semillas en climas cálidos. La germinación adecuada asegura una buena producción de racimos.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechada, la uva puede ser consumida cruda, en jugos, o utilizada en la elaboración de vino.",
+      "valores_diarios_recomendados": {
+        "fibra": "4%",
+        "vitamina_c": "4%",
+        "potasio": "6%"
+      }
+    }
+  ],
+  "verduras": [
+    {
+      "id": "11",
+      "nombre": "Zanahoria",
+      "descripcion": "Una raíz crujiente y dulce, rica en vitamina A y betacarotenos.",
+      "image": "/images/vegetables/carrot.jpg",
+      "beneficios": [
+        "Mejora la visión",
+        "Promueve la salud de la piel",
+        "Rica en antioxidantes"
+      ],
+      "valores_nutricionales": {
+        "calorias": 41,
+        "carbohidratos": 10,
+        "fibra": 2.8,
+        "vitamina A": "334%"
+      },
+      "categoria": "verdura",
+      "estacion": "otoño",
+      "clasificacion": "Raíz",
+      "cosecha": "abril",
+      "seleccion_de_fruto": "Seleccionar firmes y sin manchas; deben ser de color naranja brillante.",
+      "como_germinar_y_su_importancia": "Para germinar zanahorias, planta las semillas en un suelo bien drenado. La germinación asegura una cosecha de raíces nutritivas y de buen tamaño.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechada, la zanahoria puede ser consumida cruda, en ensaladas, o cocida en sopas y guisos.",
+      "valores_diarios_recomendados": {
+        "fibra": "11%",
+        "vitamina_a": "334%",
+        "potasio": "7%"
+      }
+    },
+    {
+      "id": "12",
+      "nombre": "Espinaca",
+      "descripcion": "Una hoja verde y nutritiva, rica en hierro y vitaminas.",
+      "image": "/images/vegetables/spinach.jpg",
+      "beneficios": [
+        "Fortalece los huesos",
+        "Ayuda a la salud ocular",
+        "Rica en antioxidantes"
+      ],
+      "valores_nutricionales": {
+        "calorias": 23,
+        "carbohidratos": 3.6,
+        "fibra": 2.2,
+        "vitamina K": "460%"
+      },
+      "categoria": "verdura",
+      "estacion": "primavera",
+      "clasificacion": "Hoja",
+      "cosecha": "junio",
+      "seleccion_de_fruto": "Seleccionar hojas verdes y frescas; deben estar libres de manchas y plagas.",
+      "como_germinar_y_su_importancia": "Para germinar espinacas, planta las semillas en suelo húmedo y rico en nutrientes. Germinar espinacas asegura un suministro constante de hojas nutritivas.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechada, la espinaca puede ser consumida cruda en ensaladas, o cocida en guisos y sopas.",
+      "valores_diarios_recomendados": {
+        "fibra": "8%",
+        "vitamina_k": "460%",
+        "potasio": "11%"
+      }
+    },
+    {
+      "id": "13",
+      "nombre": "Tomate",
+      "descripcion": "Una fruta que se usa comúnmente como verdura, rica en licopeno y vitaminas.",
+      "image": "/images/vegetables/tomato.jpg",
+      "beneficios": [
+        "Mejora la salud del corazón",
+        "Ayuda a la salud de la piel",
+        "Rico en antioxidantes"
+      ],
+      "valores_nutricionales": {
+        "calorias": 18,
+        "carbohidratos": 3.9,
+        "fibra": 1.2,
+        "vitamina C": "22%"
+      },
+      "categoria": "verdura",
+      "estacion": "verano",
+      "clasificacion": "Fruto",
+      "cosecha": "julio",
+      "seleccion_de_fruto": "Seleccionar rojos y firmes; deben estar completamente maduros y sin manchas.",
+      "como_germinar_y_su_importancia": "Para germinar tomates, planta las semillas en un suelo cálido y bien drenado. Germinar tomates asegura una cosecha abundante y saludable.",
+      "como_consumir_una_vez_cosechada": "Una vez cosechado, el tomate puede ser consumido crudo en ensaladas, en salsas, o cocido en diversos platillos.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "vitamina_c": "22%",
+        "potasio": "5%"
+      }
+    },
+    {
+      "id": "14",
+      "nombre": "Pimiento",
+      "descripcion": "Un vegetal colorido, rico en vitaminas A y C, y antioxidantes.",
+      "image": "/images/vegetables/pepper.jpg",
+      "beneficios": [
+        "Fortalece el sistema inmunológico",
+        "Ayuda a la salud ocular",
+        "Rico en antioxidantes"
+      ],
+      "valores_nutricionales": {
+        "calorias": 20,
+        "carbohidratos": 4.7,
+        "fibra": 1.7,
+        "vitamina C": "120%"
+      },
+      "categoria": "verdura",
+      "estacion": "verano",
+      "clasificacion": "Fruto",
+      "cosecha": "junio",
+      "seleccion_de_fruto": "Seleccionar coloridos y firmes; deben estar completamente maduros y sin manchas.",
+      "como_germinar_y_su_importancia": "Para germinar pimientos, planta las semillas en un suelo cálido y húmedo. Germinar pimientos asegura una producción continua de frutos nutritivos.",
+      "como_consumir_una_vez_cosechado": "Una vez cosechado, el pimiento puede ser consumido crudo en ensaladas, o cocido en guisos y salsas.",
+      "valores_diarios_recomendados": {
+        "fibra": "8%",
+        "vitamina_c": "120%",
+        "potasio": "4%"
+      }
+    },
+    {
+      "id": "15",
+      "nombre": "Calabacín",
+      "descripcion": "Una verdura versátil y suave, rica en vitaminas y minerales.",
+      "image": "/images/vegetables/zucchini.jpg",
+      "beneficios": [
+        "Mejora la digestión",
+        "Ayuda a la salud del corazón",
+        "Rico en antioxidantes"
+      ],
+      "valores_nutricionales": {
+        "calorias": 17,
+        "carbohidratos": 3.1,
+        "fibra": 1.1,
+        "vitamina C": "17%"
+      },
+      "categoria": "verdura",
+      "estacion": "verano",
+      "clasificacion": "Fruto",
+      "cosecha": "junio",
+      "seleccion_de_fruto": "Seleccionar firmes y pequeños; deben estar de un color verde brillante y sin manchas.",
+      "como_germinar_y_su_importancia": "Para germinar calabacín, planta las semillas en un suelo cálido y húmedo. Germinar calabacín asegura una buena cosecha y producción continua.",
+      "como_consumir_una_vez_cosechado": "Una vez cosechado, el calabacín puede ser consumido crudo en ensaladas, o cocido en guisos, sopas y salteados.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "vitamina_c": "17%",
+        "potasio": "5%"
+      }
+    }
+  ]
+}
+

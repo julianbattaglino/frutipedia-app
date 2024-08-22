@@ -56,7 +56,7 @@ const FruitData = () => {
 
   return (
     <div>
-      <div className="filters flex flex-wrap gap-4 p-4 bg-stone-50 rounded-lg shadow-md">
+      <div className="backdrop-blur-sm filters flex justify-center flex-wrap gap-4 p-4 bg-green-10 rounded-lg shadow-md">
 
         {/*  Type Filters */}
         <label className="form-control w-full max-w-xs">
@@ -146,12 +146,12 @@ const FruitData = () => {
 
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pt-10">
+      <div className="max-w-screen-xl m-auto justify-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pt-10">
         {filteredData.map((item) => (
-          <Link key={item.id} href={`/${item.categoria}/${item.id}`}>
+          <Link key={item.id} href={`/${item.categoria.toLowerCase()}/${item.id}`}>
             <div className="hover:scale-[1.01] ease-out duration-300 max-w-sm rounded overflow-hidden shadow-lg">
               <img className="grid-imgs" src={item.image} alt={item.nombre} />
-              <div className="px-6 py-4">
+              <div className="backdrop-blur-sm bg-white/10 px-6 py-4">
                 <div className="mb-3 mt-3 badge badge-accent capitalize">{item.categoria}</div>
                 <div className="font-bold text-xl mb-2">{item.nombre}</div>
                 <button className="btn btn-xs">
