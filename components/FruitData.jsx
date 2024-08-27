@@ -41,7 +41,7 @@ const FruitData = () => {
     }
 
     if (month !== 'all') {
-      allItems = allItems.filter(item => item.cosecha === month);
+      allItems = allItems.filter(item => item.cosecha.includes(month));
     }
 
     if (classification !== 'all') {
@@ -69,8 +69,8 @@ const FruitData = () => {
             onChange={(e) => setType(e.target.value)}
             value={type}>
             <option selected value="all">Todos</option>
-            <option value="fruta">Frutas</option>
-            <option value="verdura">Verduras</option>
+            <option value="Fruta">Frutas</option>
+            <option value="Verdura">Verduras</option>
           </select>
         </label>
 
@@ -86,10 +86,10 @@ const FruitData = () => {
             value={season}
           >
             <option value="all">Todas las estaciones</option>
-            <option value="primavera">Primavera</option>
-            <option value="verano">Verano</option>
-            <option value="otoño">Otoño</option>
-            <option value="invierno">Invierno</option>
+            <option value="Primavera">Primavera</option>
+            <option value="Verano">Verano</option>
+            <option value="Otoño">Otoño</option>
+            <option value="Invierno">Invierno</option>
           </select>
         </label>
 
@@ -104,19 +104,20 @@ const FruitData = () => {
             onChange={(e) => setMonth(e.target.value)}
             value={month}
           >
-            <option selected value="all">Todos los meses</option>
-            <option value="enero">Enero</option>
-            <option value="febrero">Febrero</option>
-            <option value="marzo">Marzo</option>
-            <option value="abril">Abril</option>
-            <option value="mayo">Mayo</option>
-            <option value="junio">Junio</option>
-            <option value="julio">Julio</option>
-            <option value="agosto">Agosto</option>
-            <option value="septiembre">Septiembre</option>
-            <option value="octubre">Octubre</option>
-            <option value="noviembre">Noviembre</option>
-            <option value="diciembre">Diciembre</option>
+            <option selected value="all">Sin filtros</option>
+            <option value="Todo el año">Todo el año</option>
+            <option value="Enero">Enero</option>
+            <option value="Febrero">Febrero</option>
+            <option value="Marzo">Marzo</option>
+            <option value="Abril">Abril</option>
+            <option value="Mayo">Mayo</option>
+            <option value="Junio">Junio</option>
+            <option value="Julio">Julio</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Septiembre">Septiembre</option>
+            <option value="Octubre">Octubre</option>
+            <option value="Noviembre">Noviembre</option>
+            <option value="Diciembre">Diciembre</option>
           </select>
         </label>
 
