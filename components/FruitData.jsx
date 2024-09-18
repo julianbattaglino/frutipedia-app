@@ -9,6 +9,7 @@ const FruitData = () => {
   const [season, setSeason] = useState('all');
   const [month, setMonth] = useState('all');
   const [classification, setClassification] = useState('all');
+  const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
     fetch('/data/db.json')
@@ -17,7 +18,6 @@ const FruitData = () => {
         setData(data);
         setFilteredData([...data.frutas, ...data.verduras]);
         setLoading(false);
-        console.log(data);
       })
       .catch((error) => {
         console.error('Error fetching data:', error);
@@ -27,7 +27,7 @@ const FruitData = () => {
 
   useEffect(() => {
     filterData();
-  }, [type, season, month, classification]);
+  }, [type, season, month, classification, searchTerm]);
 
   const filterData = () => {
     let allItems = [...data.frutas, ...data.verduras];
@@ -48,6 +48,12 @@ const FruitData = () => {
       allItems = allItems.filter(item => item.clasificacion === classification);
     }
 
+    if (searchTerm) {
+      allItems = allItems.filter(item =>
+        item.nombre.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+    }
+
     setFilteredData(allItems);
   };
 
@@ -57,8 +63,21 @@ const FruitData = () => {
   return (
     <div>
       <div className="backdrop-blur-sm filters flex justify-center xl:flex-nowrap flex-wrap gap-4 p-4 bg-green-10 rounded-lg shadow-md">
+        {/* Search Bar */}
+        <label className="form-control w-full max-w-xs">
+          <div className="label">
+            <span className="label-text">Buscar por nombre</span>
+          </div>
+          <input
+            type="text"
+            placeholder="Ej: Manzana"
+            className="input input-bordered input-sm w-full max-w-xs"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </label>
 
-        {/*  Type Filters */}
+        {/* Type Filters */}
         <label className="form-control w-full max-w-xs">
           <div className="label">
             <span className="label-text">Seleccionar por tipo</span>
@@ -76,7 +95,7 @@ const FruitData = () => {
           </select>
         </label>
 
-        {/*  Season Filters */}
+        {/* Season Filters */}
         <label className="form-control w-full max-w-xs">
           <div className="label">
             <span className="label-text">Estación de consumo</span>
@@ -95,7 +114,7 @@ const FruitData = () => {
           </select>
         </label>
 
-        {/*  Month Filters */}
+        {/* Month Filters */}
         <label className="form-control w-full max-w-xs">
           <div className="label">
             <span className="label-text">Cosecha</span>
@@ -123,11 +142,11 @@ const FruitData = () => {
           </select>
         </label>
 
-        {/*  Clasification Filters */}
+        {/* Classification Filters */}
         <label className="form-control w-full max-w-xs">
           <div className="label">
-            <span className="label-text">Clasificaciòn</span>
-            <span className="label-text-alt">Ej: Citrico</span>
+            <span className="label-text">Clasificación</span>
+            <span className="label-text-alt">Ej: Cítrico</span>
           </div>
           <select className="select select-success w-full max-w-xs select-sm rounded"
             id="classification"
@@ -146,7 +165,6 @@ const FruitData = () => {
             <option value="Crucífera">Crucífera</option>
           </select>
         </label>
-
       </div>
 
       <div className="max-w-screen-xl m-auto justify-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pt-10">
@@ -165,7 +183,6 @@ const FruitData = () => {
           </Link>
         ))}
       </div>
-
     </div>
   );
 };

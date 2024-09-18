@@ -131,7 +131,7 @@
     },
     {
       "id": "3",
-      "nombre": "Fresa",
+      "nombre": "Frutilla/Fresa",
       "descripcion": "Fruta roja y jugosa, rica en vitamina C y antioxidantes.",
       "image": "/images/fruits/frutilla.jpg",
       "beneficios": [
@@ -1025,7 +1025,7 @@
     },
     {
       "id": "17",
-      "nombre": "Aguacate",
+      "nombre": "Palta/Aguacate",
       "descripcion": "Fruta cremosa y rica en grasas saludables, ideal para ensaladas y guacamole.",
       "image": "/images/fruits/palta.webp",
       "beneficios": [
@@ -1653,7 +1653,7 @@
     },
     {
       "id": "27",
-      "nombre": "Piña",
+      "nombre": "Anana/Piña",
       "descripcion": "Fruta tropical dulce y jugosa, conocida por su sabor refrescante y propiedades digestivas.",
       "image": "/images/fruits/piña.webp",
       "beneficios": [
