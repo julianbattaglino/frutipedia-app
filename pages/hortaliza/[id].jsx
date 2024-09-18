@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
-const VerduraDetail = () => {
+const HortalizaDetail = () => {
   const router = useRouter();
   const { id } = router.query;
   const [data, setData] = useState(null);
@@ -175,4 +175,4 @@ const VerduraDetail = () => {
   );
 };
 
-export default VerduraDetail;
+export default HortalizaDetail;

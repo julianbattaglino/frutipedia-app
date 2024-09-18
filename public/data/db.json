@@ -1715,5 +1715,2074 @@
       ]
     }
   ],
-  "verduras": []
+  "verduras": [
+    {
+      "id": "100",
+      "nombre": "Brócoli",
+      "descripcion": "Verdura rica en fibra, vitaminas C y K, y antioxidantes.",
+      "image": "/images/verduras/brocoli.webp",
+      "beneficios": [
+        "Fortalece el sistema inmunológico",
+        "Promueve la salud digestiva",
+        "Reduce el riesgo de ciertos tipos de cáncer"
+      ],
+      "valores_nutricionales": {
+        "calorias": 34,
+        "carbohidratos": 6.6,
+        "fibra": 2.6,
+        "vitamina C": "89%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Primavera",
+      "clasificacion": "Brasicácea",
+      "cosecha": ["Abril", "mayo", "junio"],
+      "seleccion_de_fruto": "Seleccionar brócoli con cabezas firmes y verdes, sin flores amarillas.",
+      "como_germinar_y_su_importancia": "El brócoli se cultiva a partir de semillas y se siembra en suelos ricos en nutrientes. Es importante para la salud y la prevención de enfermedades.",
+      "como_consumir_una_vez_cosechada": "Se puede cocinar al vapor, saltear o comer crudo en ensaladas.",
+      "valores_diarios_recomendados": {
+        "fibra": "10%",
+        "vitamina_c": "89%",
+        "calcio": "4%"
+      },
+      "recetas": [
+        {
+          "nombre": "Brócoli al Vapor",
+          "descripcion": "Brócoli cocido al vapor con un toque de limón.",
+          "image": "/images/recetas/brocoli-al-vapor.webp",
+          "ingredientes": [
+            "1 cabeza de brócoli",
+            "1 cucharada de jugo de limón",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Corta el brócoli en ramilletes.",
+            "Cocina al vapor durante 5-7 minutos.",
+            "Agrega el jugo de limón y sal al gusto."
+          ]
+        },
+        {
+          "nombre": "Sopa de Brócoli",
+          "descripcion": "Sopa cremosa de brócoli con cebolla y ajo.",
+          "image": "/images/recetas/sopa-de-brocoli.webp",
+          "ingredientes": [
+            "1 cabeza de brócoli",
+            "1 cebolla",
+            "2 dientes de ajo",
+            "4 tazas de caldo de verduras",
+            "1/2 taza de crema"
+          ],
+          "instrucciones": [
+            "Sofríe la cebolla y el ajo en una olla.",
+            "Añade el brócoli y el caldo de verduras.",
+            "Cocina hasta que el brócoli esté tierno.",
+            "Licúa la mezcla y agrega la crema."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "nombre": "Col blanca",
+      "descripcion": "Verdura crucífera de sabor suave y textura crujiente.",
+      "image": "/images/verduras/col-blanca.webp",
+      "beneficios": [
+        "Buena fuente de fibra",
+        "Ayuda a la digestión",
+        "Contiene antioxidantes"
+      ],
+      "valores_nutricionales": {
+        "calorias": 25,
+        "carbohidratos": 6.0,
+        "fibra": 2.5,
+        "vitamina C": "36%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Otoño",
+      "clasificacion": "Brasicácea",
+      "cosecha": ["Septiembre", "octubre"],
+      "seleccion_de_fruto": "Seleccionar col con hojas firmes y compactas.",
+      "como_germinar_y_su_importancia": "La col se cultiva a partir de semillas y es crucial para una dieta equilibrada.",
+      "como_consumir_una_vez_cosechada": "Ideal para ensaladas, salteados y fermentos.",
+      "valores_diarios_recomendados": {
+        "fibra": "10%",
+        "vitamina_c": "36%",
+        "calcio": "3%"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Col Blanca",
+          "descripcion": "Ensalada fresca con col blanca y zanahoria.",
+          "image": "/images/recetas/ensalada-col-blanca.webp",
+          "ingredientes": [
+            "2 tazas de col blanca rallada",
+            "1 zanahoria rallada",
+            "1/4 taza de aderezo",
+            "Sal y pimienta al gusto"
+          ],
+          "instrucciones": [
+            "Mezcla la col blanca y la zanahoria.",
+            "Agrega el aderezo y mezcla bien.",
+            "Sazona con sal y pimienta al gusto."
+          ]
+        },
+        {
+          "nombre": "Col Blanca Salteada",
+          "descripcion": "Col blanca salteada con ajo y cebolla.",
+          "image": "/images/recetas/col-blanca-salteada.webp",
+          "ingredientes": [
+            "1 cabeza de col blanca",
+            "2 dientes de ajo",
+            "1 cebolla",
+            "1 cucharada de aceite",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Sofríe el ajo y la cebolla en aceite.",
+            "Añade la col y cocina hasta que esté tierna.",
+            "Sazona con sal al gusto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "nombre": "Col china",
+      "descripcion": "Verdura de hojas alargadas y sabor suave.",
+      "image": "/images/verduras/col-china.webp",
+      "beneficios": [
+        "Rica en vitaminas A y C",
+        "Ayuda a la digestión",
+        "Bajo contenido calórico"
+      ],
+      "valores_nutricionales": {
+        "calorias": 13,
+        "carbohidratos": 2.2,
+        "fibra": 1.0,
+        "vitamina C": "45%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Primavera",
+      "clasificacion": "Brasicácea",
+      "cosecha": ["Abril", "mayo"],
+      "seleccion_de_fruto": "Buscar col china con hojas firmes y frescas.",
+      "como_germinar_y_su_importancia": "La col china se cultiva a partir de semillas y es fundamental para una dieta equilibrada.",
+      "como_consumir_una_vez_cosechada": "Se puede usar en sopas, salteados y ensaladas.",
+      "valores_diarios_recomendados": {
+        "fibra": "8%",
+        "vitamina_c": "45%",
+        "calcio": "2%"
+      },
+      "recetas": [
+        {
+          "nombre": "Sopa de Col China",
+          "descripcion": "Sopa ligera con col china y champiñones.",
+          "image": "/images/recetas/sopa-col-china.webp",
+          "ingredientes": [
+            "1 cabeza de col china",
+            "200g de champiñones",
+            "4 tazas de caldo de verduras",
+            "2 dientes de ajo"
+          ],
+          "instrucciones": [
+            "Sofríe el ajo y los champiñones en una olla.",
+            "Añade el caldo y la col china.",
+            "Cocina hasta que la col esté tierna."
+          ]
+        },
+        {
+          "nombre": "Ensalada de Col China",
+          "descripcion": "Ensalada crujiente con col china y pimiento.",
+          "image": "/images/recetas/ensalada-col-china.webp",
+          "ingredientes": [
+            "1 cabeza de col china",
+            "1 pimiento rojo",
+            "1/4 taza de aderezo de sésamo",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Corta la col china y el pimiento en tiras.",
+            "Mezcla con el aderezo de sésamo.",
+            "Sazona con sal al gusto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "nombre": "Col de Bruselas",
+      "descripcion": "Pequeñas coles verdes con un sabor a nuez.",
+      "image": "/images/verduras/col-bruselas.webp",
+      "beneficios": [
+        "Alta en fibra",
+        "Buena fuente de vitaminas C y K",
+        "Ayuda a la salud digestiva"
+      ],
+      "valores_nutricionales": {
+        "calorias": 43,
+        "carbohidratos": 9.0,
+        "fibra": 3.8,
+        "vitamina C": "85%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Otoño",
+      "clasificacion": "Brasicácea",
+      "cosecha": ["Septiembre", "octubre"],
+      "seleccion_de_fruto": "Elegir coles compactas y de color verde oscuro.",
+      "como_germinar_y_su_importancia": "La col de Bruselas se cultiva a partir de semillas y es importante para una dieta saludable.",
+      "como_consumir_una_vez_cosechada": "Puede ser cocida al vapor, asada o salteada.",
+      "valores_diarios_recomendados": {
+        "fibra": "15%",
+        "vitamina_c": "85%",
+        "calcio": "6%"
+      },
+      "recetas": [
+        {
+          "nombre": "Coles de Bruselas Asadas",
+          "descripcion": "Coles de Bruselas asadas con aceite de oliva y sal.",
+          "image": "/images/recetas/coles-bruselas-asadas.webp",
+          "ingredientes": [
+            "500g de coles de Bruselas",
+            "2 cucharadas de aceite de oliva",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 200°C.",
+            "Mezcla las coles con aceite de oliva y sal.",
+            "Asa durante 20-25 minutos hasta que estén doradas."
+          ]
+        },
+        {
+          "nombre": "Sopa de Coles de Bruselas",
+          "descripcion": "Sopa cremosa con coles de Bruselas y cebolla.",
+          "image": "/images/recetas/sopa-coles-bruselas.webp",
+          "ingredientes": [
+            "200g de coles de Bruselas",
+            "1 cebolla",
+            "4 tazas de caldo de verduras",
+            "1/2 taza de crema"
+          ],
+          "instrucciones": [
+            "Sofríe la cebolla en una olla.",
+            "Añade las coles y el caldo de verduras.",
+            "Cocina hasta que las coles estén tiernas.",
+            "Licúa la mezcla y agrega la crema."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "nombre": "Col de Milán",
+      "descripcion": "Variedad de col con hojas anchas y redondas.",
+      "image": "/images/verduras/col-milan.webp",
+      "beneficios": [
+        "Rica en vitamina C",
+        "Buena fuente de fibra",
+        "Ayuda a la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 25,
+        "carbohidratos": 5.0,
+        "fibra": 2.0,
+        "vitamina C": "50%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Otoño",
+      "clasificacion": "Brasicácea",
+      "cosecha": ["Septiembre", "octubre"],
+      "seleccion_de_fruto": "Seleccionar col con hojas firmes y sin manchas.",
+      "como_germinar_y_su_importancia": "La col de Milán se cultiva a partir de semillas y es importante para una dieta rica en nutrientes.",
+      "como_consumir_una_vez_cosechada": "Ideal para sopas, guisos y ensaladas.",
+      "valores_diarios_recomendados": {
+        "fibra": "10%",
+        "vitamina_c": "50%",
+        "calcio": "3%"
+      },
+      "recetas": [
+        {
+          "nombre": "Col de Milán en Guiso",
+          "descripcion": "Col de Milán cocida con zanahorias y papas.",
+          "image": "/images/recetas/col-milan-guiso.webp",
+          "ingredientes": [
+            "1 cabeza de col de Milán",
+            "2 zanahorias",
+            "2 papas",
+            "4 tazas de caldo de verduras"
+          ],
+          "instrucciones": [
+            "Corta la col, zanahorias y papas en trozos.",
+            "Cocina en el caldo de verduras hasta que esté tierno."
+          ]
+        },
+        {
+          "nombre": "Ensalada de Col de Milán",
+          "descripcion": "Ensalada fresca con col de Milán y manzana.",
+          "image": "/images/recetas/ensalada-col-milan.webp",
+          "ingredientes": [
+            "2 tazas de col de Milán rallada",
+            "1 manzana",
+            "1/4 taza de aderezo de mostaza",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Corta la manzana en cubos.",
+            "Mezcla con la col y el aderezo.",
+            "Sazona con sal al gusto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "nombre": "Col lombarda",
+      "descripcion": "Col de color morado con un sabor ligeramente más dulce.",
+      "image": "/images/verduras/col-lombarda.webp",
+      "beneficios": [
+        "Rica en antioxidantes",
+        "Buena fuente de vitamina C",
+        "Ayuda a la salud digestiva"
+      ],
+      "valores_nutricionales": {
+        "calorias": 31,
+        "carbohidratos": 7.0,
+        "fibra": 3.1,
+        "vitamina C": "70%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Otoño",
+      "clasificacion": "Brasicácea",
+      "cosecha": ["Septiembre", "octubre"],
+      "seleccion_de_fruto": "Elegir col con hojas firmes y de color morado intenso.",
+      "como_germinar_y_su_importancia": "La col lombarda se cultiva a partir de semillas y es esencial para una dieta rica en nutrientes.",
+      "como_consumir_una_vez_cosechada": "Ideal para ensaladas, fermentos y guisos.",
+      "valores_diarios_recomendados": {
+        "fibra": "12%",
+        "vitamina_c": "70%",
+        "calcio": "5%"
+      },
+      "recetas": [
+        {
+          "nombre": "Col Lombarda Ensalada",
+          "descripcion": "Ensalada colorida con col lombarda y manzana.",
+          "image": "/images/recetas/col-lombarda-ensalada.webp",
+          "ingredientes": [
+            "2 tazas de col lombarda rallada",
+            "1 manzana",
+            "1/4 taza de aderezo balsámico",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Corta la manzana en cubos.",
+            "Mezcla con la col y el aderezo balsámico.",
+            "Sazona con sal al gusto."
+          ]
+        },
+        {
+          "nombre": "Col Lombarda Salteada",
+          "descripcion": "Col lombarda salteada con cebolla y vinagre.",
+          "image": "/images/recetas/col-lombarda-salteada.webp",
+          "ingredientes": [
+            "1 cabeza de col lombarda",
+            "1 cebolla",
+            "2 cucharadas de vinagre",
+            "1 cucharada de aceite",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Sofríe la cebolla en aceite.",
+            "Añade la col lombarda y cocina hasta que esté tierna.",
+            "Agrega el vinagre y sazona con sal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "nombre": "Coliflor",
+      "descripcion": "Verdura con floretes blancos y un sabor suave.",
+      "image": "/images/verduras/coliflor.webp",
+      "beneficios": [
+        "Alta en vitamina C",
+        "Rica en antioxidantes",
+        "Ayuda a la salud digestiva"
+      ],
+      "valores_nutricionales": {
+        "calorias": 25,
+        "carbohidratos": 5.0,
+        "fibra": 2.0,
+        "vitamina C": "77%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Invierno",
+      "clasificacion": "Brasicácea",
+      "cosecha": ["Noviembre", "diciembre"],
+      "seleccion_de_fruto": "Elegir cabezas de coliflor firmes y blancas, sin manchas.",
+      "como_germinar_y_su_importancia": "La coliflor se cultiva a partir de semillas y es esencial para una dieta balanceada.",
+      "como_consumir_una_vez_cosechada": "Puede ser cocida al vapor, asada o utilizada en sopas.",
+      "valores_diarios_recomendados": {
+        "fibra": "10%",
+        "vitamina_c": "77%",
+        "calcio": "3%"
+      },
+      "recetas": [
+        {
+          "nombre": "Coliflor Asada",
+          "descripcion": "Coliflor asada con especias.",
+          "image": "/images/recetas/coliflor-asada.webp",
+          "ingredientes": [
+            "1 cabeza de coliflor",
+            "2 cucharadas de aceite de oliva",
+            "Especias al gusto"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 200°C.",
+            "Mezcla la coliflor con aceite y especias.",
+            "Asa durante 25-30 minutos hasta que esté dorada."
+          ]
+        },
+        {
+          "nombre": "Sopa de Coliflor",
+          "descripcion": "Sopa cremosa hecha con coliflor y cebolla.",
+          "image": "/images/recetas/sopa-coliflor.webp",
+          "ingredientes": [
+            "1 cabeza de coliflor",
+            "1 cebolla",
+            "4 tazas de caldo de verduras",
+            "1/2 taza de crema"
+          ],
+          "instrucciones": [
+            "Sofríe la cebolla en una olla.",
+            "Añade la coliflor y el caldo de verduras.",
+            "Cocina hasta que la coliflor esté tierna.",
+            "Licúa la mezcla y añade la crema."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "nombre": "Colinabo",
+      "descripcion": "Raíz de sabor ligeramente picante, similar al rábano.",
+      "image": "/images/verduras/colinabo.webp",
+      "beneficios": [
+        "Rico en fibra",
+        "Buena fuente de vitamina C",
+        "Ayuda a la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 27,
+        "carbohidratos": 6.2,
+        "fibra": 3.0,
+        "vitamina C": "70%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Invierno",
+      "clasificacion": "Brasicácea",
+      "cosecha": ["Noviembre", "diciembre"],
+      "seleccion_de_fruto": "Elegir raíces firmes y sin manchas.",
+      "como_germinar_y_su_importancia": "El colinabo se cultiva a partir de semillas y es valioso en la dieta por sus nutrientes.",
+      "como_consumir_una_vez_cosechada": "Puede ser crudo en ensaladas o cocido en sopas y guisos.",
+      "valores_diarios_recomendados": {
+        "fibra": "9%",
+        "vitamina_c": "70%",
+        "calcio": "2%"
+      },
+      "recetas": [
+        {
+          "nombre": "Colinabo Asado",
+          "descripcion": "Colinabo asado con especias.",
+          "image": "/images/recetas/colinabo-asado.webp",
+          "ingredientes": [
+            "1 colinabo",
+            "2 cucharadas de aceite de oliva",
+            "Especias al gusto"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 200°C.",
+            "Corta el colinabo en cubos y mézclalo con aceite y especias.",
+            "Asa durante 25-30 minutos hasta que esté dorado."
+          ]
+        },
+        {
+          "nombre": "Ensalada de Colinabo",
+          "descripcion": "Ensalada fresca con colinabo y zanahorias.",
+          "image": "/images/recetas/ensalada-colinabo.webp",
+          "ingredientes": [
+            "1 colinabo",
+            "2 zanahorias",
+            "1/4 taza de aderezo de mostaza",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Corta el colinabo y las zanahorias en tiras.",
+            "Mezcla con el aderezo de mostaza.",
+            "Sazona con sal al gusto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "nombre": "Colirábano",
+      "descripcion": "Raíz de sabor agridulce y textura crujiente.",
+      "image": "/images/verduras/colirabano.webp",
+      "beneficios": [
+        "Buena fuente de vitamina C",
+        "Rico en fibra",
+        "Ayuda a la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 27,
+        "carbohidratos": 6.5,
+        "fibra": 2.5,
+        "vitamina C": "80%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Invierno",
+      "clasificacion": "Brasicácea",
+      "cosecha": ["Noviembre", "diciembre"],
+      "seleccion_de_fruto": "Elegir raíces firmes y sin manchas.",
+      "como_germinar_y_su_importancia": "El colirábano se cultiva a partir de semillas y es importante para una dieta saludable.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas crudas o cocido en sopas y guisos.",
+      "valores_diarios_recomendados": {
+        "fibra": "8%",
+        "vitamina_c": "80%",
+        "calcio": "2%"
+      },
+      "recetas": [
+        {
+          "nombre": "Colirábano en Ensalada",
+          "descripcion": "Ensalada crujiente con colirábano y pimientos.",
+          "image": "/images/recetas/colirabano-ensalada.webp",
+          "ingredientes": [
+            "1 colirábano",
+            "1 pimiento",
+            "1/4 taza de aderezo de cítricos",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Corta el colirábano y el pimiento en tiras.",
+            "Mezcla con el aderezo de cítricos.",
+            "Sazona con sal al gusto."
+          ]
+        },
+        {
+          "nombre": "Colirábano Salteado",
+          "descripcion": "Colirábano salteado con cebolla y ajo.",
+          "image": "/images/recetas/colirabano-salteado.webp",
+          "ingredientes": [
+            "1 colirábano",
+            "1 cebolla",
+            "2 dientes de ajo",
+            "2 cucharadas de aceite",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Sofríe la cebolla y el ajo en aceite.",
+            "Añade el colirábano y cocina hasta que esté tierno.",
+            "Sazona con sal al gusto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "nombre": "Nabo",
+      "descripcion": "Raíz con sabor suave y textura firme.",
+      "image": "/images/verduras/nabo.webp",
+      "beneficios": [
+        "Rico en fibra",
+        "Buena fuente de vitamina C",
+        "Ayuda a la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 28,
+        "carbohidratos": 6.2,
+        "fibra": 2.8,
+        "vitamina C": "40%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Invierno",
+      "clasificacion": "Brasicácea",
+      "cosecha": ["Noviembre", "diciembre"],
+      "seleccion_de_fruto": "Elegir nabos firmes y sin manchas.",
+      "como_germinar_y_su_importancia": "El nabo se cultiva a partir de semillas y es valioso para una dieta saludable.",
+      "como_consumir_una_vez_cosechada": "Puede ser cocido en guisos, asado o en puré.",
+      "valores_diarios_recomendados": {
+        "fibra": "10%",
+        "vitamina_c": "40%",
+        "calcio": "3%"
+      },
+      "recetas": [
+        {
+          "nombre": "Nabo Asado",
+          "descripcion": "Nabo asado con hierbas.",
+          "image": "/images/recetas/nabo-asado.webp",
+          "ingredientes": [
+            "1 nabo",
+            "2 cucharadas de aceite de oliva",
+            "Hierbas al gusto"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 200°C.",
+            "Corta el nabo en cubos y mézclalo con aceite y hierbas.",
+            "Asa durante 25-30 minutos hasta que esté dorado."
+          ]
+        },
+        {
+          "nombre": "Sopa de Nabo",
+          "descripcion": "Sopa caliente hecha con nabo y zanahorias.",
+          "image": "/images/recetas/sopa-nabo.webp",
+          "ingredientes": [
+            "1 nabo",
+            "2 zanahorias",
+            "4 tazas de caldo de verduras",
+            "1/2 taza de crema"
+          ],
+          "instrucciones": [
+            "Corta el nabo y las zanahorias en trozos.",
+            "Cocina en el caldo hasta que estén tiernos.",
+            "Licúa la mezcla y añade la crema."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "nombre": "Rábano",
+      "descripcion": "Raíz crujiente con sabor picante.",
+      "image": "/images/verduras/rabano.webp",
+      "beneficios": [
+        "Rico en vitamina C",
+        "Buena fuente de antioxidantes",
+        "Ayuda a la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 16,
+        "carbohidratos": 3.4,
+        "fibra": 1.6,
+        "vitamina C": "29%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Primavera",
+      "clasificacion": "Umbelífera",
+      "cosecha": ["Marzo", "abril"],
+      "seleccion_de_fruto": "Elegir rábanos firmes y de color brillante.",
+      "como_germinar_y_su_importancia": "El rábano se cultiva fácilmente a partir de semillas y es excelente para añadir sabor y textura a las ensaladas.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas frescas o como bocadillo crujiente.",
+      "valores_diarios_recomendados": {
+        "fibra": "7%",
+        "vitamina_c": "29%",
+        "calcio": "1%"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Rábano",
+          "descripcion": "Ensalada fresca con rábanos y zanahorias.",
+          "image": "/images/recetas/ensalada-rabano.webp",
+          "ingredientes": [
+            "1 rábano",
+            "2 zanahorias",
+            "1/4 taza de aderezo de yogur",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Corta el rábano y las zanahorias en tiras.",
+            "Mezcla con el aderezo de yogur.",
+            "Sazona con sal al gusto."
+          ]
+        },
+        {
+          "nombre": "Rábano en Escabeche",
+          "descripcion": "Rábanos encurtidos en vinagre.",
+          "image": "/images/recetas/rabano-escabeche.webp",
+          "ingredientes": [
+            "1 taza de rábanos",
+            "1 taza de vinagre",
+            "1/2 taza de agua",
+            "Azúcar al gusto"
+          ],
+          "instrucciones": [
+            "Corta los rábanos en rodajas.",
+            "Mezcla vinagre, agua y azúcar.",
+            "Sumerge los rábanos en la mezcla y deja reposar por 24 horas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "nombre": "Alcachofa",
+      "descripcion": "Verdura con brotes comestibles y un sabor distintivo.",
+      "image": "/images/verduras/alcachofa.webp",
+      "beneficios": [
+        "Rica en antioxidantes",
+        "Apoya la salud hepática",
+        "Buena fuente de fibra"
+      ],
+      "valores_nutricionales": {
+        "calorias": 47,
+        "carbohidratos": 11.0,
+        "fibra": 5.0,
+        "vitamina C": "11%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Primavera",
+      "clasificacion": "Compuesta",
+      "cosecha": ["Abril", "mayo"],
+      "seleccion_de_fruto": "Elegir alcachofas firmes y de color verde brillante.",
+      "como_germinar_y_su_importancia": "La alcachofa se cultiva a partir de semillas y es importante para la salud digestiva y hepática.",
+      "como_consumir_una_vez_cosechada": "Puede ser hervida, al horno o en ensaladas.",
+      "valores_diarios_recomendados": {
+        "fibra": "20%",
+        "vitamina_c": "11%",
+        "calcio": "2%"
+      },
+      "recetas": [
+        {
+          "nombre": "Alcachofas al Horno",
+          "descripcion": "Alcachofas asadas con ajo y aceite.",
+          "image": "/images/recetas/alcachofas-al-horno.webp",
+          "ingredientes": [
+            "4 alcachofas",
+            "2 dientes de ajo",
+            "3 cucharadas de aceite de oliva",
+            "Sal y pimienta al gusto"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 200°C.",
+            "Corta las alcachofas y quita las hojas exteriores.",
+            "Mezcla con ajo picado, aceite, sal y pimienta.",
+            "Asa durante 30-40 minutos."
+          ]
+        },
+        {
+          "nombre": "Ensalada de Alcachofa",
+          "descripcion": "Ensalada fresca con alcachofas y tomates.",
+          "image": "/images/recetas/ensalada-alcachofa.webp",
+          "ingredientes": [
+            "1 alcachofa",
+            "1 tomate",
+            "1/4 taza de aderezo de limón",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Hervir la alcachofa hasta que esté tierna.",
+            "Cortar y mezclar con tomate y aderezo.",
+            "Sazonar con sal al gusto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "nombre": "Boniato",
+      "descripcion": "Raíz dulce y suave, similar a la batata.",
+      "image": "/images/verduras/boniato.webp",
+      "beneficios": [
+        "Rico en vitamina A",
+        "Buena fuente de fibra",
+        "Apoya la salud ocular"
+      ],
+      "valores_nutricionales": {
+        "calorias": 86,
+        "carbohidratos": 20.0,
+        "fibra": 3.0,
+        "vitamina A": "110%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Otoño",
+      "clasificacion": "Compuesta",
+      "cosecha": ["Septiembre", "octubre"],
+      "seleccion_de_fruto": "Elegir boniatos firmes y sin manchas.",
+      "como_germinar_y_su_importancia": "El boniato se cultiva a partir de esquejes y es esencial para una dieta rica en nutrientes.",
+      "como_consumir_una_vez_cosechada": "Puede ser cocido, asado o en puré.",
+      "valores_diarios_recomendados": {
+        "fibra": "12%",
+        "vitamina_a": "110%",
+        "calcio": "3%"
+      },
+      "recetas": [
+        {
+          "nombre": "Boniato Asado",
+          "descripcion": "Boniato asado con especias.",
+          "image": "/images/recetas/boniato-asado.webp",
+          "ingredientes": [
+            "2 boniatos",
+            "2 cucharadas de aceite de oliva",
+            "Especias al gusto"
+          ],
+          "instrucciones": [
+            "Precalienta el horno a 200°C.",
+            "Corta los boniatos en cubos y mézclalos con aceite y especias.",
+            "Asa durante 30-35 minutos."
+          ]
+        },
+        {
+          "nombre": "Puré de Boniato",
+          "descripcion": "Puré cremoso de boniato.",
+          "image": "/images/recetas/pure-boniato.webp",
+          "ingredientes": [
+            "2 boniatos",
+            "1/4 taza de leche",
+            "2 cucharadas de mantequilla",
+            "Sal y pimienta al gusto"
+          ],
+          "instrucciones": [
+            "Hervir los boniatos hasta que estén tiernos.",
+            "Escurrir y hacer puré con leche y mantequilla.",
+            "Sazonar con sal y pimienta."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "nombre": "Escarola",
+      "descripcion": "Hortaliza de hoja verde con un sabor ligeramente amargo.",
+      "image": "/images/verduras/escarola.webp",
+      "beneficios": [
+        "Rica en vitamina A",
+        "Buena fuente de fibra",
+        "Ayuda a la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 23,
+        "carbohidratos": 4.0,
+        "fibra": 1.5,
+        "vitamina A": "30%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Otoño",
+      "clasificacion": "Compuesta",
+      "cosecha": ["Septiembre", "octubre"],
+      "seleccion_de_fruto": "Elegir hojas frescas y sin manchas.",
+      "como_germinar_y_su_importancia": "La escarola se cultiva a partir de semillas y es excelente para ensaladas y platos ligeros.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas o salteada.",
+      "valores_diarios_recomendados": {
+        "fibra": "8%",
+        "vitamina_a": "30%",
+        "calcio": "2%"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Escarola",
+          "descripcion": "Ensalada fresca con escarola y nueces.",
+          "image": "/images/recetas/ensalada-escarola.webp",
+          "ingredientes": [
+            "1 cabeza de escarola",
+            "1/4 taza de nueces",
+            "1/4 taza de aderezo balsámico",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Corta la escarola y mézclala con nueces y aderezo.",
+            "Sazona con sal al gusto."
+          ]
+        },
+        {
+          "nombre": "Escarola Salteada",
+          "descripcion": "Escarola salteada con ajo y aceite.",
+          "image": "/images/recetas/escarola-salteada.webp",
+          "ingredientes": [
+            "1 cabeza de escarola",
+            "2 dientes de ajo",
+            "2 cucharadas de aceite",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Sofríe el ajo en aceite.",
+            "Añade la escarola y cocina hasta que se reduzca.",
+            "Sazona con sal al gusto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "nombre": "Lechuga",
+      "descripcion": "Hortaliza de hoja verde crujiente y refrescante.",
+      "image": "/images/verduras/lechuga.webp",
+      "beneficios": [
+        "Baja en calorías",
+        "Buena fuente de vitamina K",
+        "Hidratante"
+      ],
+      "valores_nutricionales": {
+        "calorias": 15,
+        "carbohidratos": 2.9,
+        "fibra": 1.0,
+        "vitamina_k": "40%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Primavera",
+      "clasificacion": "Compuesta",
+      "cosecha": ["Marzo", "abril"],
+      "seleccion_de_fruto": "Elegir hojas frescas y crujientes.",
+      "como_germinar_y_su_importancia": "La lechuga se cultiva a partir de semillas y es un componente clave en ensaladas frescas.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas o como acompañamiento.",
+      "valores_diarios_recomendados": {
+        "fibra": "7%",
+        "vitamina_k": "40%",
+        "calcio": "1%"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Lechuga",
+          "descripcion": "Ensalada fresca con lechuga y tomates.",
+          "image": "/images/recetas/ensalada-lechuga.webp",
+          "ingredientes": [
+            "1 cabeza de lechuga",
+            "2 tomates",
+            "1/4 taza de aderezo de tu elección",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Corta la lechuga y los tomates en trozos.",
+            "Mezcla con aderezo y sazona con sal al gusto."
+          ]
+        },
+        {
+          "nombre": "Wraps de Lechuga",
+          "descripcion": "Rollos de lechuga con relleno de pollo.",
+          "image": "/images/recetas/wraps-lechuga.webp",
+          "ingredientes": [
+            "Hojas de lechuga",
+            "Pechuga de pollo cocida",
+            "1 zanahoria rallada",
+            "Salsa al gusto"
+          ],
+          "instrucciones": [
+            "Coloca el pollo y zanahoria en hojas de lechuga.",
+            "Añade salsa al gusto y enrolla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "nombre": "Endibia",
+      "descripcion": "Verdura de hojas crujientes y sabor ligeramente amargo.",
+      "image": "/images/verduras/endibia.webp",
+      "beneficios": [
+        "Buena fuente de vitamina K",
+        "Rica en fibra",
+        "Ayuda a la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 17,
+        "carbohidratos": 3.4,
+        "fibra": 2.0,
+        "vitamina_k": "40%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Invierno",
+      "clasificacion": "Compuesta",
+      "cosecha": ["Diciembre", "enero"],
+      "seleccion_de_fruto": "Elegir hojas firmes y sin manchas.",
+      "como_germinar_y_su_importancia": "La endibia se cultiva a partir de semillas y es excelente para ensaladas y platos calientes.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas o a la parrilla.",
+      "valores_diarios_recomendados": {
+        "fibra": "10%",
+        "vitamina_k": "40%",
+        "calcio": "2%"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Endibia",
+          "descripcion": "Ensalada crujiente con endibia y manzana.",
+          "image": "/images/recetas/ensalada-endibia.webp",
+          "ingredientes": [
+            "1 endibia",
+            "1 manzana",
+            "1/4 taza de nueces",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Corta la endibia y la manzana en trozos.",
+            "Mezcla con nueces y aderezo."
+          ]
+        },
+        {
+          "nombre": "Endibia a la Parrilla",
+          "descripcion": "Endibia asada a la parrilla con aceite y hierbas.",
+          "image": "/images/recetas/endibia-parrilla.webp",
+          "ingredientes": [
+            "2 endibias",
+            "2 cucharadas de aceite de oliva",
+            "Hierbas al gusto",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Corta las endibias por la mitad.",
+            "Unta con aceite y hierbas.",
+            "Asa a la parrilla durante 10-15 minutos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "nombre": "Calabacín",
+      "descripcion": "Verdura de piel verde y carne tierna, ideal para salteados y guisos.",
+      "image": "/images/verduras/calabacin.webp",
+      "beneficios": [
+        "Bajo en calorías",
+        "Rico en vitamina C",
+        "Apoya la salud digestiva"
+      ],
+      "valores_nutricionales": {
+        "calorias": 17,
+        "carbohidratos": 3.1,
+        "fibra": 1.0,
+        "vitamina_c": "30%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Verano",
+      "clasificacion": "Cucurbitácea",
+      "cosecha": ["Julio", "agosto"],
+      "seleccion_de_fruto": "Elegir calabacines firmes y sin manchas.",
+      "como_germinar_y_su_importancia": "El calabacín se cultiva a partir de semillas y es fundamental en dietas bajas en calorías.",
+      "como_consumir_una_vez_cosechada": "Ideal en salteados, asados o rellenos.",
+      "valores_diarios_recomendados": {
+        "fibra": "10%",
+        "vitamina_c": "30%",
+        "calcio": "2%"
+      },
+      "recetas": [
+        {
+          "nombre": "Calabacín Salteado",
+          "descripcion": "Calabacín salteado con ajo y especias.",
+          "image": "/images/recetas/calabacin-salteado.webp",
+          "ingredientes": [
+            "2 calabacines",
+            "2 dientes de ajo",
+            "2 cucharadas de aceite de oliva",
+            "Especias al gusto"
+          ],
+          "instrucciones": [
+            "Corta el calabacín en rodajas.",
+            "Sofríe con ajo y aceite hasta que esté dorado.",
+            "Añade especias al gusto."
+          ]
+        },
+        {
+          "nombre": "Calabacín Relleno",
+          "descripcion": "Calabacín relleno de carne y vegetales.",
+          "image": "/images/recetas/calabacin-relleno.webp",
+          "ingredientes": [
+            "4 calabacines",
+            "250g de carne molida",
+            "1 cebolla",
+            "1 pimiento",
+            "Queso rallado",
+            "Especias al gusto"
+          ],
+          "instrucciones": [
+            "Corta los calabacines a lo largo y quita el centro.",
+            "Rellena con mezcla de carne, cebolla y pimiento.",
+            "Hornea durante 25 minutos a 180°C."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "nombre": "Calabaza",
+      "descripcion": "Verdura de pulpa dulce, ideal para sopas y guisos.",
+      "image": "/images/verduras/calabaza.webp",
+      "beneficios": [
+        "Rica en vitamina A",
+        "Buena fuente de fibra",
+        "Apoya la salud ocular"
+      ],
+      "valores_nutricionales": {
+        "calorias": 26,
+        "carbohidratos": 6.5,
+        "fibra": 1.1,
+        "vitamina_a": "85%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Otoño",
+      "clasificacion": "Cucurbitácea",
+      "cosecha": ["Septiembre", "octubre"],
+      "seleccion_de_fruto": "Elegir calabazas firmes y sin manchas.",
+      "como_germinar_y_su_importancia": "La calabaza se cultiva a partir de semillas y es importante para una dieta rica en nutrientes.",
+      "como_consumir_una_vez_cosechada": "Puede ser asada, en puré o en sopas.",
+      "valores_diarios_recomendados": {
+        "fibra": "15%",
+        "vitamina_a": "85%",
+        "calcio": "3%"
+      },
+      "recetas": [
+        {
+          "nombre": "Sopa de Calabaza",
+          "descripcion": "Sopa cremosa de calabaza con especias.",
+          "image": "/images/recetas/sopa-calabaza.webp",
+          "ingredientes": [
+            "500g de calabaza",
+            "1 cebolla",
+            "2 dientes de ajo",
+            "500ml de caldo",
+            "Especias al gusto"
+          ],
+          "instrucciones": [
+            "Cocina la calabaza con cebolla y ajo.",
+            "Añade el caldo y cocina hasta que esté tierna.",
+            "Tritura hasta obtener una crema."
+          ]
+        },
+        {
+          "nombre": "Calabaza Asada",
+          "descripcion": "Calabaza asada con hierbas y aceite.",
+          "image": "/images/recetas/calabaza-asada.webp",
+          "ingredientes": [
+            "1 calabaza",
+            "3 cucharadas de aceite de oliva",
+            "Hierbas al gusto",
+            "Sal y pimienta"
+          ],
+          "instrucciones": [
+            "Corta la calabaza en cubos.",
+            "Mezcla con aceite y hierbas.",
+            "Asa en horno a 200°C durante 30 minutos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "nombre": "Pepino",
+      "descripcion": "Verdura refrescante, ideal para ensaladas y bocadillos.",
+      "image": "/images/verduras/pepino.webp",
+      "beneficios": [
+        "Hidratante",
+        "Bajo en calorías",
+        "Rico en vitamina K"
+      ],
+      "valores_nutricionales": {
+        "calorias": 16,
+        "carbohidratos": 3.6,
+        "fibra": 0.5,
+        "vitamina_k": "16%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Verano",
+      "clasificacion": "Cucurbitácea",
+      "cosecha": ["Julio", "agosto"],
+      "seleccion_de_fruto": "Elegir pepinos firmes y sin manchas.",
+      "como_germinar_y_su_importancia": "El pepino se cultiva a partir de semillas y es ideal para mantener la hidratación.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas, encurtidos o como bocadillo.",
+      "valores_diarios_recomendados": {
+        "fibra": "8%",
+        "vitamina_k": "16%",
+        "calcio": "1%"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Pepino",
+          "descripcion": "Ensalada fresca con pepino y yogur.",
+          "image": "/images/recetas/ensalada-pepino.webp",
+          "ingredientes": [
+            "1 pepino",
+            "1 taza de yogur",
+            "2 cucharadas de eneldo",
+            "Sal y pimienta"
+          ],
+          "instrucciones": [
+            "Corta el pepino en rodajas.",
+            "Mezcla con yogur y eneldo.",
+            "Sazona con sal y pimienta."
+          ]
+        },
+        {
+          "nombre": "Pepino Encurtido",
+          "descripcion": "Pepino en vinagre con especias.",
+          "image": "/images/recetas/pepino-encurtido.webp",
+          "ingredientes": [
+            "2 pepinos",
+            "1 taza de vinagre",
+            "1/2 taza de agua",
+            "Especias al gusto"
+          ],
+          "instrucciones": [
+            "Corta los pepinos en rodajas.",
+            "Hierve vinagre con agua y especias.",
+            "Vierte sobre los pepinos y deja enfriar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "nombre": "Judía Verde",
+      "descripcion": "Legumbre tierna y crujiente, ideal para ensaladas y guisos.",
+      "image": "/images/verduras/judia-verde.webp",
+      "beneficios": [
+        "Buena fuente de fibra",
+        "Rica en vitaminas A y C",
+        "Apoya la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 31,
+        "carbohidratos": 7.0,
+        "fibra": 2.7,
+        "vitamina_a": "15%",
+        "vitamina_c": "20%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Verano",
+      "clasificacion": "Cucurbitácea",
+      "cosecha": ["Julio", "agosto"],
+      "seleccion_de_fruto": "Elegir judías firmes y sin manchas.",
+      "como_germinar_y_su_importancia": "Las judías verdes se cultivan a partir de semillas y son esenciales para una dieta balanceada.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas, al vapor o en guisos.",
+      "valores_diarios_recomendados": {
+        "fibra": "12%",
+        "vitamina_a": "15%",
+        "vitamina_c": "20%"
+      },
+      "recetas": [
+        {
+          "nombre": "Judía Verde Salteada",
+          "descripcion": "Judía verde salteada con ajo y aceite.",
+          "image": "/images/recetas/judia-verde-salteada.webp",
+          "ingredientes": [
+            "200g de judía verde",
+            "2 dientes de ajo",
+            "2 cucharadas de aceite de oliva",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Lava y corta las judías verdes.",
+            "Sofríe con ajo y aceite hasta que estén tiernas.",
+            "Sazona con sal al gusto."
+          ]
+        },
+        {
+          "nombre": "Ensalada de Judía Verde",
+          "descripcion": "Ensalada fresca con judía verde y tomates.",
+          "image": "/images/recetas/ensalada-judia-verde.webp",
+          "ingredientes": [
+            "200g de judía verde",
+            "2 tomates",
+            "1/4 taza de aderezo de tu elección",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Lava y corta las judías verdes.",
+            "Mezcla con tomates y aderezo.",
+            "Sazona con sal al gusto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "nombre": "Maíz",
+      "descripcion": "Grano nutritivo, esencial en muchas culturas y comidas.",
+      "image": "/images/verduras/maiz.webp",
+      "beneficios": [
+        "Rico en fibra",
+        "Buena fuente de vitamina B",
+        "Energizante"
+      ],
+      "valores_nutricionales": {
+        "calorias": 86,
+        "carbohidratos": 19.0,
+        "fibra": 2.7,
+        "vitamina_b": "18%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Verano",
+      "clasificacion": "Fabácea",
+      "cosecha": ["Agosto", "septiembre"],
+      "seleccion_de_fruto": "Elegir mazorcas firmes y de color uniforme.",
+      "como_germinar_y_su_importancia": "El maíz se cultiva a partir de semillas y es clave en muchas dietas por su versatilidad.",
+      "como_consumir_una_vez_cosechada": "Ideal cocido, a la parrilla o en tortillas.",
+      "valores_diarios_recomendados": {
+        "fibra": "15%",
+        "vitamina_b": "18%",
+        "calcio": "2%"
+      },
+      "recetas": [
+        {
+          "nombre": "Maíz a la Parrilla",
+          "descripcion": "Mazorca de maíz asada con mantequilla y especias.",
+          "image": "/images/recetas/maiz-parrilla.webp",
+          "ingredientes": [
+            "4 mazorcas de maíz",
+            "2 cucharadas de mantequilla",
+            "Especias al gusto"
+          ],
+          "instrucciones": [
+            "Asa las mazorcas en la parrilla.",
+            "Unta con mantequilla y especias."
+          ]
+        },
+        {
+          "nombre": "Ensalada de Maíz",
+          "descripcion": "Ensalada fresca con maíz y verduras.",
+          "image": "/images/recetas/ensalada-maiz.webp",
+          "ingredientes": [
+            "1 taza de maíz",
+            "1 pimiento",
+            "1 cebolla",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Mezcla maíz con pimiento y cebolla.",
+            "Añade aderezo al gusto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "nombre": "Edamame",
+      "descripcion": "Frijoles de soja jóvenes, ideales como aperitivo o añadido a ensaladas.",
+      "image": "/images/verduras/edamame.webp",
+      "beneficios": [
+        "Rico en proteínas",
+        "Buena fuente de hierro",
+        "Ayuda a la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 122,
+        "carbohidratos": 9.9,
+        "fibra": 5.2,
+        "proteina": "11%"
+      },
+      "categoria": "Verdura",
+      "estacion": "Verano",
+      "clasificacion": "Fabácea",
+      "cosecha": ["Julio", "agosto"],
+      "seleccion_de_fruto": "Elegir vainas firmes y verdes.",
+      "como_germinar_y_su_importancia": "El edamame se cultiva a partir de semillas y es excelente para dietas ricas en proteínas.",
+      "como_consumir_una_vez_cosechada": "Ideal hervido como aperitivo o en ensaladas.",
+      "valores_diarios_recomendados": {
+        "fibra": "20%",
+        "proteina": "11%",
+        "hierro": "8%"
+      },
+      "recetas": [
+        {
+          "nombre": "Edamame Hervido",
+          "descripcion": "Edamame hervido con sal.",
+          "image": "/images/recetas/edamame-hervido.webp",
+          "ingredientes": [
+            "2 tazas de edamame",
+            "1 cucharada de sal",
+            "Agua"
+          ],
+          "instrucciones": [
+            "Hierve el edamame en agua con sal durante 5-7 minutos.",
+            "Escurre y sirve."
+          ]
+        },
+        {
+          "nombre": "Ensalada de Edamame",
+          "descripcion": "Ensalada fresca con edamame y vegetales.",
+          "image": "/images/recetas/ensalada-edamame.webp",
+          "ingredientes": [
+            "1 taza de edamame",
+            "1 pepino",
+            "1 zanahoria",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Mezcla edamame con pepino y zanahoria.",
+            "Añade aderezo al gusto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "nombre": "Champiñón",
+      "descripcion": "Hongo comestible, común en ensaladas y platos cocinados.",
+      "image": "/images/hongos/champinon.webp",
+      "beneficios": [
+        "Buena fuente de vitamina D",
+        "Bajo en calorías",
+        "Apoya la salud ósea"
+      ],
+      "valores_nutricionales": {
+        "calorias": 22,
+        "carbohidratos": 3.3,
+        "fibra": 1.0,
+        "vitamina_d": "15%"
+      },
+      "categoria": "Hongo",
+      "estacion": "Todo el año",
+      "clasificacion": "Gramínea",
+      "cosecha": ["Todo el año"],
+      "seleccion_de_fruto": "Elegir champiñones firmes y sin manchas.",
+      "como_germinar_y_su_importancia": "Los champiñones se cultivan en condiciones específicas y son importantes por su contenido en vitamina D.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas, salteados o como ingrediente en platos.",
+      "valores_diarios_recomendados": {
+        "fibra": "5%",
+        "vitamina_d": "15%",
+        "calcio": "2%"
+      },
+      "recetas": [
+        {
+          "nombre": "Champiñones Salteados",
+          "descripcion": "Champiñones salteados con ajo y perejil.",
+          "image": "/images/recetas/champinones-salteados.webp",
+          "ingredientes": [
+            "200g de champiñones",
+            "2 dientes de ajo",
+            "2 cucharadas de aceite de oliva",
+            "Perejil al gusto"
+          ],
+          "instrucciones": [
+            "Lava y corta los champiñones.",
+            "Sofríe con ajo y aceite hasta que estén dorados.",
+            "Añade perejil al gusto."
+          ]
+        },
+        {
+          "nombre": "Champiñones a la Parrilla",
+          "descripcion": "Champiñones asados a la parrilla con especias.",
+          "image": "/images/recetas/champinones-parrilla.webp",
+          "ingredientes": [
+            "250g de champiñones",
+            "2 cucharadas de aceite de oliva",
+            "Especias al gusto"
+          ],
+          "instrucciones": [
+            "Unta los champiñones con aceite y especias.",
+            "Asa a la parrilla durante 10-15 minutos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "nombre": "Shiitake",
+      "descripcion": "Hongo comestible con sabor umami, popular en la cocina asiática.",
+      "image": "/images/hongos/shiitake.webp",
+      "beneficios": [
+        "Rico en antioxidantes",
+        "Apoya el sistema inmunológico",
+        "Mejora la salud cardiovascular"
+      ],
+      "valores_nutricionales": {
+        "calorias": 34,
+        "carbohidratos": 7.0,
+        "fibra": 2.0,
+        "proteina": "2.2g"
+      },
+      "categoria": "Hongo",
+      "estacion": "Todo el año",
+      "clasificacion": "Lentináceo",
+      "cosecha": ["Todo el año"],
+      "seleccion_de_fruto": "Elegir shiitakes firmes y con sombrero intacto.",
+      "como_germinar_y_su_importancia": "El shiitake se cultiva en troncos de madera y es valioso por su sabor y propiedades medicinales.",
+      "como_consumir_una_vez_cosechada": "Ideal en sopas, salteados y platos al vapor.",
+      "valores_diarios_recomendados": {
+        "fibra": "7%",
+        "vitamina_d": "10%",
+        "proteina": "2.2g"
+      },
+      "recetas": [
+        {
+          "nombre": "Sopa de Shiitake",
+          "descripcion": "Sopa ligera con shiitake y vegetales.",
+          "image": "/images/recetas/sopa-shiitake.webp",
+          "ingredientes": [
+            "150g de shiitake",
+            "1 zanahoria",
+            "1 cebolla",
+            "1 litro de caldo",
+            "Sal y pimienta al gusto"
+          ],
+          "instrucciones": [
+            "Sofríe la cebolla y zanahoria.",
+            "Añade el shiitake y el caldo.",
+            "Cocina durante 20 minutos y sazona."
+          ]
+        },
+        {
+          "nombre": "Shiitake Salteado",
+          "descripcion": "Shiitake salteado con ajo y salsa de soja.",
+          "image": "/images/recetas/shiitake-salteado.webp",
+          "ingredientes": [
+            "200g de shiitake",
+            "2 dientes de ajo",
+            "2 cucharadas de salsa de soja",
+            "Aceite de sésamo"
+          ],
+          "instrucciones": [
+            "Corta el shiitake en láminas.",
+            "Sofríe con ajo y salsa de soja.",
+            "Sirve caliente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "nombre": "Portobello",
+      "descripcion": "Hongo grande y carnoso, excelente para parrilladas y hamburguesas.",
+      "image": "/images/hongos/portobello.webp",
+      "beneficios": [
+        "Buena fuente de fibra",
+        "Rico en vitaminas del grupo B",
+        "Bajo en calorías"
+      ],
+      "valores_nutricionales": {
+        "calorias": 22,
+        "carbohidratos": 4.3,
+        "fibra": 1.0,
+        "vitamina_b": "10%"
+      },
+      "categoria": "Hongo",
+      "estacion": "Todo el año",
+      "clasificacion": "Agaricáceo",
+      "cosecha": ["Todo el año"],
+      "seleccion_de_fruto": "Elegir portobellos grandes y firmes.",
+      "como_germinar_y_su_importancia": "El portobello se cultiva en condiciones controladas y es ideal para dietas vegetarianas.",
+      "como_consumir_una_vez_cosechada": "Ideal a la parrilla, relleno o en hamburguesas.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "vitamina_b": "10%",
+        "calorias": "22"
+      },
+      "recetas": [
+        {
+          "nombre": "Portobello a la Parrilla",
+          "descripcion": "Portobello asado con aceite de oliva y especias.",
+          "image": "/images/recetas/portobello-parrilla.webp",
+          "ingredientes": [
+            "4 portobellos",
+            "2 cucharadas de aceite de oliva",
+            "Especias al gusto"
+          ],
+          "instrucciones": [
+            "Unta los portobellos con aceite y especias.",
+            "Asa a la parrilla durante 10 minutos."
+          ]
+        },
+        {
+          "nombre": "Hamburguesa de Portobello",
+          "descripcion": "Hamburguesa con portobello a la parrilla como sustituto de carne.",
+          "image": "/images/recetas/hamburguesa-portobello.webp",
+          "ingredientes": [
+            "4 portobellos grandes",
+            "Pan de hamburguesa",
+            "Lechuga, tomate y cebolla",
+            "Salsa al gusto"
+          ],
+          "instrucciones": [
+            "Asa los portobellos y colócalos en el pan.",
+            "Añade lechuga, tomate y cebolla.",
+            "Agrega salsa al gusto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "nombre": "Setas de Cardo",
+      "descripcion": "Setas con sabor delicado, ideales para ensaladas y guisos.",
+      "image": "/images/hongos/setas-de-cardo.webp",
+      "beneficios": [
+        "Rico en minerales",
+        "Apoya la salud digestiva",
+        "Bajo en calorías"
+      ],
+      "valores_nutricionales": {
+        "calorias": 22,
+        "carbohidratos": 4.5,
+        "fibra": 1.5,
+        "proteina": "2.5g"
+      },
+      "categoria": "Hongo",
+      "estacion": "Otoño e invierno",
+      "clasificacion": "Pleurotáceo",
+      "cosecha": ["Otoño", "invierno"],
+      "seleccion_de_fruto": "Elegir setas firmes y con sombrero intacto.",
+      "como_germinar_y_su_importancia": "Las setas de cardo se cultivan en sustratos de madera y son valiosas por su sabor y textura.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas, guisos y platos al horno.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "proteina": "2.5g",
+        "calorias": "22"
+      },
+      "recetas": [
+        {
+          "nombre": "Setas de Cardo Salteadas",
+          "descripcion": "Setas de cardo salteadas con ajo y perejil.",
+          "image": "/images/recetas/setas-de-cardo-salteadas.webp",
+          "ingredientes": [
+            "200g de setas de cardo",
+            "2 dientes de ajo",
+            "2 cucharadas de aceite de oliva",
+            "Perejil al gusto"
+          ],
+          "instrucciones": [
+            "Lava y corta las setas.",
+            "Sofríe con ajo y aceite hasta dorar.",
+            "Añade perejil al gusto."
+          ]
+        },
+        {
+          "nombre": "Guiso de Setas de Cardo",
+          "descripcion": "Guiso de setas con verduras.",
+          "image": "/images/recetas/guiso-setas-de-cardo.webp",
+          "ingredientes": [
+            "300g de setas de cardo",
+            "1 cebolla",
+            "2 zanahorias",
+            "1 pimiento",
+            "1 litro de caldo",
+            "Especias al gusto"
+          ],
+          "instrucciones": [
+            "Sofríe cebolla y zanahorias.",
+            "Añade las setas y el caldo.",
+            "Cocina a fuego lento durante 30 minutos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "nombre": "Acelga",
+      "descripcion": "Hortaliza de hoja verde, rica en minerales y vitaminas.",
+      "image": "/images/hortalizas_de_hoja_verde/acelga.webp",
+      "beneficios": [
+        "Rica en vitamina K",
+        "Buena fuente de hierro",
+        "Apoya la salud ocular"
+      ],
+      "valores_nutricionales": {
+        "calorias": 19,
+        "carbohidratos": 3.7,
+        "fibra": 1.6,
+        "vitamina_k": "25%"
+      },
+      "categoria": "Hortaliza",
+      "estacion": "Todo el año",
+      "clasificacion": "Chenopodiáceas",
+      "cosecha": ["Todo el año"],
+      "seleccion_de_fruto": "Elegir hojas verdes y crujientes.",
+      "como_germinar_y_su_importancia": "La acelga se cultiva en suelos ricos y es importante por su alto contenido en nutrientes.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas, salteados y sopas.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "vitamina_k": "25%",
+        "hierro": "15%"
+      },
+      "recetas": [
+        {
+          "nombre": "Acelga Salteada",
+          "descripcion": "Acelga salteada con ajo y aceite de oliva.",
+          "image": "/images/recetas/acelga-salteada.webp",
+          "ingredientes": [
+            "200g de acelga",
+            "2 dientes de ajo",
+            "2 cucharadas de aceite de oliva",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Lava y corta la acelga.",
+            "Sofríe con ajo y aceite.",
+            "Sazona al gusto."
+          ]
+        },
+        {
+          "nombre": "Sopa de Acelga",
+          "descripcion": "Sopa nutritiva de acelga con verduras.",
+          "image": "/images/recetas/sopa-acelga.webp",
+          "ingredientes": [
+            "150g de acelga",
+            "1 zanahoria",
+            "1 cebolla",
+            "1 litro de caldo",
+            "Sal y pimienta al gusto"
+          ],
+          "instrucciones": [
+            "Sofríe cebolla y zanahoria.",
+            "Añade la acelga y el caldo.",
+            "Cocina durante 20 minutos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "nombre": "Apio",
+      "descripcion": "Hortaliza de tallo crujiente, ideal para ensaladas y sopas.",
+      "image": "/images/hortalizas_de_hoja_verde/apio.webp",
+      "beneficios": [
+        "Hidratante",
+        "Rico en fibra",
+        "Apoya la digestión"
+      ],
+      "valores_nutricionales": {
+        "calorias": 16,
+        "carbohidratos": 3.0,
+        "fibra": 1.6,
+        "vitamina_c": "10%"
+      },
+      "categoria": "Hortaliza",
+      "estacion": "Todo el año",
+      "clasificacion": "Apiáceas",
+      "cosecha": ["Todo el año"],
+      "seleccion_de_fruto": "Elegir tallos firmes y crujientes.",
+      "como_germinar_y_su_importancia": "El apio se cultiva en climas frescos y es importante por su contenido en fibra y minerales.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas, jugos y sopas.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "vitamina_c": "10%",
+        "calorias": "16"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Apio",
+          "descripcion": "Ensalada fresca con apio, manzana y nueces.",
+          "image": "/images/recetas/ensalada-apio.webp",
+          "ingredientes": [
+            "2 tallos de apio",
+            "1 manzana",
+            "Un puñado de nueces",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Lava y corta el apio y la manzana.",
+            "Mezcla con nueces y aderezo."
+          ]
+        },
+        {
+          "nombre": "Sopa de Apio",
+          "descripcion": "Sopa cremosa de apio con cebolla y ajo.",
+          "image": "/images/recetas/sopa-apio.webp",
+          "ingredientes": [
+            "4 tallos de apio",
+            "1 cebolla",
+            "2 dientes de ajo",
+            "1 litro de caldo",
+            "Sal y pimienta al gusto"
+          ],
+          "instrucciones": [
+            "Sofríe cebolla y ajo.",
+            "Añade el apio y el caldo.",
+            "Cocina durante 20 minutos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "nombre": "Borraja",
+      "descripcion": "Hortaliza con hojas y flores comestibles, rica en antioxidantes.",
+      "image": "/images/hortalizas_de_hoja_verde/borraja.webp",
+      "beneficios": [
+        "Rica en antioxidantes",
+        "Apoya la salud de la piel",
+        "Buena fuente de vitaminas"
+      ],
+      "valores_nutricionales": {
+        "calorias": 20,
+        "carbohidratos": 3.6,
+        "fibra": 1.5,
+        "vitamina_a": "15%"
+      },
+      "categoria": "Hortaliza",
+      "estacion": "Primavera y verano",
+      "clasificacion": "Boragináceas",
+      "cosecha": ["Primavera", "verano"],
+      "seleccion_de_fruto": "Elegir hojas frescas y verdes.",
+      "como_germinar_y_su_importancia": "La borraja se cultiva en climas moderados y es valorada por sus propiedades medicinales.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas, sopas y como acompañamiento.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "vitamina_a": "15%",
+        "calorias": "20"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Borraja",
+          "descripcion": "Ensalada fresca con hojas de borraja y tomate.",
+          "image": "/images/recetas/ensalada-borraja.webp",
+          "ingredientes": [
+            "150g de borraja",
+            "1 tomate",
+            "Aceite de oliva",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Lava y corta la borraja y el tomate.",
+            "Mezcla con aceite de oliva y sal."
+          ]
+        },
+        {
+          "nombre": "Sopa de Borraja",
+          "descripcion": "Sopa ligera con borraja y zanahorias.",
+          "image": "/images/recetas/sopa-borraja.webp",
+          "ingredientes": [
+            "200g de borraja",
+            "2 zanahorias",
+            "1 litro de caldo",
+            "Sal y pimienta al gusto"
+          ],
+          "instrucciones": [
+            "Sofríe zanahorias.",
+            "Añade borraja y caldo.",
+            "Cocina durante 20 minutos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "nombre": "Endibia",
+      "descripcion": "Hortaliza de hojas amargas, ideal para ensaladas y acompañamientos.",
+      "image": "/images/hortalizas_de_hoja_verde/endibia.webp",
+      "beneficios": [
+        "Ayuda a la digestión",
+        "Rica en fibra",
+        "Baja en calorías"
+      ],
+      "valores_nutricionales": {
+        "calorias": 17,
+        "carbohidratos": 3.4,
+        "fibra": 1.4,
+        "vitamina_c": "10%"
+      },
+      "categoria": "Hortaliza",
+      "estacion": "Invierno y primavera",
+      "clasificacion": "Cichoriáceas",
+      "cosecha": ["Invierno", "primavera"],
+      "seleccion_de_fruto": "Elegir hojas firmes y blancas.",
+      "como_germinar_y_su_importancia": "La endibia se cultiva en climas frescos y es valorada por sus propiedades digestivas.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas, salteada o en platos al horno.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "vitamina_c": "10%",
+        "calorias": "17"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Endibia",
+          "descripcion": "Ensalada fresca con endibia, manzana y nueces.",
+          "image": "/images/recetas/ensalada-endibia.webp",
+          "ingredientes": [
+            "2 endibias",
+            "1 manzana",
+            "Un puñado de nueces",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Lava y corta las endibias y la manzana.",
+            "Mezcla con nueces y aderezo."
+          ]
+        },
+        {
+          "nombre": "Endibia al Horno",
+          "descripcion": "Endibia asada con aceite de oliva y especias.",
+          "image": "/images/recetas/endibia-al-horno.webp",
+          "ingredientes": [
+            "4 endibias",
+            "2 cucharadas de aceite de oliva",
+            "Especias al gusto"
+          ],
+          "instrucciones": [
+            "Corta las endibias a lo largo.",
+            "Unta con aceite y especias.",
+            "Hornea a 180°C durante 25 minutos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "nombre": "Escarola",
+      "descripcion": "Hortaliza de hojas amargas, ideal para ensaladas y acompañamientos.",
+      "image": "/images/hortalizas_de_hoja_verde/escarlola.webp",
+      "beneficios": [
+        "Ayuda a la digestión",
+        "Rica en fibra",
+        "Baja en calorías"
+      ],
+      "valores_nutricionales": {
+        "calorias": 17,
+        "carbohidratos": 3.5,
+        "fibra": 1.6,
+        "vitamina_a": "10%"
+      },
+      "categoria": "Hortaliza",
+      "estacion": "Invierno y primavera",
+      "clasificacion": "Cichoriáceas",
+      "cosecha": ["Invierno", "primavera"],
+      "seleccion_de_fruto": "Elegir hojas firmes y crujientes.",
+      "como_germinar_y_su_importancia": "La escarola se cultiva en climas frescos y es valorada por sus propiedades digestivas.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas, salteada o en platos al horno.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "vitamina_a": "10%",
+        "calorias": "17"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Escarola",
+          "descripcion": "Ensalada fresca con escarola, tomate y queso feta.",
+          "image": "/images/recetas/ensalada-escarlola.webp",
+          "ingredientes": [
+            "200g de escarola",
+            "1 tomate",
+            "100g de queso feta",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Lava y corta la escarola y el tomate.",
+            "Mezcla con queso feta y aderezo."
+          ]
+        },
+        {
+          "nombre": "Escarola Salteada",
+          "descripcion": "Escarola salteada con ajo y aceite de oliva.",
+          "image": "/images/recetas/escarlola-salteada.webp",
+          "ingredientes": [
+            "200g de escarola",
+            "2 dientes de ajo",
+            "2 cucharadas de aceite de oliva",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Lava y corta la escarola.",
+            "Sofríe con ajo y aceite.",
+            "Sazona al gusto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "nombre": "Espinaca",
+      "descripcion": "Hortaliza de hojas verdes, rica en hierro y vitaminas.",
+      "image": "/images/hortalizas_de_hoja_verde/espinaca.webp",
+      "beneficios": [
+        "Rica en hierro",
+        "Buena fuente de vitaminas",
+        "Apoya la salud ocular"
+      ],
+      "valores_nutricionales": {
+        "calorias": 23,
+        "carbohidratos": 3.6,
+        "fibra": 2.2,
+        "vitamina_a": "40%"
+      },
+      "categoria": "Hortaliza",
+      "estacion": "Todo el año",
+      "clasificacion": "Amarantáceas",
+      "cosecha": ["Todo el año"],
+      "seleccion_de_fruto": "Elegir hojas frescas y verdes.",
+      "como_germinar_y_su_importancia": "La espinaca se cultiva en suelos frescos y es importante por su alto contenido en nutrientes.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas, batidos y cocida.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "vitamina_a": "40%",
+        "hierro": "15%"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Espinaca",
+          "descripcion": "Ensalada fresca con espinaca, aguacate y nueces.",
+          "image": "/images/recetas/ensalada-espinaca.webp",
+          "ingredientes": [
+            "200g de espinaca",
+            "1 aguacate",
+            "Un puñado de nueces",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Lava y corta la espinaca y el aguacate.",
+            "Mezcla con nueces y aderezo."
+          ]
+        },
+        {
+          "nombre": "Espinaca Salteada",
+          "descripcion": "Espinaca salteada con ajo y aceite de oliva.",
+          "image": "/images/recetas/espinaca-salteada.webp",
+          "ingredientes": [
+            "200g de espinaca",
+            "2 dientes de ajo",
+            "2 cucharadas de aceite de oliva",
+            "Sal al gusto"
+          ],
+          "instrucciones": [
+            "Lava y corta la espinaca.",
+            "Sofríe con ajo y aceite.",
+            "Sazona al gusto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "nombre": "Hierba de los Canónigos",
+      "descripcion": "Hortaliza de hojas pequeñas y tiernas, ideal para ensaladas.",
+      "image": "/images/hortalizas_de_hoja_verde/hierba-canónicos.webp",
+      "beneficios": [
+        "Rica en vitaminas",
+        "Buena fuente de fibra",
+        "Baja en calorías"
+      ],
+      "valores_nutricionales": {
+        "calorias": 23,
+        "carbohidratos": 3.4,
+        "fibra": 1.7,
+        "vitamina_c": "15%"
+      },
+      "categoria": "Hortaliza",
+      "estacion": "Primavera y verano",
+      "clasificacion": "Valerianáceas",
+      "cosecha": ["Primavera", "verano"],
+      "seleccion_de_fruto": "Elegir hojas frescas y tiernas.",
+      "como_germinar_y_su_importancia": "La hierba de los canónigos se cultiva en climas frescos y es valorada por su sabor suave.",
+      "como_consumir_una_vez_cosechada": "Ideal en ensaladas o como acompañamiento.",
+      "valores_diarios_recomendados": {
+        "fibra": "6%",
+        "vitamina_c": "15%",
+        "calorias": "23"
+      },
+      "recetas": [
+        {
+          "nombre": "Ensalada de Canónigos",
+          "descripcion": "Ensalada fresca con canónigos, pera y queso.",
+          "image": "/images/recetas/ensalada-canónigos.webp",
+          "ingredientes": [
+            "150g de canónigos",
+            "1 pera",
+            "100g de queso",
+            "Aderezo al gusto"
+          ],
+          "instrucciones": [
+            "Lava y corta los canónigos y la pera.",
+            "Mezcla con queso y aderezo."
+          ]
+        },
+        {
+          "nombre": "Sopa de Canónigos",
+          "descripcion": "Sopa ligera con canónigos y patata.",
+          "image": "/images/recetas/sopa-canónigos.webp",
+          "ingredientes": [
+            "200g de canónigos",
+            "1 patata",
+            "1 litro de caldo",
+            "Sal y pimienta al gusto"
+          ],
+          "instrucciones": [
+            "Sofríe la patata.",
+            "Añade los canónigos y el caldo.",
+            "Cocina durante 20 minutos."
+          ]
+        }
+      ]
+    }
+  ]
 }

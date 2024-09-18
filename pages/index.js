@@ -1,5 +1,6 @@
 import Image from "next/image";
 import FruitData from "@/components/FruitData"
+import Navbar from "@/components/Nav"
 import Head from 'next/head';
 
 
@@ -13,7 +14,7 @@ const Home = () => {
         <meta name="description" content="" />
       </Head>
 
-
+      <Navbar />
     <FruitData />
     </>
 

@@ -56,7 +56,7 @@ const FruitData = () => {
 
   return (
     <div>
-      <div className="backdrop-blur-sm filters flex justify-center flex-wrap gap-4 p-4 bg-green-10 rounded-lg shadow-md">
+      <div className="backdrop-blur-sm filters flex justify-center xl:flex-nowrap flex-wrap gap-4 p-4 bg-green-10 rounded-lg shadow-md">
 
         {/*  Type Filters */}
         <label className="form-control w-full max-w-xs">
@@ -71,6 +71,8 @@ const FruitData = () => {
             <option selected value="all">Todos</option>
             <option value="Fruta">Frutas</option>
             <option value="Verdura">Verduras</option>
+            <option value="Hongo">Hongos</option>
+            <option value="Hortaliza">Hortaliza de hoja verde</option>
           </select>
         </label>
 

@@ -5,8 +5,6 @@ const Nav = () => {
 
         <>
             <nav className="pt-10 flex justify-center">
-
-
             </nav>
         </>
     )
